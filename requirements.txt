@@ -1,0 +1,12 @@
+yfinance>=0.2.40
+pandas>=2.0.0
+pandas-ta>=0.3.14b0
+transformers>=4.30.0
+torch>=2.0.0
+vaderSentiment>=3.3.2
+feedparser>=6.0.10
+requests>=2.31.0
+numpy>=1.24.0
+scipy>=1.10.0
+pytest>=7.0.0
+firebase-admin>=6.2.0

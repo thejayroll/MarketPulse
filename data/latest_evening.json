@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-08-26T22:50:59",
+  "market_wide_sentiment": {
+    "label": "neutral",
+    "confidence": 1.0
+  },
+  "watchlist": [
+    {
+      "ticker": "RELIANCE.NS",
+      "sentiment": "neutral",
+      "confidence": 0.88,
+      "top_signals": [
+        "Chart Pattern: double top"
+      ],
+      "news": [
+        {
+          "title": "Reduce Aditya Birla Fashion and Retail; target of Rs 230: Emkay Global Financial",
+          "url": "https://www.moneycontrol.com/news/recommendations/reduce-aditya-birla-fashionretail-targetrs-230-emkay-global-financial_17531571.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
+        }
+      ]
+    },
+    {
+      "ticker": "TCS.NS",
+      "sentiment": "bullish",
+      "confidence": 0.27,
+      "top_signals": [
+        "News Sentiment is bullish (conf: 0.90)"
+      ],
+      "news": [
+        {
+          "title": "TCS revs up M&amp;As with Porsche deal, but fails to wow",
+          "url": "https://www.livemint.com/market/mark-to-market/tcs-mhp-porsche-acquisition-ai-m-a-strategy-2026-11787719259211.html",
+          "inference": "New corporate agreements or expansion moves could enhance TCS's market positioning and drive short-term upside."
+        }
+      ]
+    },
+    {
+      "ticker": "INFY.NS",
+      "sentiment": "neutral",
+      "confidence": 1.0,
+      "top_signals": [
+        "No significant technical or sentiment signals."
+      ],
+      "news": [
+        {
+          "title": "Accumulate Infosys; target of Rs 1531: KR Choksey",
+          "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for INFY."
+        }
+      ]
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "sentiment": "neutral",
+      "confidence": 0.88,
+      "top_signals": [
+        "Chart Pattern: descending triangle"
+      ],
+      "news": [
+        {
+          "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
+          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+        },
+        {
+          "title": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
+          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+        }
+      ]
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "sentiment": "neutral",
+      "confidence": 1.0,
+      "top_signals": [
+        "No significant technical or sentiment signals."
+      ],
+      "news": [
+        {
+          "title": "Sell Indus Tower; target of Rs 260: ICICI Securities",
+          "url": "https://www.moneycontrol.com/news/recommendations/sell-indus-tower-targetrs-260-icici-securities_17531381.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+        },
+        {
+          "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
+          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+        },
+        {
+          "title": "ICICI Prudential AMC shares: Prudential Corporation to divest up to 2% equity, stock up 49% from IPO price",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/icici-prudential-amc-shares-prudential-corporation-to-divest-up-to-2-equity-stock-up-49-from-ipo-price/articleshow/133539621.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for ICICIBANK."
+        }
+      ]
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "sentiment": "bullish",
+      "confidence": 0.24,
+      "top_signals": [
+        "Price is below lower Bollinger Bands"
+      ],
+      "news": []
+    },
+    {
+      "ticker": "SBIN.NS",
+      "sentiment": "neutral",
+      "confidence": 1.0,
+      "top_signals": [
+        "No significant technical or sentiment signals."
+      ],
+      "news": []
+    },
+    {
+      "ticker": "ITC.NS",
+      "sentiment": "neutral",
+      "confidence": 1.0,
+      "top_signals": [
+        "No significant technical or sentiment signals."
+      ],
+      "news": [
+        {
+          "title": "From ITC, Coal India to Vedanta: 5 dividend stocks investors may want to add to their portfolios; do you own any?",
+          "url": "https://www.livemint.com/market/stock-market-news/from-itc-coal-india-to-vedanta-5-dividend-stocks-investors-may-want-to-add-to-their-portfolios-do-you-own-any-11787732672138.html",
+          "inference": "Mixed financial results are likely to keep ITC consolidating within a range as investors assess the full numbers."
+        }
+      ]
+    },
+    {
+      "ticker": "HINDUNILVR.NS",
+      "sentiment": "neutral",
+      "confidence": 1.0,
+      "top_signals": [
+        "No significant technical or sentiment signals."
+      ],
+      "news": []
+    }
+  ],
+  "top_gainers": [
+    {
+      "ticker": "ICICIBANK.NS",
+      "change": "+0.51%"
+    },
+    {
+      "ticker": "SBIN.NS",
+      "change": "+0.38%"
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "change": "-0.04%"
+    },
+    {
+      "ticker": "HINDUNILVR.NS",
+      "change": "-0.16%"
+    },
+    {
+      "ticker": "ITC.NS",
+      "change": "-0.42%"
+    }
+  ],
+  "top_losers": [
+    {
+      "ticker": "BHARTIARTL.NS",
+      "change": "-2.31%"
+    },
+    {
+      "ticker": "INFY.NS",
+      "change": "-2.10%"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "change": "-1.44%"
+    },
+    {
+      "ticker": "TCS.NS",
+      "change": "-1.14%"
+    },
+    {
+      "ticker": "ITC.NS",
+      "change": "-0.42%"
+    }
+  ],
+  "accuracy_note": "No previous trading day predictions evaluated yet."
+}

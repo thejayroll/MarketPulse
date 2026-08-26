@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Pulse</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="app.css">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Firebase Compatibility SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging-compat.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-emoji">📈</span>
+        <h1>Market Pulse</h1>
+      </div>
+      <div class="header-controls">
+        <span id="offline-badge" class="badge badge-offline hidden">Offline</span>
+        <button id="refresh-btn" class="icon-btn" title="Refresh data">🔄</button>
+      </div>
+    </header>
+
+    <div class="token-container hidden" id="token-card">
+      <div class="token-header">
+        <h3>FCM Device Token</h3>
+        <button id="close-token-btn" class="close-btn">&times;</button>
+      </div>
+      <p class="token-help">Copy this token to your GitHub secret <code>FCM_DEVICE_TOKEN</code>:</p>
+      <div class="token-copy-box">
+        <input type="text" id="fcm-token-input" readonly>
+        <button id="copy-token-btn">Copy</button>
+      </div>
+    </div>
+
+    <!-- Mode Selector Tab -->
+    <div class="mode-tabs">
+      <button class="tab-btn active" id="tab-morning">🌅 Morning</button>
+      <button class="tab-btn" id="tab-evening">🌙 Evening</button>
+    </div>
+
+    <main class="app-content">
+      <!-- 1. Market Wide Sentiment -->
+      <section class="card sentiment-hero" id="sentiment-hero">
+        <div class="sentiment-glow"></div>
+        <div class="hero-content">
+          <h2>Market Sentiment</h2>
+          <div class="sentiment-display">
+            <span id="market-sentiment-label" class="sentiment-text">Loading...</span>
+            <span id="market-sentiment-conf" class="conf-text">-</span>
+          </div>
+          <span class="timestamp" id="briefing-time">-</span>
+        </div>
+      </section>
+
+      <!-- Evening Specific Performance (Gainers / Losers) -->
+      <section class="card hidden" id="evening-movers-section">
+        <h2>Watchlist Performance</h2>
+        <div class="movers-container">
+          <div class="movers-table-wrapper">
+            <h3>Top Gainers</h3>
+            <table class="movers-table text-success" id="gainers-table">
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="movers-table-wrapper">
+            <h3>Top Losers</h3>
+            <table class="movers-table text-danger" id="losers-table">
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <p class="accuracy-note" id="evening-accuracy-note"></p>
+      </section>
+
+      <!-- 2. Per-Ticker Signals -->
+      <section class="watchlist-section">
+        <h2>Watchlist Tickers</h2>
+        <div class="watchlist-scroll" id="watchlist-container">
+          <p class="empty-state">No watchlist data found.</p>
+        </div>
+      </section>
+
+      <!-- 3. Mapped News -->
+      <section class="news-section">
+        <h2>Linked News & Inferences</h2>
+        <div class="news-list" id="news-container">
+          <p class="empty-state">No news mapped to watchlist.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

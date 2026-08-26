@@ -1,0 +1,21 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Python caching & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# Testing caches
+.pytest_cache/
+test_data/
+
+# Environment configurations
+.env
