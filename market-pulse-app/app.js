@@ -1,15 +1,16 @@
 // Firebase Config - User must replace this with their actual config from Firebase Console
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDawd0zsvyjMVEVdcWvECvqIBmUINqkO6Y",
+  authDomain: "marketpulse-c9599.firebaseapp.com",
+  projectId: "marketpulse-c9599",
+  storageBucket: "marketpulse-c9599.firebasestorage.app",
+  messagingSenderId: "904312621267",
+  appId: "1:904312621267:web:3993d40261af6135006c26",
+  measurementId: "G-23PDQM4PY2"
 };
 
 // VAPID Public Key - User must replace this with their actual key from Firebase console (Cloud Messaging tab)
-const VAPID_KEY = "YOUR_VAPID_PUBLIC_KEY";
+const VAPID_KEY = "BAjzh3CDOgGe6xx1oMhhZKQHiqn96OTtqsXIu_deKm3pJBBkWNGLAx5CcOKYV6pNzbgEXWuPEFUa5FEKKnfL3A4";
 
 let currentMode = "morning";
 
