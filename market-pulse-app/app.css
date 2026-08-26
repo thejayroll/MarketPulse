@@ -197,6 +197,12 @@ h1 {
   transition: all 0.25s ease;
 }
 
+.tab-btn:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .tab-btn.active {
   background: rgba(255, 255, 255, 0.1);
   color: var(--text-primary);
@@ -470,6 +476,37 @@ h1 {
   background: var(--card-bg);
   border: 1px dashed var(--card-border);
   border-radius: 16px;
+}
+
+/* Chart Layout */
+.chart-container {
+  width: 100%;
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 14px;
+  padding: 8px 12px;
+  border: 1px solid var(--card-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.ticker-chart {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+
+/* Pattern Alert / Indicator */
+.pattern-indicator {
+  font-size: 11.5px;
+  color: #fbbf24; /* Amber warning text */
+  background: rgba(251, 191, 36, 0.05);
+  border: 1px solid rgba(251, 191, 36, 0.15);
+  padding: 10px 12px;
+  border-radius: 12px;
+  line-height: 1.45;
+  text-align: left;
 }
 
 /* Keyframes */

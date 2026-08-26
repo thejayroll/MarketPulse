@@ -168,12 +168,23 @@ def compile_briefing_payload(analysis_results, sentiment_results, news_results, 
                 "inference": n["inference"]
             })
             
+        # Fetch last 30 days of closes for charting
+        df_ticker = ohlcv_data.get(ticker)
+        history_closes = []
+        if df_ticker is not None and not df_ticker.empty:
+            history_closes = [
+                {"date": str(date)[:10], "close": round(float(row["Close"]), 2)}
+                for date, row in df_ticker.iloc[-30:].iterrows()
+            ]
+            
         watchlist_briefings.append({
             "ticker": ticker,
             "sentiment": final_sentiment,
             "confidence": final_conf,
             "top_signals": active_signals_descriptions[:3] if active_signals_descriptions else ["No significant technical or sentiment signals."],
-            "news": top_news
+            "news": top_news,
+            "history": history_closes,
+            "pattern_dates": signals.get("pattern_dates", [])
         })
 
     # Compile market-wide sentiment

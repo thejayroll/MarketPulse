@@ -121,7 +121,7 @@ def test_breakout_resistance_pattern():
     
     # Analyze
     df_ind = analysis.get_indicators(df)
-    pattern, conf = analysis.detect_chart_patterns(df_ind)
+    pattern, conf, dates = analysis.detect_chart_patterns(df_ind)
     
     assert pattern == "breakout_resistance"
     assert conf >= 0.7

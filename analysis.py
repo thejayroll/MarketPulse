@@ -115,12 +115,12 @@ def detect_chart_patterns(df):
     """Detects chart patterns over the last 30-60 candles.
     
     Returns:
-        tuple: (pattern_name, confidence)
+        tuple: (pattern_name, confidence, pattern_dates)
     """
     # Keep last 60 rows for analysis
     sub_df = df.iloc[-60:]
     if len(sub_df) < 30:
-        return "none", 0.0
+        return "none", 0.0, []
 
     peaks, valleys = find_peaks_valleys(sub_df, window=3)
     
@@ -129,7 +129,7 @@ def detect_chart_patterns(df):
     latest_vol_anomaly = sub_df['Volume'].iloc[-1] > 2 * sub_df['Vol_Avg_20'].iloc[-1] if 'Vol_Avg_20' in sub_df else False
     
     # Store candidates
-    patterns = [] # list of (pattern_name, confidence)
+    patterns = [] # list of (pattern_name, confidence, pattern_dates)
     
     # 1. Breakout above resistance
     # Look at peaks excluding the last 3 candles
@@ -138,7 +138,8 @@ def detect_chart_patterns(df):
         resistance = max(historical_peaks)
         if prior_close <= resistance and latest_close > resistance:
             confidence = 0.9 if latest_vol_anomaly else 0.7
-            patterns.append(("breakout_resistance", confidence))
+            breakout_date = str(sub_df.index[-1])[:10]
+            patterns.append(("breakout_resistance", confidence, [breakout_date]))
 
     # 2. Breakdown below support
     # Look at valleys excluding the last 3 candles
@@ -147,7 +148,8 @@ def detect_chart_patterns(df):
         support = min(historical_valleys)
         if prior_close >= support and latest_close < support:
             confidence = 0.9 if latest_vol_anomaly else 0.7
-            patterns.append(("breakdown_support", confidence))
+            breakdown_date = str(sub_df.index[-1])[:10]
+            patterns.append(("breakdown_support", confidence, [breakdown_date]))
 
     # 3. Double Top
     # Look at the last two peaks
@@ -161,7 +163,9 @@ def detect_chart_patterns(df):
                 neckline = min(v[2] for v in between_valleys)
                 # Breakout below neckline
                 if prior_close >= neckline and latest_close < neckline:
-                    patterns.append(("double_top", 0.85 if latest_vol_anomaly else 0.75))
+                    p1_date = str(p1[0])[:10]
+                    p2_date = str(p2[0])[:10]
+                    patterns.append(("double_top", 0.85 if latest_vol_anomaly else 0.75, [p1_date, p2_date]))
 
     # 4. Double Bottom
     # Look at the last two valleys
@@ -175,7 +179,9 @@ def detect_chart_patterns(df):
                 neckline = max(p[2] for p in between_peaks)
                 # Breakout above neckline
                 if prior_close <= neckline and latest_close > neckline:
-                    patterns.append(("double_bottom", 0.85 if latest_vol_anomaly else 0.75))
+                    v1_date = str(v1[0])[:10]
+                    v2_date = str(v2[0])[:10]
+                    patterns.append(("double_bottom", 0.85 if latest_vol_anomaly else 0.75, [v1_date, v2_date]))
 
     # 5. Head and Shoulders
     if len(peaks) >= 3:
@@ -193,7 +199,10 @@ def detect_chart_patterns(df):
                     neckline = (v1_price + v2_price) / 2
                     # Breakdown below neckline
                     if prior_close >= neckline and latest_close < neckline:
-                        patterns.append(("head_and_shoulders", 0.85))
+                        p1_date = str(p1[0])[:10]
+                        p2_date = str(p2[0])[:10]
+                        p3_date = str(p3[0])[:10]
+                        patterns.append(("head_and_shoulders", 0.85, [p1_date, p2_date, p3_date]))
 
     # 6. Ascending / Descending Triangle
     if len(peaks) >= 3 and len(valleys) >= 3:
@@ -212,7 +221,8 @@ def detect_chart_patterns(df):
             # Check if breakout above flat resistance occurred or is close
             resistance = np.mean(peak_prices)
             if prior_close <= resistance and latest_close > resistance * 0.98:
-                patterns.append(("ascending_triangle", 0.75))
+                tri_dates = [str(p[0])[:10] for p in peaks[-3:]] + [str(v[0])[:10] for v in valleys[-3:]]
+                patterns.append(("ascending_triangle", 0.75, tri_dates))
                 
         # Descending Triangle: Flat valleys (std < 2%), falling peaks (slope < 0)
         valley_std_pct = np.std(valley_prices) / np.mean(valley_prices)
@@ -220,14 +230,15 @@ def detect_chart_patterns(df):
             # Check if breakdown below support occurred or is close
             support = np.mean(valley_prices)
             if prior_close >= support and latest_close < support * 1.02:
-                patterns.append(("descending_triangle", 0.75))
+                tri_dates = [str(p[0])[:10] for p in peaks[-3:]] + [str(v[0])[:10] for v in valleys[-3:]]
+                patterns.append(("descending_triangle", 0.75, tri_dates))
 
     if patterns:
         # Sort by confidence descending and return top pattern
         patterns.sort(key=lambda x: x[1], reverse=True)
-        return patterns[0]
+        return patterns[0][0], patterns[0][1], patterns[0][2]
         
-    return "none", 0.0
+    return "none", 0.0, []
 
 def analyze_ticker(df, ticker):
     """Computes technical indicators and pattern signals for a ticker.
@@ -299,7 +310,7 @@ def analyze_ticker(df, ticker):
             volume_anomaly = True
 
     # 6. Chart patterns
-    pattern, pattern_conf = detect_chart_patterns(df_ind)
+    pattern, pattern_conf, pattern_dates = detect_chart_patterns(df_ind)
 
     payload = {
         "ticker": ticker,
@@ -311,7 +322,8 @@ def analyze_ticker(df, ticker):
             "bb_position": bb_position,
             "volume_anomaly": volume_anomaly,
             "pattern": pattern,
-            "pattern_confidence": pattern_conf
+            "pattern_confidence": pattern_conf,
+            "pattern_dates": pattern_dates
         }
     }
     return payload
