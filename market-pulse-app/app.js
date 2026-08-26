@@ -398,14 +398,14 @@ function drawStockChart(canvas, history, patternDates, sentiment) {
   });
   
   // Choose stroke color based on sentiment
-  let strokeColor = "#38bdf8"; // blue neutral
-  let glowColor = "rgba(56, 189, 248, 0.06)";
+  let strokeColor = "#00f0ff"; // neon cyan neutral
+  let glowColor = "rgba(0, 240, 255, 0.06)";
   if (sentiment === "bullish") {
-    strokeColor = "#10b981"; // green
-    glowColor = "rgba(16, 185, 129, 0.06)";
+    strokeColor = "#00dfa2"; // neon mint
+    glowColor = "rgba(0, 223, 162, 0.06)";
   } else if (sentiment === "bearish") {
-    strokeColor = "#f43f5e"; // red
-    glowColor = "rgba(244, 63, 94, 0.06)";
+    strokeColor = "#ff4a5a"; // coral rose
+    glowColor = "rgba(255, 74, 90, 0.06)";
   }
   
   // Draw glowing area under the line

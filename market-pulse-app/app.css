@@ -1,18 +1,18 @@
 :root {
-  --bg-color: #0d1117;
-  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #020617 100%);
-  --card-bg: rgba(30, 41, 59, 0.45);
-  --card-border: rgba(255, 255, 255, 0.08);
+  --bg-color: #050508;
+  --bg-gradient: radial-gradient(circle at top, rgba(30, 27, 75, 0.4) 0%, rgba(5, 5, 8, 1) 80%), radial-gradient(circle at bottom, rgba(8, 47, 73, 0.3) 0%, rgba(5, 5, 8, 1) 80%);
+  --card-bg: rgba(18, 18, 29, 0.45);
+  --card-border: rgba(255, 255, 255, 0.05);
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
-  --success: #10b981;
-  --success-glow: rgba(16, 185, 129, 0.15);
-  --danger: #f43f5e;
-  --danger-glow: rgba(244, 63, 94, 0.15);
-  --neutral: #64748b;
-  --neutral-glow: rgba(100, 116, 139, 0.15);
-  --accent: #38bdf8;
-  --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --success: #00dfa2; /* electric mint */
+  --success-glow: rgba(0, 223, 162, 0.1);
+  --danger: #ff4a5a; /* coral rose */
+  --danger-glow: rgba(255, 74, 90, 0.1);
+  --neutral: #8b5cf6; /* lavender */
+  --neutral-glow: rgba(139, 92, 246, 0.1);
+  --accent: #00f0ff; /* cyan */
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -28,9 +28,15 @@ body {
   font-family: var(--font-family);
   min-height: 100vh;
   padding: 16px;
+  padding-top: calc(16px + env(safe-area-inset-top));
+  padding-bottom: calc(32px + env(safe-area-inset-bottom));
+  padding-left: calc(16px + env(safe-area-inset-left));
+  padding-right: calc(16px + env(safe-area-inset-right));
   display: flex;
   justify-content: center;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .app-container {
@@ -61,8 +67,11 @@ body {
 
 h1 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #ffffff 30%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header-controls {
@@ -204,9 +213,10 @@ h1 {
 }
 
 .tab-btn.active {
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text-primary);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--accent);
+  box-shadow: 0 4px 12px rgba(0, 240, 255, 0.05);
+  border: 1px solid rgba(0, 240, 255, 0.15);
 }
 
 /* Card General */
