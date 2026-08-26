@@ -168,13 +168,13 @@ def compile_briefing_payload(analysis_results, sentiment_results, news_results, 
                 "inference": n["inference"]
             })
             
-        # Fetch last 30 days of closes for charting
+        # Fetch full 5 years history of closes for multi-period charting
         df_ticker = ohlcv_data.get(ticker)
         history_closes = []
         if df_ticker is not None and not df_ticker.empty:
             history_closes = [
                 {"date": str(date)[:10], "close": round(float(row["Close"]), 2)}
-                for date, row in df_ticker.iloc[-30:].iterrows()
+                for date, row in df_ticker.iterrows()
             ]
             
         watchlist_briefings.append({

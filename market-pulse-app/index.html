@@ -45,54 +45,58 @@
     </div>
 
     <main class="app-content">
-      <!-- 1. Market Wide Sentiment -->
-      <section class="card sentiment-hero" id="sentiment-hero">
-        <div class="sentiment-glow"></div>
-        <div class="hero-content">
-          <h2>Market Sentiment</h2>
-          <div class="sentiment-display">
-            <span id="market-sentiment-label" class="sentiment-text">Loading...</span>
-            <span id="market-sentiment-conf" class="conf-text">-</span>
+      <div class="left-col">
+        <!-- 1. Market Wide Sentiment -->
+        <section class="card sentiment-hero" id="sentiment-hero">
+          <div class="sentiment-glow"></div>
+          <div class="hero-content">
+            <h2>Market Sentiment</h2>
+            <div class="sentiment-display">
+              <span id="market-sentiment-label" class="sentiment-text">Loading...</span>
+              <span id="market-sentiment-conf" class="conf-text">-</span>
+            </div>
+            <span class="timestamp" id="briefing-time">-</span>
           </div>
-          <span class="timestamp" id="briefing-time">-</span>
-        </div>
-      </section>
+        </section>
 
-      <!-- Evening Specific Performance (Gainers / Losers) -->
-      <section class="card hidden" id="evening-movers-section">
-        <h2>Watchlist Performance</h2>
-        <div class="movers-container">
-          <div class="movers-table-wrapper">
-            <h3>Top Gainers</h3>
-            <table class="movers-table text-success" id="gainers-table">
-              <tbody></tbody>
-            </table>
+        <!-- Evening Specific Performance (Gainers / Losers) -->
+        <section class="card hidden" id="evening-movers-section">
+          <h2>Watchlist Performance</h2>
+          <div class="movers-container">
+            <div class="movers-table-wrapper">
+              <h3>Top Gainers</h3>
+              <table class="movers-table text-success" id="gainers-table">
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="movers-table-wrapper">
+              <h3>Top Losers</h3>
+              <table class="movers-table text-danger" id="losers-table">
+                <tbody></tbody>
+              </table>
+            </div>
           </div>
-          <div class="movers-table-wrapper">
-            <h3>Top Losers</h3>
-            <table class="movers-table text-danger" id="losers-table">
-              <tbody></tbody>
-            </table>
+          <p class="accuracy-note" id="evening-accuracy-note"></p>
+        </section>
+
+        <!-- 3. Mapped News -->
+        <section class="news-section">
+          <h2>Linked News & Inferences</h2>
+          <div class="news-list" id="news-container">
+            <p class="empty-state">No news mapped to watchlist.</p>
           </div>
-        </div>
-        <p class="accuracy-note" id="evening-accuracy-note"></p>
-      </section>
+        </section>
+      </div>
 
-      <!-- 2. Per-Ticker Signals -->
-      <section class="watchlist-section">
-        <h2>Watchlist Tickers</h2>
-        <div class="watchlist-scroll" id="watchlist-container">
-          <p class="empty-state">No watchlist data found.</p>
-        </div>
-      </section>
-
-      <!-- 3. Mapped News -->
-      <section class="news-section">
-        <h2>Linked News & Inferences</h2>
-        <div class="news-list" id="news-container">
-          <p class="empty-state">No news mapped to watchlist.</p>
-        </div>
-      </section>
+      <div class="right-col">
+        <!-- 2. Per-Ticker Signals -->
+        <section class="watchlist-section">
+          <h2>Watchlist Tickers</h2>
+          <div class="watchlist-scroll" id="watchlist-container">
+            <p class="empty-state">No watchlist data found.</p>
+          </div>
+        </section>
+      </div>
     </main>
   </div>
 

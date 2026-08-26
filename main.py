@@ -34,8 +34,8 @@ def run_pipeline(mode):
     logger.info(f"Loaded {len(watchlist)} watchlist tickers.")
 
     # 3. Fetch daily OHLCV and news
-    logger.info("Fetching daily OHLCV data (last 60 days)...")
-    ohlcv_data = data_fetch.fetch_all_ohlcv(watchlist, period="60d")
+    logger.info("Fetching daily OHLCV data (last 5 years)...")
+    ohlcv_data = data_fetch.fetch_all_ohlcv(watchlist, period="5y")
     
     logger.info("Fetching news headlines from RSS feeds...")
     headlines = data_fetch.fetch_all_headlines()
