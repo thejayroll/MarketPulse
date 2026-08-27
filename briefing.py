@@ -305,4 +305,79 @@ def compile_briefing_payload(analysis_results, sentiment_results, news_results, 
         # Yesterday's morning call accuracy summary
         payload["accuracy_note"] = get_yesterday_accuracy_summary()
         
+        # Calculate Nifty 50 performance
+        nifty_change = 0.0
+        nifty_latest = 0.0
+        if "^NSEI" in ohlcv_data and not ohlcv_data["^NSEI"].empty:
+            df_nifty = ohlcv_data["^NSEI"]
+            if len(df_nifty) >= 2:
+                nifty_latest = float(df_nifty['Close'].iloc[-1])
+                nifty_prior = float(df_nifty['Close'].iloc[-2])
+                nifty_change = (nifty_latest - nifty_prior) / nifty_prior
+                
+        # Heuristic Daily Wrap-up compiler
+        index_direction = "surged upward" if nifty_change >= 0.0025 else "slipped downward" if nifty_change <= -0.0025 else "consolidated flat"
+        nifty_perf = f"{nifty_change:+.2%}"
+        
+        summary = f"The Indian equity market {index_direction} today, with the benchmark Nifty 50 closing at {nifty_latest:,.2f} ({nifty_perf}). "
+        
+        if top_gainers and top_losers:
+            best = top_gainers[0]["ticker"].replace(".NS", "")
+            best_chg = top_gainers[0]["change"]
+            worst = top_losers[0]["ticker"].replace(".NS", "")
+            worst_chg = top_losers[0]["change"]
+            summary += f"Stock movements within our watchlist were led by **{best}** which climbed **{best_chg}**, while **{worst}** witnessed profit booking, shedding **{worst_chg}**. "
+            
+        # Retrieve significant news categories
+        bullish_news = []
+        bearish_news = []
+        for w in watchlist_briefings:
+            for n in w.get("news", []):
+                if w["sentiment"] == "bullish" and len(bullish_news) < 2:
+                    bullish_news.append(n["title"])
+                elif w["sentiment"] == "bearish" and len(bearish_news) < 2:
+                    bearish_news.append(n["title"])
+                    
+        summary += "\n\n### 📰 Corporate News & Deals Flow:\n"
+        drivers = []
+        if bullish_news:
+            drivers.append(f"🟢 **Supportive flows:** {bullish_news[0]}")
+        if bearish_news:
+            drivers.append(f"🔴 **Macro pressures:** {bearish_news[0]}")
+        if len(bullish_news) > 1:
+            drivers.append(f"🟢 **Sector sentiment:** {bullish_news[1]}")
+        if len(bearish_news) > 1:
+            drivers.append(f"🔴 **Earnings/Corporate actions:** {bearish_news[1]}")
+            
+        if drivers:
+            summary += "\n".join([f"- {d}" for d in drivers])
+        else:
+            summary += "- Normal trading volumes observed without major headline news announcements."
+            
+        # Retrieve technical breakouts
+        bullish_patterns = []
+        bearish_patterns = []
+        for w in watchlist_briefings:
+            ticker = w["ticker"].replace(".NS", "")
+            for s in w.get("top_signals", []):
+                if "pattern:" in s.lower() or "breakout" in s.lower():
+                    if w["sentiment"] == "bullish":
+                        bullish_patterns.append(f"{ticker} ({s})")
+                    else:
+                        bearish_patterns.append(f"{ticker} ({s})")
+                        
+        summary += "\n\n### 📊 Technical Breakouts & Chart Movements:\n"
+        techs = []
+        if bullish_patterns:
+            techs.append(f"📈 **Bullish indicators:** {', '.join(bullish_patterns[:2])}")
+        if bearish_patterns:
+            techs.append(f"📉 **Bearish breakdowns:** {', '.join(bearish_patterns[:2])}")
+            
+        if techs:
+            summary += "\n".join([f"- {techs[0]}", f"- {techs[1]}" if len(techs) > 1 else ""])
+        else:
+            summary += "- Watchlist indicators stayed within averages, indicating consolidation and standard deviation support."
+            
+        payload["market_close_summary"] = summary
+        
     return payload

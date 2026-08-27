@@ -258,8 +258,22 @@ function renderBriefing(data) {
 
   // 3. Render Evening Movers
   const moversSection = document.getElementById("evening-movers-section");
+  const summarySection = document.getElementById("evening-summary-section");
+  const summaryContent = document.getElementById("market-summary-content");
+  
   if (currentMode === "evening") {
     moversSection.classList.remove("hidden");
+    if (summarySection && summaryContent) {
+      summarySection.classList.remove("hidden");
+      // Use marked or standard replacement for formatting bolding / bulleting
+      let rawText = data.market_close_summary || "No daily wrap-up summary compiled yet.";
+      // Convert markdown headers/bullets to simple HTML tags for nicer styling
+      let formattedText = rawText
+        .replace(/### (.*?)\n/g, '<h4 style="margin-top: 12px; margin-bottom: 4px; font-size: 13px; color: var(--accent);">$1</h4>')
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+        .replace(/- (.*?)\n/g, '<li style="margin-left: 12px; font-size: 11.5px; line-height: 1.45;">$1</li>');
+      summaryContent.innerHTML = formattedText;
+    }
     
     const gTable = document.querySelector("#gainers-table tbody");
     const lTable = document.querySelector("#losers-table tbody");
@@ -280,6 +294,9 @@ function renderBriefing(data) {
     accNote.textContent = data.accuracy_note || "";
   } else {
     moversSection.classList.add("hidden");
+    if (summarySection) {
+      summarySection.classList.add("hidden");
+    }
   }
 
   // 4. Filter and Render Watchlist

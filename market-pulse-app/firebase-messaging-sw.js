@@ -40,7 +40,7 @@ if (firebaseConfig.apiKey !== "YOUR_API_KEY") {
 }
 
 // === Offline Caching Engine ===
-const CACHE_NAME = 'market-pulse-pwa-cache-v5';
+const CACHE_NAME = 'market-pulse-pwa-cache-v6';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
