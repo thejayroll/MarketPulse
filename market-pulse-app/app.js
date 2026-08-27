@@ -282,6 +282,8 @@ function renderBriefing(data) {
         </div>
       ` : "";
       
+      const statsHtml = `<div class="ticker-stats-grid" id="stats-${tickerName}"></div>`;
+      
       const chartHtml = (w.history && w.history.length > 0) ? 
         `<div class="chart-container"><canvas id="chart-${tickerName}" class="ticker-chart" width="400" height="150"></canvas></div>` : "";
       
@@ -297,6 +299,7 @@ function renderBriefing(data) {
             </div>
           </div>
           ${periodSelectorHtml}
+          ${statsHtml}
           ${chartHtml}
           ${patternHtml}
         </div>
@@ -309,6 +312,7 @@ function renderBriefing(data) {
       const canvas = document.getElementById(`chart-${tickerName}`);
       if (canvas && w.history && w.history.length > 0) {
         const filtered = filterHistoryByPeriod(w.history, "1M");
+        updateStatsGrid(tickerName, filtered, w.history);
         drawStockChart(canvas, filtered, w.pattern_dates, w.sentiment, "1M");
       }
     });
@@ -359,6 +363,7 @@ window.changeChartPeriod = function(tickerName, period) {
   const tickerInfo = window.tickerData[tickerName];
   if (canvas && tickerInfo) {
     const filteredHistory = filterHistoryByPeriod(tickerInfo.history, period);
+    updateStatsGrid(tickerName, filteredHistory, tickerInfo.history);
     drawStockChart(canvas, filteredHistory, tickerInfo.patternDates, tickerInfo.sentiment, period);
   }
 };
@@ -407,6 +412,56 @@ function getPatternInference(pattern, tickerName) {
     return `<strong>Breakdown</strong> detected: Price has fallen below key support at the circled point, indicating strong downward momentum.`;
   }
   return `Pattern detected: Technical indicator changes at the circled area.`;
+}
+
+function updateStatsGrid(tickerName, filteredHistory, fullHistory) {
+  const container = document.getElementById(`stats-${tickerName}`);
+  if (!container || filteredHistory.length === 0) return;
+  
+  const latestPrice = filteredHistory[filteredHistory.length - 1].close;
+  const startPrice = filteredHistory[0].close;
+  
+  // Calculate period High / Low
+  const prices = filteredHistory.map(h => h.close);
+  const periodHigh = Math.max(...prices);
+  const periodLow = Math.min(...prices);
+  
+  // Calculate 52W High / Low (last 250 points in full history)
+  const fullPrices = fullHistory.map(h => h.close);
+  const last250 = fullPrices.slice(-250);
+  const high52w = last250.length > 0 ? Math.max(...last250) : latestPrice;
+  const low52w = last250.length > 0 ? Math.min(...last250) : latestPrice;
+  
+  // Calculate change
+  const changeAbs = latestPrice - startPrice;
+  const changePct = (changeAbs / startPrice) * 100;
+  const changeClass = changeAbs >= 0 ? "stat-positive" : "stat-negative";
+  const changeSign = changeAbs >= 0 ? "+" : "";
+  
+  container.innerHTML = `
+    <div class="stat-item"><span class="stat-label">Price</span><span class="stat-value">₹${latestPrice.toFixed(1)}</span></div>
+    <div class="stat-item"><span class="stat-label">Change</span><span class="stat-value ${changeClass}">${changeSign}${changeAbs.toFixed(1)} (${changeSign}${changePct.toFixed(1)}%)</span></div>
+    <div class="stat-item"><span class="stat-label">High</span><span class="stat-value">₹${periodHigh.toFixed(1)}</span></div>
+    <div class="stat-item"><span class="stat-label">Low</span><span class="stat-value">₹${periodLow.toFixed(1)}</span></div>
+    <div class="stat-item"><span class="stat-label">52W High</span><span class="stat-value">₹${high52w.toFixed(1)}</span></div>
+    <div class="stat-item"><span class="stat-label">52W Low</span><span class="stat-value">₹${low52w.toFixed(1)}</span></div>
+  `;
+}
+
+function calculateFullSMA(fullHistory, periodLength) {
+  let smaMap = {};
+  for (let i = 0; i < fullHistory.length; i++) {
+    if (i >= periodLength - 1) {
+      let sum = 0;
+      for (let j = 0; j < periodLength; j++) {
+        sum += fullHistory[i - j].close;
+      }
+      smaMap[fullHistory[i].date] = sum / periodLength;
+    } else {
+      smaMap[fullHistory[i].date] = null;
+    }
+  }
+  return smaMap;
 }
 
 function drawStockChart(canvas, history, patternDates, sentiment, period) {
@@ -470,24 +525,37 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
   
   if (history.length === 0) return;
   
-  // Map history to coordinates
+  // Retrieve full history to calculate 20-day SMA
+  const tickerName = canvas.id.replace("chart-", "");
+  const tickerInfo = window.tickerData[tickerName];
+  const fullHistory = tickerInfo ? tickerInfo.history : [];
+  const smaMap = fullHistory.length > 0 ? calculateFullSMA(fullHistory, 20) : {};
+  
+  // Map points to coordinates
   const points = history.map((h, i) => {
     const x = paddingLeft + (i * graphWidth) / (history.length - 1);
     const y = height - paddingBottom - ((h.close - minPrice) * graphHeight) / priceRange;
-    return { x, y, date: h.date, price: h.close };
+    
+    let ySma = null;
+    const smaVal = smaMap[h.date];
+    if (smaVal !== null && smaVal !== undefined) {
+      ySma = height - paddingBottom - ((smaVal - minPrice) * graphHeight) / priceRange;
+    }
+    
+    return { x, y, ySma, date: h.date, price: h.close };
   });
   
   // 2. Stroke and Glow Color definition (Dynamic from CSS variables)
   const style = getComputedStyle(document.documentElement);
-  let strokeColor = style.getPropertyValue('--neutral').trim() || "#3b82f6";
-  let glowColor = "rgba(59, 130, 246, 0.05)";
+  let strokeColor = style.getPropertyValue('--neutral').trim() || "#64748b";
+  let glowColor = "rgba(100, 116, 139, 0.04)";
   
   if (sentiment === "bullish") {
     strokeColor = style.getPropertyValue('--success').trim() || "#10b981";
     glowColor = "rgba(16, 185, 129, 0.05)";
   } else if (sentiment === "bearish") {
-    strokeColor = style.getPropertyValue('--danger').trim() || "#f43f5e";
-    glowColor = "rgba(244, 63, 94, 0.05)";
+    strokeColor = style.getPropertyValue('--danger').trim() || "#ef4444";
+    glowColor = "rgba(239, 68, 68, 0.05)";
   }
   
   // Area fill under chart line
@@ -502,7 +570,7 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
   ctx.fillStyle = grad;
   ctx.fill();
   
-  // Draw chart line
+  // Draw price line
   ctx.beginPath();
   ctx.moveTo(points[0].x, points[0].y);
   for (let i = 1; i < points.length; i++) {
@@ -512,6 +580,38 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
   ctx.lineWidth = 2.0;
   ctx.lineJoin = "round";
   ctx.stroke();
+  
+  // Draw 20-day SMA dashed indicator line (detailed indicator)
+  ctx.beginPath();
+  let firstSma = true;
+  points.forEach(p => {
+    if (p.ySma !== null) {
+      if (firstSma) {
+        ctx.moveTo(p.x, p.ySma);
+        firstSma = false;
+      } else {
+        ctx.lineTo(p.x, p.ySma);
+      }
+    }
+  });
+  if (!firstSma) {
+    const accent = style.getPropertyValue('--accent').trim() || "#f59e0b";
+    ctx.strokeStyle = accent + "80"; // Amber dash with ~50% transparency
+    ctx.lineWidth = 1.25;
+    ctx.setLineDash([3, 3]);
+    ctx.stroke();
+    ctx.setLineDash([]); // Reset line dash
+  }
+  
+  // Draw price nodes/dots on close zooms (1W or 1M) for high details
+  if (period === "1W" || period === "1M") {
+    points.forEach(p => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 2.5, 0, 2 * Math.PI);
+      ctx.fillStyle = strokeColor;
+      ctx.fill();
+    });
+  }
   
   // 3. Draw Date Labels at the bottom
   ctx.fillStyle = "#475569";
@@ -536,7 +636,7 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
   
   // 4. Draw Pattern Coordinate Indicators (glowing accent circles)
   if (patternDates && patternDates.length > 0) {
-    const accent = style.getPropertyValue('--accent').trim() || "#eab308";
+    const accent = style.getPropertyValue('--accent').trim() || "#f59e0b";
     patternDates.forEach(d => {
       // Find if this date is inside the currently viewed period slice
       const pt = points.find(p => p.date === d);
