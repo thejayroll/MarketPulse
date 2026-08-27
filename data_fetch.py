@@ -77,6 +77,8 @@ def fetch_ticker_ohlcv(ticker, period="60d"):
                     df.columns = df.columns.get_level_values(0)
                 # Standardize capitalization of columns (Open, High, Low, Close, Volume)
                 df.columns = [str(col).capitalize() for col in df.columns]
+                if 'Close' in df.columns:
+                    df = df.dropna(subset=['Close'])
                 return df
             else:
                 logger.warning(f"Empty data returned for {ticker}")

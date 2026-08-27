@@ -45,23 +45,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setupModeByTime() {
-  // Lock morning after 1 PM (13:00) and evening before 1 PM local time
+  // Set default active mode based on local time (Morning before 1 PM, Evening after 1 PM)
   const hour = new Date().getHours();
   if (hour >= 13) {
     currentMode = "evening";
     morningTab.classList.remove("active");
-    morningTab.disabled = true;
-    morningTab.title = "Morning briefing is locked after 1:00 PM";
     eveningTab.classList.add("active");
-    eveningTab.disabled = false;
   } else {
     currentMode = "morning";
     eveningTab.classList.remove("active");
-    eveningTab.disabled = true;
-    eveningTab.title = "Evening summary is locked before 1:00 PM";
     morningTab.classList.add("active");
-    morningTab.disabled = false;
   }
+  // Make sure both tab buttons are enabled so the user can freely toggle to inspect data
+  morningTab.disabled = false;
+  eveningTab.disabled = false;
+  morningTab.title = "";
+  eveningTab.title = "";
 }
 
 function initPwaAndFirebase() {
@@ -155,15 +154,6 @@ function setupEventListeners() {
 }
 
 function switchMode(mode) {
-  const hour = new Date().getHours();
-  if (mode === "morning" && hour >= 13) {
-    console.warn("Morning mode is locked after 1:00 PM");
-    return;
-  }
-  if (mode === "evening" && hour < 13) {
-    console.warn("Evening mode is locked before 1:00 PM");
-    return;
-  }
   if (currentMode === mode) return;
   currentMode = mode;
   
@@ -487,16 +477,17 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
     return { x, y, date: h.date, price: h.close };
   });
   
-  // 2. Stroke and Glow Color definition (Apple Dark Theme Muted Accent Lines)
-  let strokeColor = "#007aff"; // Apple Blue (Neutral/Accent)
-  let glowColor = "rgba(0, 122, 255, 0.05)";
+  // 2. Stroke and Glow Color definition (Dynamic from CSS variables)
+  const style = getComputedStyle(document.documentElement);
+  let strokeColor = style.getPropertyValue('--neutral').trim() || "#3b82f6";
+  let glowColor = "rgba(59, 130, 246, 0.05)";
   
   if (sentiment === "bullish") {
-    strokeColor = "#30d158"; // Apple Green
-    glowColor = "rgba(48, 209, 88, 0.05)";
+    strokeColor = style.getPropertyValue('--success').trim() || "#10b981";
+    glowColor = "rgba(16, 185, 129, 0.05)";
   } else if (sentiment === "bearish") {
-    strokeColor = "#ff453a"; // Apple Red
-    glowColor = "rgba(255, 69, 58, 0.05)";
+    strokeColor = style.getPropertyValue('--danger').trim() || "#f43f5e";
+    glowColor = "rgba(244, 63, 94, 0.05)";
   }
   
   // Area fill under chart line
@@ -543,8 +534,9 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
   ctx.fillText(formatShortDate(middleDate), paddingLeft + graphWidth / 2, height - 6);
   ctx.fillText(formatShortDate(endDate), width - paddingRight - 15, height - 6);
   
-  // 4. Draw Pattern Coordinate Indicators (glowing amber circles)
+  // 4. Draw Pattern Coordinate Indicators (glowing accent circles)
   if (patternDates && patternDates.length > 0) {
+    const accent = style.getPropertyValue('--accent').trim() || "#eab308";
     patternDates.forEach(d => {
       // Find if this date is inside the currently viewed period slice
       const pt = points.find(p => p.date === d);
@@ -552,13 +544,13 @@ function drawStockChart(canvas, history, patternDates, sentiment, period) {
         // Glowing halo circle
         ctx.beginPath();
         ctx.arc(pt.x, pt.y, 8, 0, 2 * Math.PI);
-        ctx.fillStyle = "rgba(255, 159, 10, 0.35)"; // Apple Amber glow
+        ctx.fillStyle = accent + "59"; // ~35% opacity glow
         ctx.fill();
         
         // Solid center marker
         ctx.beginPath();
         ctx.arc(pt.x, pt.y, 4, 0, 2 * Math.PI);
-        ctx.strokeStyle = "#ff9f0a";
+        ctx.strokeStyle = accent;
         ctx.lineWidth = 1.5;
         ctx.fillStyle = "#0c1017";
         ctx.fill();
