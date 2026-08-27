@@ -47,22 +47,25 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setupModeByTime() {
-  // Set default active mode based on local time (Morning before 1 PM, Evening after 1 PM)
+  // Lock morning after 1 PM (13:00) and evening before 1 PM local time
   const hour = new Date().getHours();
   if (hour >= 13) {
     currentMode = "evening";
     morningTab.classList.remove("active");
+    morningTab.disabled = true;
+    morningTab.title = "Morning briefing is locked after 1:00 PM";
     eveningTab.classList.add("active");
+    eveningTab.disabled = false;
+    eveningTab.title = "";
   } else {
     currentMode = "morning";
     eveningTab.classList.remove("active");
+    eveningTab.disabled = true;
+    eveningTab.title = "Evening summary is locked before 1:00 PM";
     morningTab.classList.add("active");
+    morningTab.disabled = false;
+    morningTab.title = "";
   }
-  // Make sure both tab buttons are enabled so the user can freely toggle to inspect data
-  morningTab.disabled = false;
-  eveningTab.disabled = false;
-  morningTab.title = "";
-  eveningTab.title = "";
 }
 
 function initPwaAndFirebase() {
@@ -156,6 +159,15 @@ function setupEventListeners() {
 }
 
 function switchMode(mode) {
+  const hour = new Date().getHours();
+  if (mode === "morning" && hour >= 13) {
+    console.warn("Morning mode is locked after 1:00 PM");
+    return;
+  }
+  if (mode === "evening" && hour < 13) {
+    console.warn("Evening mode is locked before 1:00 PM");
+    return;
+  }
   if (currentMode === mode) return;
   currentMode = mode;
   
