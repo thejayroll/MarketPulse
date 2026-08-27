@@ -231,6 +231,54 @@ def compile_briefing_payload(analysis_results, sentiment_results, news_results, 
         "watchlist": watchlist_briefings
     }
     
+    # Morning-only Buy/Sell recommendations (Intraday signals)
+    if mode == "morning":
+        buys = []
+        sells = []
+        for item in watchlist_briefings:
+            ticker = item["ticker"]
+            sent = item["sentiment"]
+            conf = item["confidence"]
+            signals = item["top_signals"]
+            
+            # Build smart reason based on actual active signals
+            reason_parts = []
+            for s in signals:
+                s_lower = s.lower()
+                if "pattern:" in s_lower:
+                    reason_parts.append("Chart pattern breakout/breakdown")
+                elif "news" in s_lower:
+                    reason_parts.append("Indirect sector-level news flows" if sent == "bullish" else "Negative media sentiments")
+                elif "macd" in s_lower:
+                    reason_parts.append("MACD momentum crossover")
+                elif "sma" in s_lower:
+                    reason_parts.append("SMA trend direction alignment")
+                elif "bollinger" in s_lower:
+                    reason_parts.append("Volatility band breakout")
+                    
+            if not reason_parts:
+                reason_parts.append("Technical indicators structure alignment")
+                
+            reason = ", ".join(list(set(reason_parts))) + "."
+            
+            if sent == "bullish" and conf >= 0.50:
+                buys.append({
+                    "ticker": ticker.replace(".NS", ""),
+                    "reason": reason,
+                    "confidence": f"{conf:.0%}"
+                })
+            elif sent == "bearish" and conf >= 0.50:
+                sells.append({
+                    "ticker": ticker.replace(".NS", ""),
+                    "reason": reason,
+                    "confidence": f"{conf:.0%}"
+                })
+                
+        payload["recommendations"] = {
+            "buy": buys,
+            "sell": sells
+        }
+    
     # Evening extensions
     if mode == "evening":
         # Calculate daily gainers/losers from watchlist

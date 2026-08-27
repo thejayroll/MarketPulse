@@ -53,20 +53,19 @@ def init_sentiment_engine():
 # Call init immediately
 init_sentiment_engine()
 
-# Default keyword dictionary for popular Indian tickers
+# Default keyword dictionary for popular Indian tickers with sector-level indirect mapping
 TICKER_KEYWORDS = {
-    "RELIANCE.NS": ["reliance", "ambani", "jio", "retail"],
-    "TCS.NS": ["tcs", "tata consultancy"],
-    "INFY.NS": ["infosys", "infy"],
-    "HDFCBANK.NS": ["hdfc"],
-    "ICICIBANK.NS": ["icici"],
-    "BHARTIARTL.NS": ["bharti", "airtel"],
-    "SBIN.NS": ["sbi", "state bank", "sbin"],
-    "ITC.NS": ["itc"],
-    "HINDUNILVR.NS": ["hul", "hindustan unilever", "unilever"],
-    "LTIM.NS": ["ltim", "ltimindtree"],
-    "^NSEI": ["nifty", "nse", "market-wide", "index", "indian market"],
-    "^BSESN": ["sensex", "bse", "market-wide", "index", "indian market"]
+    "RELIANCE.NS": ["reliance", "ambani", "jio", "retail", "crude oil", "refining", "petrochemicals", "oil price"],
+    "TCS.NS": ["tcs", "tata consultancy", "it sector", "tech stocks", "software", "outsourcing", "nasdaq"],
+    "INFY.NS": ["infosys", "infy", "it sector", "tech stocks", "software", "outsourcing", "nasdaq"],
+    "LTIM.NS": ["ltim", "ltimindtree", "it sector", "tech stocks", "software", "outsourcing", "nasdaq"],
+    "HDFCBANK.NS": ["hdfc", "banking", "bank", "banks", "loan", "loans", "interest rate", "interest rates", "rbi", "repo rate"],
+    "ICICIBANK.NS": ["icici", "banking", "bank", "banks", "loan", "loans", "interest rate", "interest rates", "rbi", "repo rate"],
+    "SBIN.NS": ["sbi", "state bank", "sbin", "banking", "bank", "banks", "loan", "loans", "interest rate", "interest rates", "rbi", "repo rate"],
+    "ITC.NS": ["itc", "fmcg", "consumer goods", "cigarette", "tobacco", "rural demand", "hotel"],
+    "HINDUNILVR.NS": ["hul", "hindustan unilever", "unilever", "fmcg", "consumer goods", "soap", "rural demand"],
+    "^NSEI": ["nifty", "nse", "market-wide", "index", "indian market", "economy", "rbi", "inflation", "gdp"],
+    "^BSESN": ["sensex", "bse", "market-wide", "index", "indian market", "economy", "rbi", "inflation", "gdp"]
 }
 
 def clean_text(text):

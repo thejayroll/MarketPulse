@@ -59,6 +59,21 @@
           </div>
         </section>
 
+        <!-- Morning Exclusive Recommendations -->
+        <section class="card hidden" id="morning-recommendations-section">
+          <h2>Intraday Recommendations</h2>
+          <div class="recommendations-container" style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="rec-column">
+              <h3 class="text-success" style="margin-bottom: 8px; font-size: 14px; display: flex; align-items: center; gap: 6px;">📈 BUY Recommendations</h3>
+              <ul id="buys-list" class="rec-list" style="list-style: none; display: flex; flex-direction: column; gap: 8px;"></ul>
+            </div>
+            <div class="rec-column" style="margin-top: 4px;">
+              <h3 class="text-danger" style="margin-bottom: 8px; font-size: 14px; display: flex; align-items: center; gap: 6px;">📉 SELL Recommendations</h3>
+              <ul id="sells-list" class="rec-list" style="list-style: none; display: flex; flex-direction: column; gap: 8px;"></ul>
+            </div>
+          </div>
+        </section>
+
         <!-- Evening Specific Performance (Gainers / Losers) -->
         <section class="card hidden" id="evening-movers-section">
           <h2>Watchlist Performance</h2>
@@ -94,6 +109,32 @@
           <h2>Watchlist Tickers</h2>
           <div class="watchlist-scroll" id="watchlist-container">
             <p class="empty-state">No watchlist data found.</p>
+          </div>
+        </section>
+
+        <!-- Watchlist Tickers Editor Settings -->
+        <section class="card" id="watchlist-editor-section" style="margin-top: 16px;">
+          <h2>Manage Watchlist</h2>
+          <div class="editor-container" style="display: flex; flex-direction: column; gap: 12px;">
+            <p class="editor-help" style="font-size: 11px; color: var(--text-secondary); line-height: 1.4;">
+              Add/remove tickers below. 
+              <strong>Action:</strong> Click <em>Export config</em> to generate the JSON payload and paste it into your GitHub repository's <code>watchlist.json</code> to start fetching them daily.
+            </p>
+            
+            <!-- List of current active tickers with remove buttons -->
+            <div id="editor-active-list" style="display: flex; flex-wrap: wrap; gap: 8px; max-height: 120px; overflow-y: auto; padding: 6px; background: rgba(0,0,0,0.15); border-radius: 8px; border: 1px solid var(--card-border);"></div>
+            
+            <!-- Add ticker controls -->
+            <div class="editor-controls" style="display: flex; gap: 8px;">
+              <input type="text" id="new-ticker-input" placeholder="e.g. TATASTEEL.NS or GOLD" style="flex: 1; padding: 8px 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--card-border); border-radius: 8px; color: var(--text-primary); font-family: var(--font-family); font-size: 13px;">
+              <button id="add-ticker-btn" class="period-btn" style="padding: 8px 16px; border-radius: 8px;">Add</button>
+            </div>
+            
+            <!-- Sync/Export configs -->
+            <div style="display: flex; gap: 8px; margin-top: 4px;">
+              <button id="export-watchlist-btn" class="period-btn" style="flex: 1; padding: 8px; font-size: 11.5px; border-radius: 8px; border-color: rgba(249, 115, 22, 0.4); color: var(--accent);">Export config</button>
+              <button id="reset-watchlist-btn" class="period-btn" style="flex: 1; padding: 8px; font-size: 11.5px; border-radius: 8px;">Reset Default</button>
+            </div>
           </div>
         </section>
       </div>

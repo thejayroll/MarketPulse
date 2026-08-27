@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
   initPwaAndFirebase();
   loadBriefing();
   setupEventListeners();
+  renderWatchlistEditor();
+  setupWatchlistEditorListeners();
 });
 
 function setupModeByTime() {
@@ -194,6 +196,8 @@ function loadBriefing() {
 }
 
 function renderBriefing(data) {
+  const customList = getLocalWatchlist();
+  
   // 1. Render Hero Market Sentiment
   const marketWide = data.market_wide_sentiment || {};
   const label = marketWide.label || "neutral";
@@ -220,7 +224,39 @@ function renderBriefing(data) {
     heroTime.textContent = "-";
   }
 
-  // 2. Render Evening Movers
+  // 2. Render Morning Exclusive Recommendations
+  const morningRecSection = document.getElementById("morning-recommendations-section");
+  const buysList = document.getElementById("buys-list");
+  const sellsList = document.getElementById("sells-list");
+  
+  if (currentMode === "morning" && morningRecSection && buysList && sellsList) {
+    morningRecSection.classList.remove("hidden");
+    const recs = data.recommendations || { buy: [], sell: [] };
+    
+    // Filter recommendations to match the user's custom watchlist
+    const activeBuys = (recs.buy || []).filter(b => customList.some(cl => cl.includes(b.ticker)));
+    const activeSells = (recs.sell || []).filter(s => customList.some(cl => cl.includes(s.ticker)));
+    
+    buysList.innerHTML = activeBuys.map(b => `
+      <li style="padding: 10px 12px; background: rgba(16, 185, 129, 0.06); border: 1px dashed rgba(16, 185, 129, 0.2); border-radius: 10px; font-size: 11.5px; line-height: 1.45;">
+        <span style="font-weight: 700; color: var(--text-primary);">${b.ticker}</span> 
+        <span class="badge" style="background: var(--success); color: #fff; font-size: 8px; font-weight:700; padding: 2px 5px; border-radius: 4px; margin-left: 4px; text-transform: uppercase;">BUY ${b.confidence}</span>
+        <div style="font-size: 10.5px; color: var(--text-secondary); margin-top: 4px;">Reason: ${b.reason}</div>
+      </li>
+    `).join("") || `<li style="font-size: 11px; color: var(--text-secondary); text-align: left; padding: 4px;">No buy signals in active watchlist.</li>`;
+    
+    sellsList.innerHTML = activeSells.map(s => `
+      <li style="padding: 10px 12px; background: rgba(239, 68, 68, 0.06); border: 1px dashed rgba(239, 68, 68, 0.2); border-radius: 10px; font-size: 11.5px; line-height: 1.45;">
+        <span style="font-weight: 700; color: var(--text-primary);">${s.ticker}</span> 
+        <span class="badge" style="background: var(--danger); color: #fff; font-size: 8px; font-weight:700; padding: 2px 5px; border-radius: 4px; margin-left: 4px; text-transform: uppercase;">SELL ${s.confidence}</span>
+        <div style="font-size: 10.5px; color: var(--text-secondary); margin-top: 4px;">Reason: ${s.reason}</div>
+      </li>
+    `).join("") || `<li style="font-size: 11px; color: var(--text-secondary); text-align: left; padding: 4px;">No sell signals in active watchlist.</li>`;
+  } else if (morningRecSection) {
+    morningRecSection.classList.add("hidden");
+  }
+
+  // 3. Render Evening Movers
   const moversSection = document.getElementById("evening-movers-section");
   if (currentMode === "evening") {
     moversSection.classList.remove("hidden");
@@ -229,11 +265,15 @@ function renderBriefing(data) {
     const lTable = document.querySelector("#losers-table tbody");
     const accNote = document.getElementById("evening-accuracy-note");
     
-    gTable.innerHTML = (data.top_gainers || []).map(g => 
+    // Filter movers to match the user's custom watchlist
+    const activeGainers = (data.top_gainers || []).filter(g => customList.some(cl => cl.includes(g.ticker)));
+    const activeLosers = (data.top_losers || []).filter(l => customList.some(cl => cl.includes(l.ticker)));
+    
+    gTable.innerHTML = activeGainers.map(g => 
       `<tr><td>${g.ticker.replace(".NS", "")}</td><td>${g.change}</td></tr>`
     ).join("") || "<tr><td colspan='2'>No gainers data.</td></tr>";
     
-    lTable.innerHTML = (data.top_losers || []).map(l => 
+    lTable.innerHTML = activeLosers.map(l => 
       `<tr><td>${l.ticker.replace(".NS", "")}</td><td>${l.change}</td></tr>`
     ).join("") || "<tr><td colspan='2'>No losers data.</td></tr>";
     
@@ -242,16 +282,36 @@ function renderBriefing(data) {
     moversSection.classList.add("hidden");
   }
 
-  // 3. Render Watchlist
+  // 4. Filter and Render Watchlist
   const watchlistContainer = document.getElementById("watchlist-container");
-  const watchlist = data.watchlist || [];
   
+  // Filter JSON watchlist by user custom list
+  let watchlist = (data.watchlist || []).filter(w => customList.includes(w.ticker));
+  
+  // Inject placeholders for newly added tickers not yet fetched by server
+  const renderedTickers = watchlist.map(w => w.ticker);
+  customList.forEach(ticker => {
+    if (!renderedTickers.includes(ticker)) {
+      watchlist.push({
+        ticker: ticker,
+        sentiment: "neutral",
+        confidence: 0.5,
+        top_signals: ["Awaiting remote fetch from GitHub Action runner."],
+        history: [],
+        news: [],
+        pattern_dates: [],
+        isPlaceholder: true
+      });
+    }
+  });
+
   window.tickerData = window.tickerData || {};
   
   if (watchlist.length > 0) {
     watchlistContainer.innerHTML = watchlist.map((w) => {
       const tickerName = w.ticker.replace(".NS", "");
       const sentClass = `theme-${w.sentiment}`;
+      const isPlaceholder = w.isPlaceholder || false;
       
       // Save data globally for dynamic period changes
       window.tickerData[tickerName] = {
@@ -272,7 +332,7 @@ function renderBriefing(data) {
       
       const patternHtml = patternText ? `<div class="pattern-indicator">⚠️ ${patternText}</div>` : "";
       
-      const periodSelectorHtml = (w.history && w.history.length > 0) ? `
+      const periodSelectorHtml = (!isPlaceholder && w.history && w.history.length > 0) ? `
         <div class="chart-period-selector" data-ticker="${tickerName}">
           <button class="period-btn" onclick="changeChartPeriod('${tickerName}', '1W')">1W</button>
           <button class="period-btn active" onclick="changeChartPeriod('${tickerName}', '1M')">1M</button>
@@ -282,9 +342,17 @@ function renderBriefing(data) {
         </div>
       ` : "";
       
-      const statsHtml = `<div class="ticker-stats-grid" id="stats-${tickerName}"></div>`;
+      const statsHtml = (!isPlaceholder && w.history && w.history.length > 0) ? 
+        `<div class="ticker-stats-grid" id="stats-${tickerName}"></div>` : "";
       
-      const chartHtml = (w.history && w.history.length > 0) ? 
+      const chartHtml = isPlaceholder ? `
+        <div class="chart-container" style="justify-content: center; height: 110px; border: 1px dashed var(--card-border);">
+          <span style="font-size: 11px; color: var(--text-secondary); text-align: center; padding: 12px; line-height: 1.4;">
+            Awaiting remote pipeline fetch.<br>
+            <span style="font-size: 9px; color: var(--accent);">Export config and update your watchlist.json on GitHub.</span>
+          </span>
+        </div>
+      ` : (w.history && w.history.length > 0) ? 
         `<div class="chart-container"><canvas id="chart-${tickerName}" class="ticker-chart" width="400" height="150"></canvas></div>` : "";
       
       return `
@@ -306,8 +374,9 @@ function renderBriefing(data) {
       `;
     }).join("");
 
-    // Draw default 1M charts
+    // Draw default 1M charts for active (non-placeholder) tickers
     watchlist.forEach((w) => {
+      if (w.isPlaceholder) return;
       const tickerName = w.ticker.replace(".NS", "");
       const canvas = document.getElementById(`chart-${tickerName}`);
       if (canvas && w.history && w.history.length > 0) {
@@ -665,4 +734,113 @@ function renderEmptyState() {
   document.getElementById("market-sentiment-conf").textContent = "Briefing files missing or offline.";
   document.getElementById("watchlist-container").innerHTML = `<p class="empty-state">Offline and no cached data available.</p>`;
   document.getElementById("news-container").innerHTML = `<p class="empty-state">Offline and no cached news available.</p>`;
+}
+
+// === Watchlist Local Storage & Management Settings ===
+const DEFAULT_WATCHLIST = [
+  "RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", 
+  "ICICIBANK.NS", "BHARTIARTL.NS", "SBIN.NS", "ITC.NS", 
+  "HINDUNILVR.NS", "LTIM.NS"
+];
+
+function getLocalWatchlist() {
+  const list = localStorage.getItem("custom_watchlist");
+  if (list) {
+    try {
+      return JSON.parse(list);
+    } catch(e) {
+      return DEFAULT_WATCHLIST;
+    }
+  }
+  return DEFAULT_WATCHLIST;
+}
+
+function renderWatchlistEditor() {
+  const listContainer = document.getElementById("editor-active-list");
+  if (!listContainer) return;
+  
+  const currentList = getLocalWatchlist();
+  if (currentList.length === 0) {
+    listContainer.innerHTML = `<span style="font-size: 11px; color: var(--text-secondary); padding: 4px;">No tickers in watchlist.</span>`;
+    return;
+  }
+  
+  listContainer.innerHTML = currentList.map(ticker => {
+    return `
+      <span class="editor-tag" style="display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; background: rgba(255,255,255,0.05); border: 1px solid var(--card-border); border-radius: 6px; font-size: 11px; font-weight: 700; color: var(--text-primary); user-select: none;">
+        ${ticker.replace(".NS", "")}
+        <span onclick="removeTickerFromEditor('${ticker}')" style="cursor: pointer; color: var(--danger); font-weight: 900; margin-left: 2px; font-size: 12px; line-height: 1;">&times;</span>
+      </span>
+    `;
+  }).join("");
+}
+
+window.removeTickerFromEditor = function(ticker) {
+  let list = getLocalWatchlist();
+  list = list.filter(t => t !== ticker);
+  localStorage.setItem("custom_watchlist", JSON.stringify(list));
+  renderWatchlistEditor();
+  
+  // Reload current briefing payload to reflect the filter
+  const cachedData = localStorage.getItem(`cached_${currentMode}`);
+  if (cachedData) {
+    renderBriefing(JSON.parse(cachedData));
+  }
+};
+
+function setupWatchlistEditorListeners() {
+  const addBtn = document.getElementById("add-ticker-btn");
+  const newTInput = document.getElementById("new-ticker-input");
+  const exportBtn = document.getElementById("export-watchlist-btn");
+  const resetBtn = document.getElementById("reset-watchlist-btn");
+  
+  if (addBtn && newTInput) {
+    addBtn.addEventListener("click", () => {
+      let rawT = newTInput.value.trim().toUpperCase();
+      if (!rawT) return;
+      
+      // Auto-append .NS to Indian stock codes if they don't have suffixes and are not indexes / commodities
+      if (!rawT.includes(".") && !rawT.startsWith("^")) {
+        rawT += ".NS";
+      }
+      
+      let list = getLocalWatchlist();
+      if (!list.includes(rawT)) {
+        list.push(rawT);
+        localStorage.setItem("custom_watchlist", JSON.stringify(list));
+        newTInput.value = "";
+        renderWatchlistEditor();
+        
+        // Reload current briefing payload to reflect the added placeholder
+        const cachedData = localStorage.getItem(`cached_${currentMode}`);
+        if (cachedData) {
+          renderBriefing(JSON.parse(cachedData));
+        }
+      }
+    });
+  }
+  
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      localStorage.removeItem("custom_watchlist");
+      renderWatchlistEditor();
+      const cachedData = localStorage.getItem(`cached_${currentMode}`);
+      if (cachedData) {
+        renderBriefing(JSON.parse(cachedData));
+      }
+    });
+  }
+  
+  if (exportBtn) {
+    exportBtn.addEventListener("click", () => {
+      const list = getLocalWatchlist();
+      const exportJson = JSON.stringify(list, null, 2);
+      
+      navigator.clipboard.writeText(exportJson).then(() => {
+        alert("Watchlist configuration copied to clipboard! Paste this JSON directly into your GitHub repository's 'watchlist.json' file.");
+      }).catch(err => {
+        alert("Here is your watchlist configuration:\n\n" + exportJson);
+      });
+    });
+  }
 }
