@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T15:11:57",
+  "timestamp": "2026-09-16T15:08:22",
   "market_wide_sentiment": {
     "label": "neutral",
     "confidence": 1.0
@@ -8,10 +8,9 @@
     {
       "ticker": "RELIANCE.NS",
       "sentiment": "neutral",
-      "confidence": 0.98,
+      "confidence": 1.0,
       "top_signals": [
-        "Price is below lower Bollinger Bands",
-        "Chart Pattern: breakdown support"
+        "No significant technical or sentiment signals."
       ],
       "news": [
         {
@@ -21,10 +20,6 @@
         }
       ],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 1077.17
-        },
         {
           "date": "2021-09-16",
           "close": 1099.78
@@ -1015,7 +1010,7 @@
         },
         {
           "date": "2022-09-14",
-          "close": 1176.14
+          "close": 1176.13
         },
         {
           "date": "2022-09-15",
@@ -2563,7 +2558,7 @@
         },
         {
           "date": "2024-04-10",
-          "close": 1461.94
+          "close": 1461.95
         },
         {
           "date": "2024-04-12",
@@ -4978,35 +4973,36 @@
           "close": 1257.5
         },
         {
+          "date": "2026-09-14",
+          "close": 1257.5
+        },
+        {
           "date": "2026-09-15",
           "close": 1235.3
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1240.0
         }
       ],
-      "pattern_dates": [
-        "2026-09-15"
-      ]
+      "pattern_dates": []
     },
     {
       "ticker": "TCS.NS",
       "sentiment": "bearish",
-      "confidence": 0.52,
+      "confidence": 0.3,
       "top_signals": [
-        "SMA death cross",
-        "News Sentiment is bearish (conf: 0.94)",
-        "High trading volume anomaly detected (>2x avg)"
+        "Chart Pattern: double top",
+        "News Sentiment is bearish (conf: 0.60)"
       ],
       "news": [
         {
-          "title": "US market today: S&amp;P 500, Nasdaq futures edge lower as oil, yields rise ahead of Fed decision",
-          "url": "https://www.livemint.com/market/stock-market-news/us-market-today-s-p-500-nasdaq-futures-edge-lower-as-oil-yields-rise-ahead-of-fed-decision-11789470062323.html",
-          "inference": "Adverse macro pressures or inflation worries could prompt defensive positioning and weigh on TCS's performance."
+          "title": "Market wrap: SBI, HDFC Life, TCS, Infosys top gainers and losers on Nifty and Sensex on Thursday",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-sbi-hdfc-life-tcs-infosys-top-gainers-and-losers-on-nifty-and-sensex-on-thursday/articleshow/134286572.cms",
+          "inference": "Negative developments or rising overheads are likely to damp investor enthusiasm, leading to downward pressure on TCS."
         }
       ],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 3435.31
-        },
         {
           "date": "2021-09-16",
           "close": 3390.79
@@ -5077,11 +5073,11 @@
         },
         {
           "date": "2021-10-11",
-          "close": 3201.68
+          "close": 3201.67
         },
         {
           "date": "2021-10-12",
-          "close": 3173.22
+          "close": 3173.23
         },
         {
           "date": "2021-10-13",
@@ -5377,7 +5373,7 @@
         },
         {
           "date": "2022-01-28",
-          "close": 3217.33
+          "close": 3217.34
         },
         {
           "date": "2022-01-31",
@@ -5485,7 +5481,7 @@
         },
         {
           "date": "2022-03-09",
-          "close": 3167.24
+          "close": 3167.25
         },
         {
           "date": "2022-03-10",
@@ -5633,7 +5629,7 @@
         },
         {
           "date": "2022-05-05",
-          "close": 3063.31
+          "close": 3063.32
         },
         {
           "date": "2022-05-06",
@@ -5649,7 +5645,7 @@
         },
         {
           "date": "2022-05-11",
-          "close": 2974.9
+          "close": 2974.91
         },
         {
           "date": "2022-05-12",
@@ -5805,7 +5801,7 @@
         },
         {
           "date": "2022-07-05",
-          "close": 2823.16
+          "close": 2823.17
         },
         {
           "date": "2022-07-06",
@@ -6081,7 +6077,7 @@
         },
         {
           "date": "2022-10-14",
-          "close": 2727.51
+          "close": 2727.52
         },
         {
           "date": "2022-10-17",
@@ -6173,7 +6169,7 @@
         },
         {
           "date": "2022-11-18",
-          "close": 2950.14
+          "close": 2950.13
         },
         {
           "date": "2022-11-21",
@@ -6225,7 +6221,7 @@
         },
         {
           "date": "2022-12-07",
-          "close": 2982.91
+          "close": 2982.92
         },
         {
           "date": "2022-12-08",
@@ -6253,7 +6249,7 @@
         },
         {
           "date": "2022-12-16",
-          "close": 2859.07
+          "close": 2859.08
         },
         {
           "date": "2022-12-19",
@@ -6401,7 +6397,7 @@
         },
         {
           "date": "2023-02-08",
-          "close": 3176.6
+          "close": 3176.61
         },
         {
           "date": "2023-02-09",
@@ -6625,7 +6621,7 @@
         },
         {
           "date": "2023-05-05",
-          "close": 2915.45
+          "close": 2915.44
         },
         {
           "date": "2023-05-08",
@@ -6641,7 +6637,7 @@
         },
         {
           "date": "2023-05-11",
-          "close": 2961.87
+          "close": 2961.88
         },
         {
           "date": "2023-05-12",
@@ -7089,7 +7085,7 @@
         },
         {
           "date": "2023-10-20",
-          "close": 3193.5
+          "close": 3193.51
         },
         {
           "date": "2023-10-23",
@@ -7477,7 +7473,7 @@
         },
         {
           "date": "2024-03-14",
-          "close": 3871.92
+          "close": 3871.91
         },
         {
           "date": "2024-03-15",
@@ -7837,7 +7833,7 @@
         },
         {
           "date": "2024-07-30",
-          "close": 4055.67
+          "close": 4055.68
         },
         {
           "date": "2024-07-31",
@@ -7921,7 +7917,7 @@
         },
         {
           "date": "2024-08-29",
-          "close": 4191.74
+          "close": 4191.73
         },
         {
           "date": "2024-08-30",
@@ -7937,7 +7933,7 @@
         },
         {
           "date": "2024-09-04",
-          "close": 4161.49
+          "close": 4161.5
         },
         {
           "date": "2024-09-05",
@@ -8289,7 +8285,7 @@
         },
         {
           "date": "2025-01-10",
-          "close": 3972.72
+          "close": 3972.71
         },
         {
           "date": "2025-01-13",
@@ -8329,7 +8325,7 @@
         },
         {
           "date": "2025-01-24",
-          "close": 3938.35
+          "close": 3938.36
         },
         {
           "date": "2025-01-27",
@@ -8381,7 +8377,7 @@
         },
         {
           "date": "2025-02-11",
-          "close": 3759.29
+          "close": 3759.28
         },
         {
           "date": "2025-02-12",
@@ -8461,7 +8457,7 @@
         },
         {
           "date": "2025-03-12",
-          "close": 3325.5
+          "close": 3325.51
         },
         {
           "date": "2025-03-13",
@@ -8961,7 +8957,7 @@
         },
         {
           "date": "2025-09-15",
-          "close": 2987.86
+          "close": 2987.87
         },
         {
           "date": "2025-09-16",
@@ -9413,7 +9409,7 @@
         },
         {
           "date": "2026-02-26",
-          "close": 2598.03
+          "close": 2598.04
         },
         {
           "date": "2026-02-27",
@@ -9960,36 +9956,43 @@
           "close": 2200.8
         },
         {
+          "date": "2026-09-14",
+          "close": 2200.8
+        },
+        {
           "date": "2026-09-15",
           "close": 2251.0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 2188.8
         }
       ],
-      "pattern_dates": []
+      "pattern_dates": [
+        "2026-08-10",
+        "2026-08-31"
+      ]
     },
     {
       "ticker": "INFY.NS",
-      "sentiment": "bearish",
-      "confidence": 0.26,
+      "sentiment": "neutral",
+      "confidence": 0.86,
       "top_signals": [
-        "News Sentiment is bearish (conf: 0.94)"
+        "News Sentiment is bearish (conf: 0.77)"
       ],
       "news": [
-        {
-          "title": "US market today: S&amp;P 500, Nasdaq futures edge lower as oil, yields rise ahead of Fed decision",
-          "url": "https://www.livemint.com/market/stock-market-news/us-market-today-s-p-500-nasdaq-futures-edge-lower-as-oil-yields-rise-ahead-of-fed-decision-11789470062323.html",
-          "inference": "Adverse macro pressures or inflation worries could prompt defensive positioning and weigh on INFY's performance."
-        },
         {
           "title": "Accumulate Infosys; target of Rs 1531: KR Choksey",
           "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for INFY."
+        },
+        {
+          "title": "Market wrap: SBI, HDFC Life, TCS, Infosys top gainers and losers on Nifty and Sensex on Thursday",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-sbi-hdfc-life-tcs-infosys-top-gainers-and-losers-on-nifty-and-sensex-on-thursday/articleshow/134286572.cms",
+          "inference": "Negative developments or rising overheads are likely to damp investor enthusiasm, leading to downward pressure on INFY."
         }
       ],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 1490.63
-        },
         {
           "date": "2021-09-16",
           "close": 1482.61
@@ -11080,7 +11083,7 @@
         },
         {
           "date": "2022-10-20",
-          "close": 1332.79
+          "close": 1332.8
         },
         {
           "date": "2022-10-21",
@@ -12808,7 +12811,7 @@
         },
         {
           "date": "2024-07-25",
-          "close": 1715.33
+          "close": 1715.32
         },
         {
           "date": "2024-07-26",
@@ -14943,8 +14946,16 @@
           "close": 1037.7
         },
         {
+          "date": "2026-09-14",
+          "close": 1037.7
+        },
+        {
           "date": "2026-09-15",
           "close": 1077.0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1060.0
         }
       ],
       "pattern_dates": []
@@ -14958,11 +14969,6 @@
       ],
       "news": [
         {
-          "title": "How to trade HDFC Bank shares? Here\u2019s what technical analysts are saying as lender hunts for new CEO",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-to-trade-hdfc-bank-shares-heres-what-technical-analysts-are-saying-as-lender-hunts-for-new-ceo/articleshow/134253984.cms",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
-        },
-        {
           "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
           "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
@@ -14971,13 +14977,14 @@
           "title": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
           "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+        },
+        {
+          "title": "Yes Bank shares jump 4% as Citi, Morgan Stanley see lender as key beneficiary of new UPI charges. Earnings boost ahead?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-shares-jump-4-as-citi-morgan-stanley-see-lender-as-key-beneficiary-of-new-upi-charges-earnings-boost-ahead/articleshow/134278712.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in HDFCBANK."
         }
       ],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 723.75
-        },
         {
           "date": "2021-09-16",
           "close": 729.9
@@ -17512,7 +17519,7 @@
         },
         {
           "date": "2024-04-09",
-          "close": 741.4
+          "close": 741.39
         },
         {
           "date": "2024-04-10",
@@ -17612,7 +17619,7 @@
         },
         {
           "date": "2024-05-17",
-          "close": 710.53
+          "close": 710.54
         },
         {
           "date": "2024-05-21",
@@ -19931,8 +19938,16 @@
           "close": 708.25
         },
         {
+          "date": "2026-09-14",
+          "close": 708.25
+        },
+        {
           "date": "2026-09-15",
           "close": 716.55
+        },
+        {
+          "date": "2026-09-16",
+          "close": 721.5
         }
       ],
       "pattern_dates": []
@@ -19940,18 +19955,11 @@
     {
       "ticker": "ICICIBANK.NS",
       "sentiment": "neutral",
-      "confidence": 0.95,
+      "confidence": 1.0,
       "top_signals": [
-        "MACD bearish cross",
-        "Price is below lower Bollinger Bands",
-        "Chart Pattern: breakdown support"
+        "No significant technical or sentiment signals."
       ],
       "news": [
-        {
-          "title": "How to trade HDFC Bank shares? Here\u2019s what technical analysts are saying as lender hunts for new CEO",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-to-trade-hdfc-bank-shares-heres-what-technical-analysts-are-saying-as-lender-hunts-for-new-ceo/articleshow/134253984.cms",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
-        },
         {
           "title": "Sell Indus Tower; target of Rs 260: ICICI Securities",
           "url": "https://www.moneycontrol.com/news/recommendations/sell-indus-tower-targetrs-260-icici-securities_17531381.html",
@@ -19961,13 +19969,14 @@
           "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
           "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+        },
+        {
+          "title": "Buy Patel Engineering; target of Rs 80: ICICI Direct",
+          "url": "https://www.moneycontrol.com/news/recommendations/buy-patel-engineering-targetrs-80-icici-direct_17531401.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
         }
       ],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 687.14
-        },
         {
           "date": "2021-09-16",
           "close": 699.5
@@ -24921,13 +24930,19 @@
           "close": 1379.3
         },
         {
+          "date": "2026-09-14",
+          "close": 1379.3
+        },
+        {
           "date": "2026-09-15",
           "close": 1350.4
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1358.8
         }
       ],
-      "pattern_dates": [
-        "2026-09-15"
-      ]
+      "pattern_dates": []
     },
     {
       "ticker": "BHARTIARTL.NS",
@@ -24938,10 +24953,6 @@
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 687.36
-        },
         {
           "date": "2021-09-16",
           "close": 680.82
@@ -25532,7 +25543,7 @@
         },
         {
           "date": "2022-04-21",
-          "close": 710.16
+          "close": 710.15
         },
         {
           "date": "2022-04-22",
@@ -29895,42 +29906,45 @@
           "close": 1831.1
         },
         {
+          "date": "2026-09-14",
+          "close": 1831.1
+        },
+        {
           "date": "2026-09-15",
           "close": 1830.4
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1835.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "SBIN.NS",
-      "sentiment": "bullish",
-      "confidence": 0.24,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "RSI is bullish (28.8)",
-        "Price is below lower Bollinger Bands"
+        "No significant technical or sentiment signals."
       ],
       "news": [
-        {
-          "title": "How to trade HDFC Bank shares? Here\u2019s what technical analysts are saying as lender hunts for new CEO",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-to-trade-hdfc-bank-shares-heres-what-technical-analysts-are-saying-as-lender-hunts-for-new-ceo/articleshow/134253984.cms",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for SBIN."
-        },
         {
           "title": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
           "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for SBIN."
         },
         {
-          "title": "HDFC Bank share price target: What are Jefferies, 3 other foreign brokerages saying as CEO hunt intensifies?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-share-price-target-what-are-jefferies-3-other-foreign-brokerages-saying-as-ceo-hunt-intensifies/articleshow/134253758.cms",
+          "title": "Yes Bank shares jump 4% as Citi, Morgan Stanley see lender as key beneficiary of new UPI charges. Earnings boost ahead?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-shares-jump-4-as-citi-morgan-stanley-see-lender-as-key-beneficiary-of-new-upi-charges-earnings-boost-ahead/articleshow/134278712.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in SBIN."
+        },
+        {
+          "title": "Buy City Union Bank; target of Rs 170: ICICI Securities",
+          "url": "https://www.moneycontrol.com/news/recommendations/buy-city-union-bank-targetrs-170-icici-securities_17531361.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for SBIN."
         }
       ],
       "history": [
-        {
-          "date": "2021-09-15",
-          "close": 406.01
-        },
         {
           "date": "2021-09-16",
           "close": 424.17
@@ -30929,7 +30943,7 @@
         },
         {
           "date": "2022-09-16",
-          "close": 521.93
+          "close": 521.92
         },
         {
           "date": "2022-09-19",
@@ -31521,7 +31535,7 @@
         },
         {
           "date": "2023-04-25",
-          "close": 521.93
+          "close": 521.92
         },
         {
           "date": "2023-04-26",
@@ -31585,7 +31599,7 @@
         },
         {
           "date": "2023-05-18",
-          "close": 533.45
+          "close": 533.44
         },
         {
           "date": "2023-05-19",
@@ -31905,7 +31919,7 @@
         },
         {
           "date": "2023-09-11",
-          "close": 560.39
+          "close": 560.38
         },
         {
           "date": "2023-09-12",
@@ -32493,7 +32507,7 @@
         },
         {
           "date": "2024-04-22",
-          "close": 725.55
+          "close": 725.56
         },
         {
           "date": "2024-04-23",
@@ -34884,8 +34898,16 @@
           "close": 995.7
         },
         {
+          "date": "2026-09-14",
+          "close": 995.7
+        },
+        {
           "date": "2026-09-15",
           "close": 968.0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 991.4
         }
       ],
       "pattern_dates": []
@@ -34897,12 +34919,14 @@
       "top_signals": [
         "No significant technical or sentiment signals."
       ],
-      "news": [],
-      "history": [
+      "news": [
         {
-          "date": "2021-09-15",
-          "close": 170.08
-        },
+          "title": "Patanjali Foods share price rises 5% today. What is driving the rally in the FMCG stock?",
+          "url": "https://www.livemint.com/market/stock-market-news/patanjali-foods-share-price-rises-5-today-what-is-driving-the-rally-in-the-fmcg-stock-11789544526204.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ITC."
+        }
+      ],
+      "history": [
         {
           "date": "2021-09-16",
           "close": 181.69
@@ -39856,8 +39880,16 @@
           "close": 259.85
         },
         {
+          "date": "2026-09-14",
+          "close": 259.85
+        },
+        {
           "date": "2026-09-15",
           "close": 258.0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 264.15
         }
       ],
       "pattern_dates": []
@@ -39869,12 +39901,14 @@
       "top_signals": [
         "No significant technical or sentiment signals."
       ],
-      "news": [],
-      "history": [
+      "news": [
         {
-          "date": "2021-09-15",
-          "close": 2544.9
-        },
+          "title": "Patanjali Foods share price rises 5% today. What is driving the rally in the FMCG stock?",
+          "url": "https://www.livemint.com/market/stock-market-news/patanjali-foods-share-price-rises-5-today-what-is-driving-the-rally-in-the-fmcg-stock-11789544526204.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HINDUNILVR."
+        }
+      ],
+      "history": [
         {
           "date": "2021-09-16",
           "close": 2538.3
@@ -40029,7 +40063,7 @@
         },
         {
           "date": "2021-11-11",
-          "close": 2192.2
+          "close": 2192.21
         },
         {
           "date": "2021-11-12",
@@ -40085,7 +40119,7 @@
         },
         {
           "date": "2021-12-02",
-          "close": 2198.75
+          "close": 2198.76
         },
         {
           "date": "2021-12-03",
@@ -40145,7 +40179,7 @@
         },
         {
           "date": "2021-12-23",
-          "close": 2122.5
+          "close": 2122.51
         },
         {
           "date": "2021-12-24",
@@ -40445,7 +40479,7 @@
         },
         {
           "date": "2022-04-12",
-          "close": 1967.15
+          "close": 1967.14
         },
         {
           "date": "2022-04-13",
@@ -40501,7 +40535,7 @@
         },
         {
           "date": "2022-05-05",
-          "close": 1998.83
+          "close": 1998.84
         },
         {
           "date": "2022-05-06",
@@ -40517,7 +40551,7 @@
         },
         {
           "date": "2022-05-11",
-          "close": 1995.97
+          "close": 1995.98
         },
         {
           "date": "2022-05-12",
@@ -40569,7 +40603,7 @@
         },
         {
           "date": "2022-05-30",
-          "close": 2167.06
+          "close": 2167.07
         },
         {
           "date": "2022-05-31",
@@ -40769,7 +40803,7 @@
         },
         {
           "date": "2022-08-08",
-          "close": 2466.71
+          "close": 2466.72
         },
         {
           "date": "2022-08-10",
@@ -41121,7 +41155,7 @@
         },
         {
           "date": "2022-12-16",
-          "close": 2502.9
+          "close": 2502.89
         },
         {
           "date": "2022-12-19",
@@ -41149,7 +41183,7 @@
         },
         {
           "date": "2022-12-27",
-          "close": 2429.77
+          "close": 2429.76
         },
         {
           "date": "2022-12-28",
@@ -41193,7 +41227,7 @@
         },
         {
           "date": "2023-01-11",
-          "close": 2429.77
+          "close": 2429.76
         },
         {
           "date": "2023-01-12",
@@ -41385,7 +41419,7 @@
         },
         {
           "date": "2023-03-22",
-          "close": 2320.24
+          "close": 2320.23
         },
         {
           "date": "2023-03-23",
@@ -41805,7 +41839,7 @@
         },
         {
           "date": "2023-08-25",
-          "close": 2421.56
+          "close": 2421.55
         },
         {
           "date": "2023-08-28",
@@ -44824,8 +44858,16 @@
           "close": 1927.0
         },
         {
+          "date": "2026-09-14",
+          "close": 1927.0
+        },
+        {
           "date": "2026-09-15",
           "close": 1938.1
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1962.0
         }
       ],
       "pattern_dates": []
@@ -44833,48 +44875,48 @@
   ],
   "top_gainers": [
     {
-      "ticker": "INFY.NS",
-      "change": "+3.79%"
+      "ticker": "SBIN.NS",
+      "change": "+2.42%"
     },
     {
-      "ticker": "TCS.NS",
-      "change": "+2.28%"
-    },
-    {
-      "ticker": "HDFCBANK.NS",
-      "change": "+1.17%"
+      "ticker": "ITC.NS",
+      "change": "+2.38%"
     },
     {
       "ticker": "HINDUNILVR.NS",
-      "change": "+0.58%"
+      "change": "+1.23%"
     },
     {
-      "ticker": "BHARTIARTL.NS",
-      "change": "-0.04%"
+      "ticker": "HDFCBANK.NS",
+      "change": "+0.69%"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "change": "+0.62%"
     }
   ],
   "top_losers": [
     {
-      "ticker": "SBIN.NS",
-      "change": "-2.78%"
+      "ticker": "TCS.NS",
+      "change": "-2.76%"
     },
     {
-      "ticker": "ICICIBANK.NS",
-      "change": "-2.10%"
-    },
-    {
-      "ticker": "RELIANCE.NS",
-      "change": "-1.77%"
-    },
-    {
-      "ticker": "ITC.NS",
-      "change": "-0.71%"
+      "ticker": "INFY.NS",
+      "change": "-1.58%"
     },
     {
       "ticker": "BHARTIARTL.NS",
-      "change": "-0.04%"
+      "change": "+0.25%"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "change": "+0.38%"
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "change": "+0.62%"
     }
   ],
-  "accuracy_note": "Yesterday's morning call accuracy was 51.4% based on 35 tracked signals.",
-  "market_close_summary": "The Indian equity market slipped downward today, with the benchmark Nifty 50 closing at 23,118.60 (-1.19%). Stock movements within our watchlist were led by **INFY** which climbed **+3.79%**, while **SBIN** witnessed profit booking, shedding **-2.78%**. \n\n### \ud83d\udcf0 Corporate News & Deals Flow:\n- \ud83d\udfe2 **Supportive flows:** How to trade HDFC Bank shares? Here\u2019s what technical analysts are saying as lender hunts for new CEO\n- \ud83d\udd34 **Macro pressures:** US market today: S&amp;P 500, Nasdaq futures edge lower as oil, yields rise ahead of Fed decision\n- \ud83d\udfe2 **Sector sentiment:** Buy HDFC Bank; target of Rs 1,850: ICICI Securities\n- \ud83d\udd34 **Earnings/Corporate actions:** US market today: S&amp;P 500, Nasdaq futures edge lower as oil, yields rise ahead of Fed decision\n\n### \ud83d\udcca Technical Breakouts & Chart Movements:\n- \ud83d\udcc9 **Bearish breakdowns:** RELIANCE (Chart Pattern: breakdown support), ICICIBANK (Chart Pattern: breakdown support)\n"
+  "accuracy_note": "Yesterday's morning call accuracy was 52.2% based on 69 tracked signals.",
+  "market_close_summary": "The Indian equity market surged upward today, with the benchmark Nifty 50 closing at 23,217.60 (+0.43%). Stock movements within our watchlist were led by **SBIN** which climbed **+2.42%**, while **TCS** witnessed profit booking, shedding **-2.76%**. \n\n### \ud83d\udcf0 Corporate News & Deals Flow:\n- \ud83d\udd34 **Macro pressures:** Market wrap: SBI, HDFC Life, TCS, Infosys top gainers and losers on Nifty and Sensex on Thursday\n\n### \ud83d\udcca Technical Breakouts & Chart Movements:\n- \ud83d\udcc9 **Bearish breakdowns:** TCS (Chart Pattern: double top)\n"
 }
