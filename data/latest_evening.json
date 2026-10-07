@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T16:54:40",
+  "timestamp": "2026-10-07T17:31:32",
   "market_wide_sentiment": {
     "label": "neutral",
     "confidence": 1.0
@@ -7,33 +7,24 @@
   "watchlist": [
     {
       "ticker": "RELIANCE.NS",
-      "sentiment": "bullish",
-      "confidence": 0.24,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.90)"
+        "No significant technical or sentiment signals."
       ],
       "news": [
-        {
-          "title": "Jio Platforms is said to seek about $114 billion valuation in IPO",
-          "url": "https://www.livemint.com/market/ipo/jio-platforms-ipo-valuation-size-price-details-11791273851903.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
-        },
-        {
-          "title": "Reliance Industries shares gain 3% as JIO IPO inches closer; Jefferies increases weight in conglomerate",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-industries-shares-gain-3-as-jio-ipo-inches-closer-jefferies-increases-weight-in-conglomerate/articleshow/134738865.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for RELIANCE."
-        },
         {
           "title": "Reduce Aditya Birla Fashion and Retail; target of Rs 230: Emkay Global Financial",
           "url": "https://www.moneycontrol.com/news/recommendations/reduce-aditya-birla-fashionretail-targetrs-230-emkay-global-financial_17531571.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
+        },
+        {
+          "title": "Trent\u2019s Rs 1.80 lakh crore rout from peak: Has Q2 just flipped the script for Tata group\u2019s retail crown jewel?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/trents-rs-1-80-lakh-crore-rout-from-peak-has-q2-just-flipped-the-script-for-tata-groups-retail-crown-jewel/articleshow/134758918.cms",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 1159.4
-        },
         {
           "date": "2021-10-07",
           "close": 1165.09
@@ -708,7 +699,7 @@
         },
         {
           "date": "2022-06-13",
-          "close": 1206.07
+          "close": 1206.08
         },
         {
           "date": "2022-06-14",
@@ -1560,7 +1551,7 @@
         },
         {
           "date": "2023-04-24",
-          "close": 1071.46
+          "close": 1071.47
         },
         {
           "date": "2023-04-25",
@@ -1952,7 +1943,7 @@
         },
         {
           "date": "2023-09-12",
-          "close": 1204.9
+          "close": 1204.89
         },
         {
           "date": "2023-09-13",
@@ -2068,7 +2059,7 @@
         },
         {
           "date": "2023-10-26",
-          "close": 1099.99
+          "close": 1099.98
         },
         {
           "date": "2023-10-27",
@@ -2512,7 +2503,7 @@
         },
         {
           "date": "2024-04-10",
-          "close": 1461.95
+          "close": 1461.94
         },
         {
           "date": "2024-04-12",
@@ -3740,7 +3731,7 @@
         },
         {
           "date": "2025-07-08",
-          "close": 1524.44
+          "close": 1524.43
         },
         {
           "date": "2025-07-09",
@@ -4993,29 +4984,34 @@
         {
           "date": "2026-10-06",
           "close": 1218.0
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1207.7
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "TCS.NS",
-      "sentiment": "bullish",
-      "confidence": 0.24,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.90)"
+        "No significant technical or sentiment signals."
       ],
       "news": [
         {
-          "title": "Hang Seng index rallies 1%, extends gains for second day as tech stocks support sentiment - What to watch next",
-          "url": "https://www.livemint.com/market/stock-market-news/hang-seng-index-rallies-1-extends-gains-for-second-day-as-tech-stocks-support-sentiment-what-to-watch-next-11791285576037.html",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for TCS."
+          "title": "TCS Q2 results 2026: Expectations, date and time, dividend announcement schedule, quarterly earnings preview",
+          "url": "https://www.livemint.com/market/stock-market-news/tcs-q2-results-2026-expectations-date-and-time-dividend-announcement-schedule-quarterly-earnings-preview-11791374439363.html",
+          "inference": "Mixed financial results are likely to keep TCS consolidating within a range as investors assess the full numbers."
+        },
+        {
+          "title": "Eternal vs TCS shares: Zomato parent\u2019s weightage more than IT giant in Nifty 50 | Should you buy?",
+          "url": "https://www.livemint.com/market/eternal-vs-tcs-shares-zomato-parent-s-weightage-more-than-it-giant-in-nifty-50-should-you-buy-11791368188227.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for TCS."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 3310.52
-        },
         {
           "date": "2021-10-07",
           "close": 3381.76
@@ -5074,7 +5070,7 @@
         },
         {
           "date": "2021-10-28",
-          "close": 2978.08
+          "close": 2978.09
         },
         {
           "date": "2021-10-29",
@@ -5434,7 +5430,7 @@
         },
         {
           "date": "2022-03-09",
-          "close": 3167.24
+          "close": 3167.25
         },
         {
           "date": "2022-03-10",
@@ -5530,7 +5526,7 @@
         },
         {
           "date": "2022-04-13",
-          "close": 3192.84
+          "close": 3192.83
         },
         {
           "date": "2022-04-18",
@@ -5598,7 +5594,7 @@
         },
         {
           "date": "2022-05-11",
-          "close": 2974.9
+          "close": 2974.91
         },
         {
           "date": "2022-05-12",
@@ -5710,7 +5706,7 @@
         },
         {
           "date": "2022-06-20",
-          "close": 2731.96
+          "close": 2731.97
         },
         {
           "date": "2022-06-21",
@@ -5738,7 +5734,7 @@
         },
         {
           "date": "2022-06-29",
-          "close": 2888.29
+          "close": 2888.3
         },
         {
           "date": "2022-06-30",
@@ -5854,7 +5850,7 @@
         },
         {
           "date": "2022-08-10",
-          "close": 2952.02
+          "close": 2952.03
         },
         {
           "date": "2022-08-11",
@@ -6030,7 +6026,7 @@
         },
         {
           "date": "2022-10-14",
-          "close": 2727.52
+          "close": 2727.51
         },
         {
           "date": "2022-10-17",
@@ -6174,7 +6170,7 @@
         },
         {
           "date": "2022-12-07",
-          "close": 2982.92
+          "close": 2982.91
         },
         {
           "date": "2022-12-08",
@@ -6574,7 +6570,7 @@
         },
         {
           "date": "2023-05-05",
-          "close": 2915.45
+          "close": 2915.44
         },
         {
           "date": "2023-05-08",
@@ -6770,7 +6766,7 @@
         },
         {
           "date": "2023-07-14",
-          "close": 3195.28
+          "close": 3195.27
         },
         {
           "date": "2023-07-17",
@@ -7038,7 +7034,7 @@
         },
         {
           "date": "2023-10-20",
-          "close": 3193.51
+          "close": 3193.5
         },
         {
           "date": "2023-10-23",
@@ -7082,7 +7078,7 @@
         },
         {
           "date": "2023-11-07",
-          "close": 3080.1
+          "close": 3080.09
         },
         {
           "date": "2023-11-08",
@@ -7818,7 +7814,7 @@
         },
         {
           "date": "2024-08-09",
-          "close": 3928.77
+          "close": 3928.76
         },
         {
           "date": "2024-08-12",
@@ -7862,7 +7858,7 @@
         },
         {
           "date": "2024-08-27",
-          "close": 4178.12
+          "close": 4178.13
         },
         {
           "date": "2024-08-28",
@@ -8358,7 +8354,7 @@
         },
         {
           "date": "2025-02-20",
-          "close": 3584.62
+          "close": 3584.63
         },
         {
           "date": "2025-02-21",
@@ -8410,7 +8406,7 @@
         },
         {
           "date": "2025-03-12",
-          "close": 3325.51
+          "close": 3325.5
         },
         {
           "date": "2025-03-13",
@@ -8958,7 +8954,7 @@
         },
         {
           "date": "2025-10-01",
-          "close": 2798.04
+          "close": 2798.05
         },
         {
           "date": "2025-10-03",
@@ -9242,11 +9238,11 @@
         },
         {
           "date": "2026-01-14",
-          "close": 3076.69
+          "close": 3076.68
         },
         {
           "date": "2026-01-15",
-          "close": 3076.69
+          "close": 3076.68
         },
         {
           "date": "2026-01-16",
@@ -9975,34 +9971,29 @@
         {
           "date": "2026-10-06",
           "close": 2100.0
+        },
+        {
+          "date": "2026-10-07",
+          "close": 2080.3
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "INFY.NS",
-      "sentiment": "bullish",
-      "confidence": 0.24,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.91)"
+        "No significant technical or sentiment signals."
       ],
       "news": [
         {
           "title": "Accumulate Infosys; target of Rs 1531: KR Choksey",
           "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for INFY."
-        },
-        {
-          "title": "Hang Seng index rallies 1%, extends gains for second day as tech stocks support sentiment - What to watch next",
-          "url": "https://www.livemint.com/market/stock-market-news/hang-seng-index-rallies-1-extends-gains-for-second-day-as-tech-stocks-support-sentiment-what-to-watch-next-11791285576037.html",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for INFY."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 1457.62
-        },
         {
           "date": "2021-10-07",
           "close": 1472.81
@@ -10861,7 +10852,7 @@
         },
         {
           "date": "2022-08-18",
-          "close": 1405.66
+          "close": 1405.65
         },
         {
           "date": "2022-08-19",
@@ -11317,7 +11308,7 @@
         },
         {
           "date": "2023-02-01",
-          "close": 1392.43
+          "close": 1392.42
         },
         {
           "date": "2023-02-02",
@@ -11369,7 +11360,7 @@
         },
         {
           "date": "2023-02-20",
-          "close": 1429.55
+          "close": 1429.54
         },
         {
           "date": "2023-02-21",
@@ -11965,7 +11956,7 @@
         },
         {
           "date": "2023-09-28",
-          "close": 1309.56
+          "close": 1309.57
         },
         {
           "date": "2023-09-29",
@@ -14962,6 +14953,10 @@
         {
           "date": "2026-10-06",
           "close": 1013.85
+        },
+        {
+          "date": "2026-10-07",
+          "close": 992.0
         }
       ],
       "pattern_dates": []
@@ -14975,26 +14970,22 @@
       ],
       "news": [
         {
-          "title": "Utkarsh Small Finance Bank Q2 disbursements jump 55% YoY to Rs 3,525 crore; loan portfolio rises over 7%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/utkarsh-small-finance-bank-q2-disbursements-jump-55-yoy-to-rs-3525-crore-loan-portfolio-rises-over-7/articleshow/134741617.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for HDFCBANK."
+          "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are \u2018off the table\u2019",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-motors-pv-maruti-suzuki-ashok-leyland-auto-stocks-drop-up-to-3-as-rbi-signals-rate-cuts-are-off-the-table/articleshow/134760101.cms",
+          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for HDFCBANK."
         },
         {
-          "title": "Indian banks face a Q2 paradox: FCNR boosts loan growth but margins shrink",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-banks-face-a-q2-paradox-fcnr-boosts-loan-growth-but-margins-shrink/articleshow/134728309.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for HDFCBANK."
+          "title": "HDFC Bank shares drop 15% in 3 months since Q1 results. Will Q2 earnings bring redemption as leadership cloud clears?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-drop-15-in-3-months-since-q1-results-will-q2-earnings-bring-redemption-as-leadership-cloud-clears/articleshow/134758819.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on HDFCBANK's stock valuation."
         },
         {
-          "title": "Up to 52% upside - Jindal SAW, SBI Life, ICICI Bank shares | 360 ONE's 21 biggest bets for investors - Check full list",
-          "url": "https://www.livemint.com/market/stock-market-news/up-to-52-upside-jindal-saw-sbi-life-icici-bank-shares-360-ones21-biggest-bets-for-investors-check-full-list-11791271707802.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+          "title": "Margin boost: Jefferies picks 3 bank stocks to gain the most from RBI rate hikes",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/margin-boost-jefferies-picks-3-bank-stocks-to-gain-the-most-from-rbi-rate-hikes/articleshow/134766677.cms",
+          "inference": "Favorable macroeconomic conditions or regulatory updates present a supportive backdrop for HDFCBANK's price action."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 755.61
-        },
         {
           "date": "2021-10-07",
           "close": 753.55
@@ -16253,7 +16244,7 @@
         },
         {
           "date": "2023-01-11",
-          "close": 753.03
+          "close": 753.04
         },
         {
           "date": "2023-01-12",
@@ -16725,7 +16716,7 @@
         },
         {
           "date": "2023-07-06",
-          "close": 801.94
+          "close": 801.93
         },
         {
           "date": "2023-07-07",
@@ -19954,6 +19945,10 @@
         {
           "date": "2026-10-06",
           "close": 711.45
+        },
+        {
+          "date": "2026-10-07",
+          "close": 702.75
         }
       ],
       "pattern_dates": []
@@ -19967,26 +19962,22 @@
       ],
       "news": [
         {
-          "title": "Utkarsh Small Finance Bank Q2 disbursements jump 55% YoY to Rs 3,525 crore; loan portfolio rises over 7%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/utkarsh-small-finance-bank-q2-disbursements-jump-55-yoy-to-rs-3525-crore-loan-portfolio-rises-over-7/articleshow/134741617.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for ICICIBANK."
+          "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are \u2018off the table\u2019",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-motors-pv-maruti-suzuki-ashok-leyland-auto-stocks-drop-up-to-3-as-rbi-signals-rate-cuts-are-off-the-table/articleshow/134760101.cms",
+          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for ICICIBANK."
         },
         {
-          "title": "Indian banks face a Q2 paradox: FCNR boosts loan growth but margins shrink",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-banks-face-a-q2-paradox-fcnr-boosts-loan-growth-but-margins-shrink/articleshow/134728309.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for ICICIBANK."
+          "title": "HDFC Bank shares drop 15% in 3 months since Q1 results. Will Q2 earnings bring redemption as leadership cloud clears?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-drop-15-in-3-months-since-q1-results-will-q2-earnings-bring-redemption-as-leadership-cloud-clears/articleshow/134758819.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on ICICIBANK's stock valuation."
         },
         {
-          "title": "Sell Indus Tower; target of Rs 260: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/sell-indus-tower-targetrs-260-icici-securities_17531381.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+          "title": "Margin boost: Jefferies picks 3 bank stocks to gain the most from RBI rate hikes",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/margin-boost-jefferies-picks-3-bank-stocks-to-gain-the-most-from-rbi-rate-hikes/articleshow/134766677.cms",
+          "inference": "Favorable macroeconomic conditions or regulatory updates present a supportive backdrop for ICICIBANK's price action."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 663.24
-        },
         {
           "date": "2021-10-07",
           "close": 675.45
@@ -22637,7 +22628,7 @@
         },
         {
           "date": "2024-06-14",
-          "close": 1078.73
+          "close": 1078.72
         },
         {
           "date": "2024-06-18",
@@ -24946,6 +24937,10 @@
         {
           "date": "2026-10-06",
           "close": 1342.8
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1357.5
         }
       ],
       "pattern_dates": []
@@ -24955,14 +24950,10 @@
       "sentiment": "neutral",
       "confidence": 1.0,
       "top_signals": [
-        "No significant technical or sentiment signals."
+        "High trading volume anomaly detected (>2x avg)"
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 667.35
-        },
         {
           "date": "2021-10-07",
           "close": 668.41
@@ -29922,6 +29913,10 @@
         {
           "date": "2026-10-06",
           "close": 1810.5
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1833.9
         }
       ],
       "pattern_dates": []
@@ -29935,26 +29930,22 @@
       ],
       "news": [
         {
-          "title": "Utkarsh Small Finance Bank Q2 disbursements jump 55% YoY to Rs 3,525 crore; loan portfolio rises over 7%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/utkarsh-small-finance-bank-q2-disbursements-jump-55-yoy-to-rs-3525-crore-loan-portfolio-rises-over-7/articleshow/134741617.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for SBIN."
+          "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are \u2018off the table\u2019",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-motors-pv-maruti-suzuki-ashok-leyland-auto-stocks-drop-up-to-3-as-rbi-signals-rate-cuts-are-off-the-table/articleshow/134760101.cms",
+          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for SBIN."
         },
         {
-          "title": "Indian banks face a Q2 paradox: FCNR boosts loan growth but margins shrink",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-banks-face-a-q2-paradox-fcnr-boosts-loan-growth-but-margins-shrink/articleshow/134728309.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for SBIN."
+          "title": "HDFC Bank shares drop 15% in 3 months since Q1 results. Will Q2 earnings bring redemption as leadership cloud clears?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-drop-15-in-3-months-since-q1-results-will-q2-earnings-bring-redemption-as-leadership-cloud-clears/articleshow/134758819.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on SBIN's stock valuation."
         },
         {
-          "title": "Up to 52% upside - Jindal SAW, SBI Life, ICICI Bank shares | 360 ONE's 21 biggest bets for investors - Check full list",
-          "url": "https://www.livemint.com/market/stock-market-news/up-to-52-upside-jindal-saw-sbi-life-icici-bank-shares-360-ones21-biggest-bets-for-investors-check-full-list-11791271707802.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for SBIN."
+          "title": "Margin boost: Jefferies picks 3 bank stocks to gain the most from RBI rate hikes",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/margin-boost-jefferies-picks-3-bank-stocks-to-gain-the-most-from-rbi-rate-hikes/articleshow/134766677.cms",
+          "inference": "Favorable macroeconomic conditions or regulatory updates present a supportive backdrop for SBIN's price action."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 418.22
-        },
         {
           "date": "2021-10-07",
           "close": 418.86
@@ -29977,7 +29968,7 @@
         },
         {
           "date": "2021-10-14",
-          "close": 448.77
+          "close": 448.78
         },
         {
           "date": "2021-10-18",
@@ -30401,7 +30392,7 @@
         },
         {
           "date": "2022-03-21",
-          "close": 448.77
+          "close": 448.78
         },
         {
           "date": "2022-03-22",
@@ -30893,7 +30884,7 @@
         },
         {
           "date": "2022-09-16",
-          "close": 521.92
+          "close": 521.93
         },
         {
           "date": "2022-09-19",
@@ -31485,7 +31476,7 @@
         },
         {
           "date": "2023-04-25",
-          "close": 521.92
+          "close": 521.93
         },
         {
           "date": "2023-04-26",
@@ -31869,7 +31860,7 @@
         },
         {
           "date": "2023-09-11",
-          "close": 560.38
+          "close": 560.39
         },
         {
           "date": "2023-09-12",
@@ -32457,7 +32448,7 @@
         },
         {
           "date": "2024-04-22",
-          "close": 725.56
+          "close": 725.55
         },
         {
           "date": "2024-04-23",
@@ -34914,29 +34905,29 @@
         {
           "date": "2026-10-06",
           "close": 958.75
+        },
+        {
+          "date": "2026-10-07",
+          "close": 954.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "ITC.NS",
-      "sentiment": "bullish",
-      "confidence": 0.26,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.95)"
+        "High trading volume anomaly detected (>2x avg)"
       ],
       "news": [
         {
-          "title": "Dabur shares rise 4% as firm sees double-digit Q2 growth; FMCG set for strong performance",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dabur-shares-rise-4-as-firm-sees-double-digit-q2-growth-fmcg-set-for-strong-performance/articleshow/134730433.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for ITC."
+          "title": "FMCG Q2FY27 preview: 6 stocks HDFC Sec likes; Honasa, Nestl\u00e9, Emami, Bikaji, Britannia, Godrej Consumer - check targets",
+          "url": "https://www.livemint.com/market/stock-market-news/fmcg-q2fy27-preview-6-stocks-hdfc-sec-likes-honasa-nestl-emami-bikaji-britannia-godrej-consumer-check-targets-11791369704771.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ITC."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 182.08
-        },
         {
           "date": "2021-10-07",
           "close": 183.42
@@ -39896,29 +39887,29 @@
         {
           "date": "2026-10-06",
           "close": 266.7
+        },
+        {
+          "date": "2026-10-07",
+          "close": 265.7
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "HINDUNILVR.NS",
-      "sentiment": "bullish",
-      "confidence": 0.26,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.95)"
+        "No significant technical or sentiment signals."
       ],
       "news": [
         {
-          "title": "Dabur shares rise 4% as firm sees double-digit Q2 growth; FMCG set for strong performance",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dabur-shares-rise-4-as-firm-sees-double-digit-q2-growth-fmcg-set-for-strong-performance/articleshow/134730433.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for HINDUNILVR."
+          "title": "FMCG Q2FY27 preview: 6 stocks HDFC Sec likes; Honasa, Nestl\u00e9, Emami, Bikaji, Britannia, Godrej Consumer - check targets",
+          "url": "https://www.livemint.com/market/stock-market-news/fmcg-q2fy27-preview-6-stocks-hdfc-sec-likes-honasa-nestl-emami-bikaji-britannia-godrej-consumer-check-targets-11791369704771.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HINDUNILVR."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-06",
-          "close": 2462.93
-        },
         {
           "date": "2021-10-07",
           "close": 2447.66
@@ -40129,7 +40120,7 @@
         },
         {
           "date": "2021-12-23",
-          "close": 2122.51
+          "close": 2122.5
         },
         {
           "date": "2021-12-24",
@@ -40429,7 +40420,7 @@
         },
         {
           "date": "2022-04-12",
-          "close": 1967.14
+          "close": 1967.15
         },
         {
           "date": "2022-04-13",
@@ -40753,7 +40744,7 @@
         },
         {
           "date": "2022-08-08",
-          "close": 2466.72
+          "close": 2466.71
         },
         {
           "date": "2022-08-10",
@@ -41105,7 +41096,7 @@
         },
         {
           "date": "2022-12-16",
-          "close": 2502.9
+          "close": 2502.89
         },
         {
           "date": "2022-12-19",
@@ -41593,7 +41584,7 @@
         },
         {
           "date": "2023-06-15",
-          "close": 2520.14
+          "close": 2520.13
         },
         {
           "date": "2023-06-16",
@@ -41817,7 +41808,7 @@
         },
         {
           "date": "2023-09-05",
-          "close": 2368.19
+          "close": 2368.18
         },
         {
           "date": "2023-09-06",
@@ -42233,7 +42224,7 @@
         },
         {
           "date": "2024-02-08",
-          "close": 2299.91
+          "close": 2299.92
         },
         {
           "date": "2024-02-09",
@@ -42301,7 +42292,7 @@
         },
         {
           "date": "2024-03-04",
-          "close": 2304.63
+          "close": 2304.62
         },
         {
           "date": "2024-03-05",
@@ -42549,7 +42540,7 @@
         },
         {
           "date": "2024-06-07",
-          "close": 2452.88
+          "close": 2452.87
         },
         {
           "date": "2024-06-10",
@@ -42569,7 +42560,7 @@
         },
         {
           "date": "2024-06-14",
-          "close": 2382.56
+          "close": 2382.57
         },
         {
           "date": "2024-06-18",
@@ -44878,6 +44869,10 @@
         {
           "date": "2026-10-06",
           "close": 1895.2
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1865.4
         }
       ],
       "pattern_dates": []
@@ -44885,48 +44880,48 @@
   ],
   "top_gainers": [
     {
-      "ticker": "HINDUNILVR.NS",
-      "change": "+3.09%"
-    },
-    {
-      "ticker": "RELIANCE.NS",
-      "change": "+2.66%"
-    },
-    {
       "ticker": "BHARTIARTL.NS",
-      "change": "+1.72%"
-    },
-    {
-      "ticker": "HDFCBANK.NS",
-      "change": "+0.94%"
+      "change": "+1.29%"
     },
     {
       "ticker": "ICICIBANK.NS",
-      "change": "+0.81%"
+      "change": "+1.09%"
+    },
+    {
+      "ticker": "ITC.NS",
+      "change": "-0.37%"
+    },
+    {
+      "ticker": "SBIN.NS",
+      "change": "-0.50%"
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "change": "-0.85%"
     }
   ],
   "top_losers": [
     {
-      "ticker": "ITC.NS",
-      "change": "-0.82%"
+      "ticker": "INFY.NS",
+      "change": "-2.16%"
+    },
+    {
+      "ticker": "HINDUNILVR.NS",
+      "change": "-1.57%"
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "change": "-1.22%"
     },
     {
       "ticker": "TCS.NS",
-      "change": "-0.68%"
+      "change": "-0.94%"
     },
     {
-      "ticker": "INFY.NS",
-      "change": "-0.65%"
-    },
-    {
-      "ticker": "SBIN.NS",
-      "change": "+0.08%"
-    },
-    {
-      "ticker": "ICICIBANK.NS",
-      "change": "+0.81%"
+      "ticker": "RELIANCE.NS",
+      "change": "-0.85%"
     }
   ],
-  "accuracy_note": "Yesterday's morning call accuracy was 41.7% based on 36 tracked signals.",
-  "market_close_summary": "The Indian equity market surged upward today, with the benchmark Nifty 50 closing at 22,776.10 (+0.98%). Stock movements within our watchlist were led by **HINDUNILVR** which climbed **+3.09%**, while **ITC** witnessed profit booking, shedding **-0.82%**. \n\n### \ud83d\udcf0 Corporate News & Deals Flow:\n- \ud83d\udfe2 **Supportive flows:** Jio Platforms is said to seek about $114 billion valuation in IPO\n- \ud83d\udfe2 **Sector sentiment:** Reliance Industries shares gain 3% as JIO IPO inches closer; Jefferies increases weight in conglomerate\n\n### \ud83d\udcca Technical Breakouts & Chart Movements:\n- Watchlist indicators stayed within averages, indicating consolidation and standard deviation support."
+  "accuracy_note": "Yesterday's morning call accuracy was 26.2% based on 65 tracked signals.",
+  "market_close_summary": "The Indian equity market slipped downward today, with the benchmark Nifty 50 closing at 22,603.05 (-0.76%). Stock movements within our watchlist were led by **BHARTIARTL** which climbed **+1.29%**, while **INFY** witnessed profit booking, shedding **-2.16%**. \n\n### \ud83d\udcf0 Corporate News & Deals Flow:\n- Normal trading volumes observed without major headline news announcements.\n\n### \ud83d\udcca Technical Breakouts & Chart Movements:\n- Watchlist indicators stayed within averages, indicating consolidation and standard deviation support."
 }
