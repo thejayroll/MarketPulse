@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T09:51:57",
+  "timestamp": "2026-10-14T08:09:08",
   "market_wide_sentiment": {
     "label": "neutral",
     "confidence": 1.0
@@ -8,32 +8,28 @@
     {
       "ticker": "RELIANCE.NS",
       "sentiment": "neutral",
-      "confidence": 1.0,
+      "confidence": 0.86,
       "top_signals": [
-        "No significant technical or sentiment signals."
+        "News Sentiment is bullish (conf: 0.78)"
       ],
       "news": [
         {
-          "title": "RIL target price ahead of Jio IPO: 47% upside - Why Religare recommends buying Mukesh Ambani stock before issue launch",
-          "url": "https://www.livemint.com/market/stock-market-news/ril-target-price-ahead-of-jio-ipo-47-upside-why-religare-recommends-buying-mukesh-ambani-stock-before-issue-launch-11791877937959.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
-        },
-        {
-          "title": "Jio IPO may trigger Reliance\u2019s next big re-rating. Why Religare sees 47% upside",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-may-trigger-reliances-next-big-re-rating-why-religare-sees-47-upside/articleshow/134910767.cms",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
+          "title": "SS Retail shares: Up 95% from IPO price, newly listed stock soars over 19% today on strong results: Check Q1 highlights",
+          "url": "https://www.livemint.com/market/stock-market-news/ss-retail-shares-up-95-from-ipo-price-newly-listed-stock-soars-over-19-today-on-strong-results-check-q1-highlights-11791953382198.html",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in RELIANCE."
         },
         {
           "title": "Reduce Aditya Birla Fashion and Retail; target of Rs 230: Emkay Global Financial",
           "url": "https://www.moneycontrol.com/news/recommendations/reduce-aditya-birla-fashionretail-targetrs-230-emkay-global-financial_17531571.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
+        },
+        {
+          "title": "Reliance Jio IPO RHP filing likely today; latest GMP jumps to  \u20b9219 - check expected share price band, size, valuation",
+          "url": "https://www.livemint.com/market/ipo/reliance-jio-ipo-rhp-filing-likely-today-latest-gmp-jumps-to-rs-219-check-expected-share-price-band-size-valuation-11791956423647.html",
+          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 1220.59
-        },
         {
           "date": "2021-10-14",
           "close": 1223.06
@@ -380,7 +376,7 @@
         },
         {
           "date": "2022-02-17",
-          "close": 1106.71
+          "close": 1106.7
         },
         {
           "date": "2022-02-18",
@@ -1432,7 +1428,7 @@
         },
         {
           "date": "2023-03-10",
-          "close": 1055.43
+          "close": 1055.42
         },
         {
           "date": "2023-03-13",
@@ -4967,8 +4963,16 @@
           "close": 1170.3
         },
         {
+          "date": "2026-10-12",
+          "close": 1158.9
+        },
+        {
           "date": "2026-10-13",
-          "close": 1167.8
+          "close": 1166.7
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1178.8
         }
       ],
       "pattern_dates": []
@@ -4979,4961 +4983,4970 @@
       "confidence": 0.99,
       "top_signals": [
         "Price is above upper Bollinger Bands",
-        "News Sentiment is bullish (conf: 0.93)",
+        "News Sentiment is bullish (conf: 0.85)",
         "High trading volume anomaly detected (>2x avg)"
       ],
       "news": [
         {
-          "title": "Rs 26,340 crore added in minutes! Why HCL Tech, TCS and other IT stocks rallied up to 7%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/rs-26340-crore-added-in-minutes-why-hcl-tech-tcs-and-other-it-stocks-rallied-up-to-7/articleshow/134908567.cms",
+          "title": "TCS shares rally 11% in a week: IT major poised for bigger recovery as \u2018Reverse AI Trade\u2019 gains momentum? Decoded",
+          "url": "https://www.livemint.com/market/stock-market-news/tcs-shares-rally-11-in-a-week-it-major-poised-for-bigger-recovery-as-reverse-ai-trade-gains-momentum-decoded-11791959961129.html",
           "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for TCS."
         },
         {
-          "title": "Dividend comparison: TCS, Tata Elxsi, Trent - Which Tata stock paid highest amount in FY26? What 9 firms disbursed",
-          "url": "https://www.livemint.com/market/stock-market-news/dividend-comparison-tcs-tata-elxsi-trent-which-tata-stock-paid-highest-amount-in-fy26-what-9-firms-disbursed-11791875007417.html",
-          "inference": "Mixed financial results are likely to keep TCS consolidating within a range as investors assess the full numbers."
+          "title": "Wipro Q2 Results Preview: After TCS &amp; HCL Tech, will this IT major exceed expectations?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/wipro-q2-results-preview-after-tcs-hcl-tech-will-this-it-major-exceed-expectations/articleshow/134933154.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in TCS."
+        },
+        {
+          "title": "TCS share price rebounds 14% from September low: Can the rally extend further?",
+          "url": "https://www.livemint.com/market/stock-market-news/tcs-share-price-rebounds-14-from-september-low-can-the-rally-extend-further-11791959658391.html",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for TCS."
         }
       ],
       "history": [
         {
-          "date": "2021-10-13",
-          "close": 3175.27
-        },
-        {
           "date": "2021-10-14",
-          "close": 3143.28
+          "close": 3126.66
         },
         {
           "date": "2021-10-18",
-          "close": 3174.35
+          "close": 3157.57
         },
         {
           "date": "2021-10-19",
-          "close": 3163.04
+          "close": 3146.31
         },
         {
           "date": "2021-10-20",
-          "close": 3141.02
+          "close": 3124.41
         },
         {
           "date": "2021-10-21",
-          "close": 3074.57
+          "close": 3058.31
         },
         {
           "date": "2021-10-22",
-          "close": 3045.28
+          "close": 3029.17
         },
         {
           "date": "2021-10-25",
-          "close": 3040.14
+          "close": 3024.07
         },
         {
           "date": "2021-10-26",
-          "close": 3031.13
+          "close": 3015.11
         },
         {
           "date": "2021-10-27",
-          "close": 3037.36
+          "close": 3021.3
         },
         {
           "date": "2021-10-28",
-          "close": 2978.09
+          "close": 2962.34
         },
         {
           "date": "2021-10-29",
-          "close": 2957.28
+          "close": 2941.65
         },
         {
           "date": "2021-11-01",
-          "close": 3025.74
+          "close": 3009.74
         },
         {
           "date": "2021-11-02",
-          "close": 3032.53
+          "close": 3016.49
         },
         {
           "date": "2021-11-03",
-          "close": 3039.53
+          "close": 3023.46
         },
         {
           "date": "2021-11-04",
-          "close": 3053.81
+          "close": 3037.66
         },
         {
           "date": "2021-11-08",
-          "close": 3048.67
+          "close": 3032.55
         },
         {
           "date": "2021-11-09",
-          "close": 3051.24
+          "close": 3035.1
         },
         {
           "date": "2021-11-10",
-          "close": 3032.61
+          "close": 3016.58
         },
         {
           "date": "2021-11-11",
-          "close": 3036.01
+          "close": 3019.95
         },
         {
           "date": "2021-11-12",
-          "close": 3068.95
+          "close": 3052.72
         },
         {
           "date": "2021-11-15",
-          "close": 3092.67
+          "close": 3076.32
         },
         {
           "date": "2021-11-16",
-          "close": 3095.37
+          "close": 3079.0
         },
         {
           "date": "2021-11-17",
-          "close": 3065.34
+          "close": 3049.13
         },
         {
           "date": "2021-11-18",
-          "close": 3025.13
+          "close": 3009.13
         },
         {
           "date": "2021-11-22",
-          "close": 3010.07
+          "close": 2994.15
         },
         {
           "date": "2021-11-23",
-          "close": 3015.16
+          "close": 2999.22
         },
         {
           "date": "2021-11-24",
-          "close": 2996.93
+          "close": 2981.08
         },
         {
           "date": "2021-11-25",
-          "close": 2999.19
+          "close": 2983.33
         },
         {
           "date": "2021-11-26",
-          "close": 3000.02
+          "close": 2984.16
         },
         {
           "date": "2021-11-29",
-          "close": 3048.02
+          "close": 3031.9
         },
         {
           "date": "2021-11-30",
-          "close": 3071.65
+          "close": 3055.41
         },
         {
           "date": "2021-12-01",
-          "close": 3113.99
+          "close": 3097.53
         },
         {
           "date": "2021-12-02",
-          "close": 3170.65
+          "close": 3153.89
         },
         {
           "date": "2021-12-03",
-          "close": 3168.52
+          "close": 3151.77
         },
         {
           "date": "2021-12-06",
-          "close": 3077.96
+          "close": 3061.68
         },
         {
           "date": "2021-12-07",
-          "close": 3119.82
+          "close": 3103.33
         },
         {
           "date": "2021-12-08",
-          "close": 3156.73
+          "close": 3140.03
         },
         {
           "date": "2021-12-09",
-          "close": 3134.84
+          "close": 3118.26
         },
         {
           "date": "2021-12-10",
-          "close": 3165.34
+          "close": 3148.61
         },
         {
           "date": "2021-12-13",
-          "close": 3141.71
+          "close": 3125.1
         },
         {
           "date": "2021-12-14",
-          "close": 3154.03
+          "close": 3137.35
         },
         {
           "date": "2021-12-15",
-          "close": 3107.51
+          "close": 3091.08
         },
         {
           "date": "2021-12-16",
-          "close": 3117.3
+          "close": 3100.82
         },
         {
           "date": "2021-12-17",
-          "close": 3119.69
+          "close": 3103.2
         },
         {
           "date": "2021-12-20",
-          "close": 3095.8
+          "close": 3079.43
         },
         {
           "date": "2021-12-21",
-          "close": 3140.54
+          "close": 3123.93
         },
         {
           "date": "2021-12-22",
-          "close": 3160.08
+          "close": 3143.37
         },
         {
           "date": "2021-12-23",
-          "close": 3187.89
+          "close": 3171.03
         },
         {
           "date": "2021-12-24",
-          "close": 3195.02
+          "close": 3178.13
         },
         {
           "date": "2021-12-27",
-          "close": 3216.96
+          "close": 3199.95
         },
         {
           "date": "2021-12-28",
-          "close": 3226.05
+          "close": 3208.99
         },
         {
           "date": "2021-12-29",
-          "close": 3215.74
+          "close": 3198.73
         },
         {
           "date": "2021-12-30",
-          "close": 3249.73
+          "close": 3232.54
         },
         {
           "date": "2021-12-31",
-          "close": 3253.73
+          "close": 3236.52
         },
         {
           "date": "2022-01-03",
-          "close": 3322.84
+          "close": 3305.27
         },
         {
           "date": "2022-01-04",
-          "close": 3381.15
+          "close": 3363.27
         },
         {
           "date": "2022-01-05",
-          "close": 3360.44
+          "close": 3342.67
         },
         {
           "date": "2022-01-06",
-          "close": 3313.87
+          "close": 3296.35
         },
         {
           "date": "2022-01-07",
-          "close": 3353.95
+          "close": 3336.22
         },
         {
           "date": "2022-01-10",
-          "close": 3376.89
+          "close": 3359.03
         },
         {
           "date": "2022-01-11",
-          "close": 3408.26
+          "close": 3390.24
         },
         {
           "date": "2022-01-12",
-          "close": 3359.52
+          "close": 3341.76
         },
         {
           "date": "2022-01-13",
-          "close": 3392.6
+          "close": 3374.66
         },
         {
           "date": "2022-01-14",
-          "close": 3453.74
+          "close": 3435.48
         },
         {
           "date": "2022-01-17",
-          "close": 3498.13
+          "close": 3479.63
         },
         {
           "date": "2022-01-18",
-          "close": 3473.28
+          "close": 3454.91
         },
         {
           "date": "2022-01-19",
-          "close": 3413.16
+          "close": 3395.11
         },
         {
           "date": "2022-01-20",
-          "close": 3336.35
+          "close": 3318.71
         },
         {
           "date": "2022-01-21",
-          "close": 3342.41
+          "close": 3324.73
         },
         {
           "date": "2022-01-24",
-          "close": 3288.22
+          "close": 3270.83
         },
         {
           "date": "2022-01-25",
-          "close": 3286.96
+          "close": 3269.57
         },
         {
           "date": "2022-01-27",
-          "close": 3181.76
+          "close": 3164.94
         },
         {
           "date": "2022-01-28",
-          "close": 3217.34
+          "close": 3200.32
         },
         {
           "date": "2022-01-31",
-          "close": 3257.62
+          "close": 3240.39
         },
         {
           "date": "2022-02-01",
-          "close": 3313.77
+          "close": 3296.24
         },
         {
           "date": "2022-02-02",
-          "close": 3362.2
+          "close": 3344.42
         },
         {
           "date": "2022-02-03",
-          "close": 3334.65
+          "close": 3317.02
         },
         {
           "date": "2022-02-04",
-          "close": 3326.19
+          "close": 3308.6
         },
         {
           "date": "2022-02-07",
-          "close": 3294.89
+          "close": 3277.47
         },
         {
           "date": "2022-02-08",
-          "close": 3263.89
+          "close": 3246.64
         },
         {
           "date": "2022-02-09",
-          "close": 3278.8
+          "close": 3261.47
         },
         {
           "date": "2022-02-10",
-          "close": 3287.35
+          "close": 3269.97
         },
         {
           "date": "2022-02-11",
-          "close": 3221.61
+          "close": 3204.57
         },
         {
           "date": "2022-02-14",
-          "close": 3255.44
+          "close": 3238.22
         },
         {
           "date": "2022-02-15",
-          "close": 3328.72
+          "close": 3311.12
         },
         {
           "date": "2022-02-16",
-          "close": 3324.62
+          "close": 3307.04
         },
         {
           "date": "2022-02-17",
-          "close": 3299.42
+          "close": 3281.98
         },
         {
           "date": "2022-02-18",
-          "close": 3307.88
+          "close": 3290.39
         },
         {
           "date": "2022-02-21",
-          "close": 3242.93
+          "close": 3225.78
         },
         {
           "date": "2022-02-22",
-          "close": 3126.96
+          "close": 3110.43
         },
         {
           "date": "2022-02-23",
-          "close": 3107.26
-        },
-        {
-          "date": "2022-02-24",
-          "close": 2965.88
-        },
-        {
-          "date": "2022-02-25",
-          "close": 3069.72
-        },
-        {
-          "date": "2022-02-28",
-          "close": 3098.89
-        },
-        {
-          "date": "2022-03-02",
-          "close": 3091.87
-        },
-        {
-          "date": "2022-03-03",
-          "close": 3090.34
-        },
-        {
-          "date": "2022-03-04",
-          "close": 3072.86
-        },
-        {
-          "date": "2022-03-07",
-          "close": 3038.47
-        },
-        {
-          "date": "2022-03-08",
-          "close": 3138.78
-        },
-        {
-          "date": "2022-03-09",
-          "close": 3167.24
-        },
-        {
-          "date": "2022-03-10",
-          "close": 3157.09
-        },
-        {
-          "date": "2022-03-11",
-          "close": 3138.08
-        },
-        {
-          "date": "2022-03-14",
-          "close": 3176.31
-        },
-        {
-          "date": "2022-03-15",
-          "close": 3133.5
-        },
-        {
-          "date": "2022-03-16",
-          "close": 3187.56
-        },
-        {
-          "date": "2022-03-17",
-          "close": 3202.25
-        },
-        {
-          "date": "2022-03-21",
-          "close": 3162.1
-        },
-        {
-          "date": "2022-03-22",
-          "close": 3226.84
-        },
-        {
-          "date": "2022-03-23",
-          "close": 3236.82
-        },
-        {
-          "date": "2022-03-24",
-          "close": 3269.47
-        },
-        {
-          "date": "2022-03-25",
-          "close": 3232.51
-        },
-        {
-          "date": "2022-03-28",
-          "close": 3232.72
-        },
-        {
-          "date": "2022-03-29",
-          "close": 3230.68
-        },
-        {
-          "date": "2022-03-30",
-          "close": 3253.52
-        },
-        {
-          "date": "2022-03-31",
-          "close": 3260.84
-        },
-        {
-          "date": "2022-04-01",
-          "close": 3277.23
-        },
-        {
-          "date": "2022-04-04",
-          "close": 3287.35
-        },
-        {
-          "date": "2022-04-05",
-          "close": 3326.1
-        },
-        {
-          "date": "2022-04-06",
-          "close": 3274.27
-        },
-        {
-          "date": "2022-04-07",
-          "close": 3212.19
-        },
-        {
-          "date": "2022-04-08",
-          "close": 3213.5
-        },
-        {
-          "date": "2022-04-11",
-          "close": 3222.87
-        },
-        {
-          "date": "2022-04-12",
-          "close": 3218.25
-        },
-        {
-          "date": "2022-04-13",
-          "close": 3192.83
-        },
-        {
-          "date": "2022-04-18",
-          "close": 3076.09
-        },
-        {
-          "date": "2022-04-19",
-          "close": 3027.13
-        },
-        {
-          "date": "2022-04-20",
-          "close": 3101.16
-        },
-        {
-          "date": "2022-04-21",
-          "close": 3163.8
-        },
-        {
-          "date": "2022-04-22",
-          "close": 3149.76
-        },
-        {
-          "date": "2022-04-25",
-          "close": 3093.66
-        },
-        {
-          "date": "2022-04-26",
-          "close": 3092.0
-        },
-        {
-          "date": "2022-04-27",
-          "close": 3104.99
-        },
-        {
-          "date": "2022-04-28",
-          "close": 3125.13
-        },
-        {
-          "date": "2022-04-29",
-          "close": 3092.35
-        },
-        {
-          "date": "2022-05-02",
-          "close": 3088.6
-        },
-        {
-          "date": "2022-05-04",
-          "close": 3033.98
-        },
-        {
-          "date": "2022-05-05",
-          "close": 3063.31
-        },
-        {
-          "date": "2022-05-06",
-          "close": 2992.87
-        },
-        {
-          "date": "2022-05-09",
-          "close": 3003.76
-        },
-        {
-          "date": "2022-05-10",
-          "close": 2998.23
-        },
-        {
-          "date": "2022-05-11",
-          "close": 2974.9
-        },
-        {
-          "date": "2022-05-12",
-          "close": 2971.98
-        },
-        {
-          "date": "2022-05-13",
-          "close": 2977.43
-        },
-        {
-          "date": "2022-05-16",
-          "close": 2944.21
-        },
-        {
-          "date": "2022-05-17",
-          "close": 3009.43
-        },
-        {
-          "date": "2022-05-18",
-          "close": 3006.99
-        },
-        {
-          "date": "2022-05-19",
-          "close": 2844.08
-        },
-        {
-          "date": "2022-05-20",
-          "close": 2871.15
-        },
-        {
-          "date": "2022-05-23",
-          "close": 2896.22
-        },
-        {
-          "date": "2022-05-24",
-          "close": 2866.79
-        },
-        {
-          "date": "2022-05-25",
-          "close": 2780.46
-        },
-        {
-          "date": "2022-05-26",
-          "close": 2832.51
-        },
-        {
-          "date": "2022-05-27",
-          "close": 2862.66
-        },
-        {
-          "date": "2022-05-30",
-          "close": 2962.69
-        },
-        {
-          "date": "2022-05-31",
-          "close": 2953.12
-        },
-        {
-          "date": "2022-06-01",
-          "close": 2945.09
-        },
-        {
-          "date": "2022-06-02",
-          "close": 3004.6
-        },
-        {
-          "date": "2022-06-03",
-          "close": 3019.65
-        },
-        {
-          "date": "2022-06-06",
-          "close": 3011.58
-        },
-        {
-          "date": "2022-06-07",
-          "close": 2951.67
-        },
-        {
-          "date": "2022-06-08",
-          "close": 2988.05
-        },
-        {
-          "date": "2022-06-09",
-          "close": 3008.2
-        },
-        {
-          "date": "2022-06-10",
-          "close": 2949.21
-        },
-        {
-          "date": "2022-06-13",
-          "close": 2826.06
-        },
-        {
-          "date": "2022-06-14",
-          "close": 2818.12
-        },
-        {
-          "date": "2022-06-15",
-          "close": 2814.39
-        },
-        {
-          "date": "2022-06-16",
-          "close": 2757.95
-        },
-        {
-          "date": "2022-06-17",
-          "close": 2711.34
-        },
-        {
-          "date": "2022-06-20",
-          "close": 2731.96
-        },
-        {
-          "date": "2022-06-21",
-          "close": 2819.35
-        },
-        {
-          "date": "2022-06-22",
-          "close": 2829.0
-        },
-        {
-          "date": "2022-06-23",
-          "close": 2904.36
-        },
-        {
-          "date": "2022-06-24",
-          "close": 2890.58
-        },
-        {
-          "date": "2022-06-27",
-          "close": 2909.54
-        },
-        {
-          "date": "2022-06-28",
-          "close": 2912.57
-        },
-        {
-          "date": "2022-06-29",
-          "close": 2888.3
-        },
-        {
-          "date": "2022-06-30",
-          "close": 2867.76
-        },
-        {
-          "date": "2022-07-01",
-          "close": 2909.89
-        },
-        {
-          "date": "2022-07-04",
-          "close": 2839.62
-        },
-        {
-          "date": "2022-07-05",
-          "close": 2823.17
-        },
-        {
-          "date": "2022-07-06",
-          "close": 2862.18
-        },
-        {
-          "date": "2022-07-07",
-          "close": 2885.97
-        },
-        {
-          "date": "2022-07-08",
-          "close": 2866.31
-        },
-        {
-          "date": "2022-07-11",
-          "close": 2733.19
-        },
-        {
-          "date": "2022-07-12",
-          "close": 2707.65
-        },
-        {
-          "date": "2022-07-13",
-          "close": 2667.32
-        },
-        {
-          "date": "2022-07-14",
-          "close": 2639.15
-        },
-        {
-          "date": "2022-07-15",
-          "close": 2635.5
-        },
-        {
-          "date": "2022-07-18",
-          "close": 2696.14
-        },
-        {
-          "date": "2022-07-19",
-          "close": 2705.6
-        },
-        {
-          "date": "2022-07-20",
-          "close": 2785.29
-        },
-        {
-          "date": "2022-07-21",
-          "close": 2796.29
-        },
-        {
-          "date": "2022-07-22",
-          "close": 2790.75
-        },
-        {
-          "date": "2022-07-25",
-          "close": 2787.01
-        },
-        {
-          "date": "2022-07-26",
-          "close": 2742.26
-        },
-        {
-          "date": "2022-07-27",
-          "close": 2806.46
-        },
-        {
-          "date": "2022-07-28",
-          "close": 2869.52
-        },
-        {
-          "date": "2022-07-29",
-          "close": 2905.95
-        },
-        {
-          "date": "2022-08-01",
-          "close": 2903.22
-        },
-        {
-          "date": "2022-08-02",
-          "close": 2897.06
-        },
-        {
-          "date": "2022-08-03",
-          "close": 2939.04
-        },
-        {
-          "date": "2022-08-04",
-          "close": 2952.64
-        },
-        {
-          "date": "2022-08-05",
-          "close": 2961.53
-        },
-        {
-          "date": "2022-08-08",
-          "close": 2969.8
-        },
-        {
-          "date": "2022-08-10",
-          "close": 2952.02
-        },
-        {
-          "date": "2022-08-11",
-          "close": 3012.09
-        },
-        {
-          "date": "2022-08-12",
-          "close": 2993.65
-        },
-        {
-          "date": "2022-08-16",
-          "close": 2985.86
-        },
-        {
-          "date": "2022-08-17",
-          "close": 2993.26
-        },
-        {
-          "date": "2022-08-18",
-          "close": 2975.79
-        },
-        {
-          "date": "2022-08-19",
-          "close": 2979.75
-        },
-        {
-          "date": "2022-08-22",
-          "close": 2952.29
-        },
-        {
-          "date": "2022-08-23",
-          "close": 2890.73
-        },
-        {
-          "date": "2022-08-24",
-          "close": 2864.98
-        },
-        {
-          "date": "2022-08-25",
-          "close": 2832.29
-        },
-        {
-          "date": "2022-08-26",
-          "close": 2835.81
-        },
-        {
-          "date": "2022-08-29",
-          "close": 2756.91
-        },
-        {
-          "date": "2022-08-30",
-          "close": 2826.08
-        },
-        {
-          "date": "2022-09-01",
-          "close": 2756.16
-        },
-        {
-          "date": "2022-09-02",
-          "close": 2755.02
-        },
-        {
-          "date": "2022-09-05",
-          "close": 2757.66
-        },
-        {
-          "date": "2022-09-06",
-          "close": 2752.07
-        },
-        {
-          "date": "2022-09-07",
-          "close": 2771.92
-        },
-        {
-          "date": "2022-09-08",
-          "close": 2789.56
-        },
-        {
-          "date": "2022-09-09",
-          "close": 2831.8
-        },
-        {
-          "date": "2022-09-12",
-          "close": 2854.07
-        },
-        {
-          "date": "2022-09-13",
-          "close": 2842.1
-        },
-        {
-          "date": "2022-09-14",
-          "close": 2746.22
-        },
-        {
-          "date": "2022-09-15",
-          "close": 2732.09
-        },
-        {
-          "date": "2022-09-16",
-          "close": 2647.91
-        },
-        {
-          "date": "2022-09-19",
-          "close": 2665.6
-        },
-        {
-          "date": "2022-09-20",
-          "close": 2675.72
-        },
-        {
-          "date": "2022-09-21",
-          "close": 2641.31
-        },
-        {
-          "date": "2022-09-22",
-          "close": 2646.77
-        },
-        {
-          "date": "2022-09-23",
-          "close": 2624.46
-        },
-        {
-          "date": "2022-09-26",
-          "close": 2635.33
-        },
-        {
-          "date": "2022-09-27",
-          "close": 2655.61
-        },
-        {
-          "date": "2022-09-28",
-          "close": 2671.63
-        },
-        {
-          "date": "2022-09-29",
-          "close": 2637.88
-        },
-        {
-          "date": "2022-09-30",
-          "close": 2644.26
-        },
-        {
-          "date": "2022-10-03",
-          "close": 2627.01
-        },
-        {
-          "date": "2022-10-04",
-          "close": 2720.47
-        },
-        {
-          "date": "2022-10-06",
-          "close": 2729.98
-        },
-        {
-          "date": "2022-10-07",
-          "close": 2697.37
-        },
-        {
-          "date": "2022-10-10",
-          "close": 2744.59
-        },
-        {
-          "date": "2022-10-11",
-          "close": 2701.46
-        },
-        {
-          "date": "2022-10-12",
-          "close": 2728.92
-        },
-        {
-          "date": "2022-10-13",
-          "close": 2731.17
-        },
-        {
-          "date": "2022-10-14",
-          "close": 2727.51
-        },
-        {
-          "date": "2022-10-17",
-          "close": 2745.69
-        },
-        {
-          "date": "2022-10-18",
-          "close": 2774.77
-        },
-        {
-          "date": "2022-10-19",
-          "close": 2754.6
-        },
-        {
-          "date": "2022-10-20",
-          "close": 2785.88
-        },
-        {
-          "date": "2022-10-21",
-          "close": 2768.32
-        },
-        {
-          "date": "2022-10-24",
-          "close": 2789.77
-        },
-        {
-          "date": "2022-10-25",
-          "close": 2790.12
-        },
-        {
-          "date": "2022-10-27",
-          "close": 2785.97
-        },
-        {
-          "date": "2022-10-28",
-          "close": 2791.13
-        },
-        {
-          "date": "2022-10-31",
-          "close": 2817.52
-        },
-        {
-          "date": "2022-11-01",
-          "close": 2876.24
-        },
-        {
-          "date": "2022-11-02",
-          "close": 2860.35
-        },
-        {
-          "date": "2022-11-03",
-          "close": 2829.52
-        },
-        {
-          "date": "2022-11-04",
-          "close": 2838.91
-        },
-        {
-          "date": "2022-11-07",
-          "close": 2853.3
-        },
-        {
-          "date": "2022-11-09",
-          "close": 2837.72
-        },
-        {
-          "date": "2022-11-10",
-          "close": 2828.55
-        },
-        {
-          "date": "2022-11-11",
-          "close": 2925.87
-        },
-        {
-          "date": "2022-11-14",
-          "close": 2943.12
-        },
-        {
-          "date": "2022-11-15",
-          "close": 2940.56
-        },
-        {
-          "date": "2022-11-16",
-          "close": 2960.64
-        },
-        {
-          "date": "2022-11-17",
-          "close": 2955.03
-        },
-        {
-          "date": "2022-11-18",
-          "close": 2950.14
-        },
-        {
-          "date": "2022-11-21",
-          "close": 2897.24
-        },
-        {
-          "date": "2022-11-22",
-          "close": 2924.99
-        },
-        {
-          "date": "2022-11-23",
-          "close": 2919.12
-        },
-        {
-          "date": "2022-11-24",
-          "close": 2982.52
-        },
-        {
-          "date": "2022-11-25",
-          "close": 2990.9
-        },
-        {
-          "date": "2022-11-28",
-          "close": 2995.84
-        },
-        {
-          "date": "2022-11-29",
-          "close": 2997.69
-        },
-        {
-          "date": "2022-11-30",
-          "close": 2991.91
-        },
-        {
-          "date": "2022-12-01",
-          "close": 3066.78
-        },
-        {
-          "date": "2022-12-02",
-          "close": 3034.58
-        },
-        {
-          "date": "2022-12-05",
-          "close": 3022.89
-        },
-        {
-          "date": "2022-12-06",
-          "close": 2987.11
-        },
-        {
-          "date": "2022-12-07",
-          "close": 2982.91
-        },
-        {
-          "date": "2022-12-08",
-          "close": 2956.4
-        },
-        {
-          "date": "2022-12-09",
-          "close": 2905.4
-        },
-        {
-          "date": "2022-12-12",
-          "close": 2899.84
-        },
-        {
-          "date": "2022-12-13",
-          "close": 2940.12
-        },
-        {
-          "date": "2022-12-14",
-          "close": 2969.46
-        },
-        {
-          "date": "2022-12-15",
-          "close": 2916.3
-        },
-        {
-          "date": "2022-12-16",
-          "close": 2859.07
-        },
-        {
-          "date": "2022-12-19",
-          "close": 2825.37
-        },
-        {
-          "date": "2022-12-20",
-          "close": 2862.34
-        },
-        {
-          "date": "2022-12-21",
-          "close": 2884.05
-        },
-        {
-          "date": "2022-12-22",
-          "close": 2876.24
-        },
-        {
-          "date": "2022-12-23",
-          "close": 2848.57
-        },
-        {
-          "date": "2022-12-26",
-          "close": 2870.24
-        },
-        {
-          "date": "2022-12-27",
-          "close": 2876.06
-        },
-        {
-          "date": "2022-12-28",
-          "close": 2873.94
-        },
-        {
-          "date": "2022-12-29",
-          "close": 2884.22
-        },
-        {
-          "date": "2022-12-30",
-          "close": 2873.59
-        },
-        {
-          "date": "2023-01-02",
-          "close": 2877.78
-        },
-        {
-          "date": "2023-01-03",
-          "close": 2921.81
-        },
-        {
-          "date": "2023-01-04",
-          "close": 2924.72
-        },
-        {
-          "date": "2023-01-05",
-          "close": 2921.59
-        },
-        {
-          "date": "2023-01-06",
-          "close": 2833.75
-        },
-        {
-          "date": "2023-01-09",
-          "close": 2929.4
-        },
-        {
-          "date": "2023-01-10",
-          "close": 2899.8
-        },
-        {
-          "date": "2023-01-11",
-          "close": 2937.12
-        },
-        {
-          "date": "2023-01-12",
-          "close": 2942.11
-        },
-        {
-          "date": "2023-01-13",
-          "close": 2977.58
-        },
-        {
-          "date": "2023-01-16",
-          "close": 3008.71
-        },
-        {
-          "date": "2023-01-17",
-          "close": 3048.73
-        },
-        {
-          "date": "2023-01-18",
-          "close": 3059.2
-        },
-        {
-          "date": "2023-01-19",
-          "close": 3043.95
-        },
-        {
-          "date": "2023-01-20",
-          "close": 3034.93
-        },
-        {
-          "date": "2023-01-23",
-          "close": 3081.67
-        },
-        {
-          "date": "2023-01-24",
-          "close": 3100.98
-        },
-        {
-          "date": "2023-01-25",
-          "close": 3095.07
-        },
-        {
-          "date": "2023-01-27",
-          "close": 3078.2
-        },
-        {
-          "date": "2023-01-30",
-          "close": 3098.59
-        },
-        {
-          "date": "2023-01-31",
-          "close": 3030.95
-        },
-        {
-          "date": "2023-02-01",
-          "close": 3075.76
-        },
-        {
-          "date": "2023-02-02",
-          "close": 3122.73
-        },
-        {
-          "date": "2023-02-03",
-          "close": 3142.49
-        },
-        {
-          "date": "2023-02-06",
-          "close": 3122.32
-        },
-        {
-          "date": "2023-02-07",
-          "close": 3133.7
-        },
-        {
-          "date": "2023-02-08",
-          "close": 3176.6
-        },
-        {
-          "date": "2023-02-09",
-          "close": 3195.33
-        },
-        {
-          "date": "2023-02-10",
-          "close": 3192.35
-        },
-        {
-          "date": "2023-02-13",
-          "close": 3142.58
-        },
-        {
-          "date": "2023-02-14",
-          "close": 3158.56
-        },
-        {
-          "date": "2023-02-15",
-          "close": 3177.1
-        },
-        {
-          "date": "2023-02-16",
-          "close": 3210.85
-        },
-        {
-          "date": "2023-02-17",
-          "close": 3159.5
-        },
-        {
-          "date": "2023-02-20",
-          "close": 3147.01
-        },
-        {
-          "date": "2023-02-21",
-          "close": 3114.25
-        },
-        {
-          "date": "2023-02-22",
-          "close": 3069.62
-        },
-        {
-          "date": "2023-02-23",
-          "close": 3080.68
-        },
-        {
-          "date": "2023-02-24",
-          "close": 3068.63
-        },
-        {
-          "date": "2023-02-27",
-          "close": 3006.72
-        },
-        {
-          "date": "2023-02-28",
-          "close": 2989.58
-        },
-        {
-          "date": "2023-03-01",
-          "close": 3055.32
-        },
-        {
-          "date": "2023-03-02",
-          "close": 2997.34
-        },
-        {
-          "date": "2023-03-03",
-          "close": 3016.02
-        },
-        {
-          "date": "2023-03-06",
-          "close": 3042.82
-        },
-        {
-          "date": "2023-03-08",
-          "close": 3059.56
-        },
-        {
-          "date": "2023-03-09",
-          "close": 3011.24
-        },
-        {
-          "date": "2023-03-10",
-          "close": 3005.96
-        },
-        {
-          "date": "2023-03-13",
-          "close": 2961.69
-        },
-        {
-          "date": "2023-03-14",
-          "close": 2901.23
-        },
-        {
-          "date": "2023-03-15",
-          "close": 2886.75
-        },
-        {
-          "date": "2023-03-16",
-          "close": 2874.2
-        },
-        {
-          "date": "2023-03-17",
-          "close": 2869.06
-        },
-        {
-          "date": "2023-03-20",
-          "close": 2836.57
-        },
-        {
-          "date": "2023-03-21",
-          "close": 2803.0
-        },
-        {
-          "date": "2023-03-22",
-          "close": 2825.29
-        },
-        {
-          "date": "2023-03-23",
-          "close": 2819.74
-        },
-        {
-          "date": "2023-03-24",
-          "close": 2816.0
-        },
-        {
-          "date": "2023-03-27",
-          "close": 2817.62
-        },
-        {
-          "date": "2023-03-28",
-          "close": 2811.85
-        },
-        {
-          "date": "2023-03-29",
-          "close": 2832.6
-        },
-        {
-          "date": "2023-03-31",
-          "close": 2893.06
-        },
-        {
-          "date": "2023-04-03",
-          "close": 2887.74
-        },
-        {
-          "date": "2023-04-05",
-          "close": 2923.66
-        },
-        {
-          "date": "2023-04-06",
-          "close": 2906.42
-        },
-        {
-          "date": "2023-04-10",
-          "close": 2944.95
-        },
-        {
-          "date": "2023-04-11",
-          "close": 2900.19
-        },
-        {
-          "date": "2023-04-12",
-          "close": 2925.33
-        },
-        {
-          "date": "2023-04-13",
-          "close": 2877.68
-        },
-        {
-          "date": "2023-04-17",
-          "close": 2833.14
-        },
-        {
-          "date": "2023-04-18",
-          "close": 2825.25
-        },
-        {
-          "date": "2023-04-19",
-          "close": 2788.11
-        },
-        {
-          "date": "2023-04-20",
-          "close": 2801.83
-        },
-        {
-          "date": "2023-04-21",
-          "close": 2852.41
-        },
-        {
-          "date": "2023-04-24",
-          "close": 2865.0
-        },
-        {
-          "date": "2023-04-25",
-          "close": 2866.08
-        },
-        {
-          "date": "2023-04-26",
-          "close": 2886.07
-        },
-        {
-          "date": "2023-04-27",
-          "close": 2876.87
-        },
-        {
-          "date": "2023-04-28",
-          "close": 2905.11
-        },
-        {
-          "date": "2023-05-02",
-          "close": 2905.25
-        },
-        {
-          "date": "2023-05-03",
-          "close": 2869.6
-        },
-        {
-          "date": "2023-05-04",
-          "close": 2906.42
-        },
-        {
-          "date": "2023-05-05",
-          "close": 2915.44
-        },
-        {
-          "date": "2023-05-08",
-          "close": 2933.4
-        },
-        {
-          "date": "2023-05-09",
-          "close": 2962.87
-        },
-        {
-          "date": "2023-05-10",
-          "close": 2966.07
-        },
-        {
-          "date": "2023-05-11",
-          "close": 2961.87
-        },
-        {
-          "date": "2023-05-12",
-          "close": 2954.79
-        },
-        {
-          "date": "2023-05-15",
-          "close": 2937.42
-        },
-        {
-          "date": "2023-05-16",
-          "close": 2940.22
-        },
-        {
-          "date": "2023-05-17",
-          "close": 2895.59
-        },
-        {
-          "date": "2023-05-18",
-          "close": 2887.61
-        },
-        {
-          "date": "2023-05-19",
-          "close": 2908.36
-        },
-        {
-          "date": "2023-05-22",
-          "close": 2976.81
-        },
-        {
-          "date": "2023-05-23",
-          "close": 2975.32
-        },
-        {
-          "date": "2023-05-24",
-          "close": 2981.01
-        },
-        {
-          "date": "2023-05-25",
-          "close": 2972.12
-        },
-        {
-          "date": "2023-05-26",
-          "close": 3004.06
-        },
-        {
-          "date": "2023-05-29",
-          "close": 2996.35
-        },
-        {
-          "date": "2023-05-30",
-          "close": 2992.6
-        },
-        {
-          "date": "2023-05-31",
-          "close": 2968.51
-        },
-        {
-          "date": "2023-06-01",
-          "close": 2999.64
-        },
-        {
-          "date": "2023-06-02",
-          "close": 2983.04
-        },
-        {
-          "date": "2023-06-05",
-          "close": 2967.97
-        },
-        {
-          "date": "2023-06-06",
-          "close": 2916.89
-        },
-        {
-          "date": "2023-06-07",
-          "close": 2955.33
-        },
-        {
-          "date": "2023-06-08",
-          "close": 2920.63
-        },
-        {
-          "date": "2023-06-09",
-          "close": 2896.13
-        },
-        {
-          "date": "2023-06-12",
-          "close": 2930.06
-        },
-        {
-          "date": "2023-06-13",
-          "close": 2927.18
-        },
-        {
-          "date": "2023-06-14",
-          "close": 2933.81
-        },
-        {
-          "date": "2023-06-15",
-          "close": 2924.04
-        },
-        {
-          "date": "2023-06-16",
-          "close": 2886.4
-        },
-        {
-          "date": "2023-06-19",
-          "close": 2918.67
-        },
-        {
-          "date": "2023-06-20",
-          "close": 2934.4
-        },
-        {
-          "date": "2023-06-21",
-          "close": 2962.13
-        },
-        {
-          "date": "2023-06-22",
-          "close": 2944.22
-        },
-        {
-          "date": "2023-06-23",
-          "close": 2924.08
-        },
-        {
-          "date": "2023-06-26",
-          "close": 2899.81
-        },
-        {
-          "date": "2023-06-27",
-          "close": 2906.81
-        },
-        {
-          "date": "2023-06-28",
-          "close": 2923.26
-        },
-        {
-          "date": "2023-06-30",
-          "close": 3002.18
-        },
-        {
-          "date": "2023-07-03",
-          "close": 2974.95
-        },
-        {
-          "date": "2023-07-04",
-          "close": 3008.18
-        },
-        {
-          "date": "2023-07-05",
-          "close": 3018.27
-        },
-        {
-          "date": "2023-07-06",
-          "close": 3020.95
-        },
-        {
-          "date": "2023-07-07",
-          "close": 3026.72
-        },
-        {
-          "date": "2023-07-10",
-          "close": 2974.63
-        },
-        {
-          "date": "2023-07-11",
-          "close": 2975.04
-        },
-        {
-          "date": "2023-07-12",
-          "close": 2963.67
-        },
-        {
-          "date": "2023-07-13",
-          "close": 3037.0
-        },
-        {
-          "date": "2023-07-14",
-          "close": 3195.28
-        },
-        {
-          "date": "2023-07-17",
-          "close": 3174.41
-        },
-        {
-          "date": "2023-07-18",
-          "close": 3179.09
-        },
-        {
-          "date": "2023-07-19",
-          "close": 3154.73
-        },
-        {
-          "date": "2023-07-20",
-          "close": 3156.78
-        },
-        {
-          "date": "2023-07-21",
-          "close": 3070.19
-        },
-        {
-          "date": "2023-07-24",
-          "close": 3094.3
-        },
-        {
-          "date": "2023-07-25",
-          "close": 3098.31
-        },
-        {
-          "date": "2023-07-26",
-          "close": 3088.42
-        },
-        {
-          "date": "2023-07-27",
-          "close": 3096.26
-        },
-        {
-          "date": "2023-07-28",
-          "close": 3058.43
-        },
-        {
-          "date": "2023-07-31",
-          "close": 3118.63
-        },
-        {
-          "date": "2023-08-01",
-          "close": 3146.52
-        },
-        {
-          "date": "2023-08-02",
-          "close": 3136.13
-        },
-        {
-          "date": "2023-08-03",
-          "close": 3099.04
-        },
-        {
-          "date": "2023-08-04",
-          "close": 3138.78
-        },
-        {
-          "date": "2023-08-07",
-          "close": 3175.69
-        },
-        {
-          "date": "2023-08-08",
-          "close": 3163.43
-        },
-        {
-          "date": "2023-08-09",
-          "close": 3156.05
-        },
-        {
-          "date": "2023-08-10",
-          "close": 3137.46
-        },
-        {
-          "date": "2023-08-11",
-          "close": 3143.56
-        },
-        {
-          "date": "2023-08-14",
-          "close": 3144.52
-        },
-        {
-          "date": "2023-08-16",
-          "close": 3152.31
-        },
-        {
-          "date": "2023-08-17",
-          "close": 3131.67
-        },
-        {
-          "date": "2023-08-18",
-          "close": 3069.09
-        },
-        {
-          "date": "2023-08-21",
-          "close": 3100.58
-        },
-        {
-          "date": "2023-08-22",
-          "close": 3082.81
-        },
-        {
-          "date": "2023-08-23",
-          "close": 3097.49
-        },
-        {
-          "date": "2023-08-24",
-          "close": 3087.92
-        },
-        {
-          "date": "2023-08-25",
-          "close": 3082.04
-        },
-        {
-          "date": "2023-08-28",
-          "close": 3076.8
-        },
-        {
-          "date": "2023-08-29",
-          "close": 3077.34
-        },
-        {
-          "date": "2023-08-30",
           "close": 3090.83
         },
         {
+          "date": "2022-02-24",
+          "close": 2950.2
+        },
+        {
+          "date": "2022-02-25",
+          "close": 3053.49
+        },
+        {
+          "date": "2022-02-28",
+          "close": 3082.5
+        },
+        {
+          "date": "2022-03-02",
+          "close": 3075.52
+        },
+        {
+          "date": "2022-03-03",
+          "close": 3074.0
+        },
+        {
+          "date": "2022-03-04",
+          "close": 3056.61
+        },
+        {
+          "date": "2022-03-07",
+          "close": 3022.4
+        },
+        {
+          "date": "2022-03-08",
+          "close": 3122.18
+        },
+        {
+          "date": "2022-03-09",
+          "close": 3150.5
+        },
+        {
+          "date": "2022-03-10",
+          "close": 3140.39
+        },
+        {
+          "date": "2022-03-11",
+          "close": 3121.49
+        },
+        {
+          "date": "2022-03-14",
+          "close": 3159.52
+        },
+        {
+          "date": "2022-03-15",
+          "close": 3116.93
+        },
+        {
+          "date": "2022-03-16",
+          "close": 3170.7
+        },
+        {
+          "date": "2022-03-17",
+          "close": 3185.32
+        },
+        {
+          "date": "2022-03-21",
+          "close": 3145.38
+        },
+        {
+          "date": "2022-03-22",
+          "close": 3209.78
+        },
+        {
+          "date": "2022-03-23",
+          "close": 3219.71
+        },
+        {
+          "date": "2022-03-24",
+          "close": 3252.19
+        },
+        {
+          "date": "2022-03-25",
+          "close": 3215.41
+        },
+        {
+          "date": "2022-03-28",
+          "close": 3215.63
+        },
+        {
+          "date": "2022-03-29",
+          "close": 3213.59
+        },
+        {
+          "date": "2022-03-30",
+          "close": 3236.31
+        },
+        {
+          "date": "2022-03-31",
+          "close": 3243.6
+        },
+        {
+          "date": "2022-04-01",
+          "close": 3259.9
+        },
+        {
+          "date": "2022-04-04",
+          "close": 3269.97
+        },
+        {
+          "date": "2022-04-05",
+          "close": 3308.52
+        },
+        {
+          "date": "2022-04-06",
+          "close": 3256.96
+        },
+        {
+          "date": "2022-04-07",
+          "close": 3195.2
+        },
+        {
+          "date": "2022-04-08",
+          "close": 3196.51
+        },
+        {
+          "date": "2022-04-11",
+          "close": 3205.83
+        },
+        {
+          "date": "2022-04-12",
+          "close": 3201.23
+        },
+        {
+          "date": "2022-04-13",
+          "close": 3175.95
+        },
+        {
+          "date": "2022-04-18",
+          "close": 3059.82
+        },
+        {
+          "date": "2022-04-19",
+          "close": 3011.12
+        },
+        {
+          "date": "2022-04-20",
+          "close": 3084.76
+        },
+        {
+          "date": "2022-04-21",
+          "close": 3147.07
+        },
+        {
+          "date": "2022-04-22",
+          "close": 3133.11
+        },
+        {
+          "date": "2022-04-25",
+          "close": 3077.3
+        },
+        {
+          "date": "2022-04-26",
+          "close": 3075.65
+        },
+        {
+          "date": "2022-04-27",
+          "close": 3088.57
+        },
+        {
+          "date": "2022-04-28",
+          "close": 3108.61
+        },
+        {
+          "date": "2022-04-29",
+          "close": 3076.0
+        },
+        {
+          "date": "2022-05-02",
+          "close": 3072.27
+        },
+        {
+          "date": "2022-05-04",
+          "close": 3017.93
+        },
+        {
+          "date": "2022-05-05",
+          "close": 3047.12
+        },
+        {
+          "date": "2022-05-06",
+          "close": 2977.04
+        },
+        {
+          "date": "2022-05-09",
+          "close": 2987.88
+        },
+        {
+          "date": "2022-05-10",
+          "close": 2982.37
+        },
+        {
+          "date": "2022-05-11",
+          "close": 2959.17
+        },
+        {
+          "date": "2022-05-12",
+          "close": 2956.27
+        },
+        {
+          "date": "2022-05-13",
+          "close": 2961.69
+        },
+        {
+          "date": "2022-05-16",
+          "close": 2928.65
+        },
+        {
+          "date": "2022-05-17",
+          "close": 2993.52
+        },
+        {
+          "date": "2022-05-18",
+          "close": 2991.09
+        },
+        {
+          "date": "2022-05-19",
+          "close": 2829.04
+        },
+        {
+          "date": "2022-05-20",
+          "close": 2855.97
+        },
+        {
+          "date": "2022-05-23",
+          "close": 2880.9
+        },
+        {
+          "date": "2022-05-24",
+          "close": 2851.63
+        },
+        {
+          "date": "2022-05-25",
+          "close": 2765.76
+        },
+        {
+          "date": "2022-05-26",
+          "close": 2817.53
+        },
+        {
+          "date": "2022-05-27",
+          "close": 2847.53
+        },
+        {
+          "date": "2022-05-30",
+          "close": 2947.02
+        },
+        {
+          "date": "2022-05-31",
+          "close": 2937.5
+        },
+        {
+          "date": "2022-06-01",
+          "close": 2929.51
+        },
+        {
+          "date": "2022-06-02",
+          "close": 2988.71
+        },
+        {
+          "date": "2022-06-03",
+          "close": 3003.68
+        },
+        {
+          "date": "2022-06-06",
+          "close": 2995.65
+        },
+        {
+          "date": "2022-06-07",
+          "close": 2936.06
+        },
+        {
+          "date": "2022-06-08",
+          "close": 2972.25
+        },
+        {
+          "date": "2022-06-09",
+          "close": 2992.29
+        },
+        {
+          "date": "2022-06-10",
+          "close": 2933.62
+        },
+        {
+          "date": "2022-06-13",
+          "close": 2811.12
+        },
+        {
+          "date": "2022-06-14",
+          "close": 2803.22
+        },
+        {
+          "date": "2022-06-15",
+          "close": 2799.5
+        },
+        {
+          "date": "2022-06-16",
+          "close": 2743.36
+        },
+        {
+          "date": "2022-06-17",
+          "close": 2697.0
+        },
+        {
+          "date": "2022-06-20",
+          "close": 2717.52
+        },
+        {
+          "date": "2022-06-21",
+          "close": 2804.44
+        },
+        {
+          "date": "2022-06-22",
+          "close": 2814.04
+        },
+        {
+          "date": "2022-06-23",
+          "close": 2889.0
+        },
+        {
+          "date": "2022-06-24",
+          "close": 2875.29
+        },
+        {
+          "date": "2022-06-27",
+          "close": 2894.15
+        },
+        {
+          "date": "2022-06-28",
+          "close": 2897.16
+        },
+        {
+          "date": "2022-06-29",
+          "close": 2873.02
+        },
+        {
+          "date": "2022-06-30",
+          "close": 2852.59
+        },
+        {
+          "date": "2022-07-01",
+          "close": 2894.5
+        },
+        {
+          "date": "2022-07-04",
+          "close": 2824.61
+        },
+        {
+          "date": "2022-07-05",
+          "close": 2808.24
+        },
+        {
+          "date": "2022-07-06",
+          "close": 2847.05
+        },
+        {
+          "date": "2022-07-07",
+          "close": 2870.71
+        },
+        {
+          "date": "2022-07-08",
+          "close": 2851.15
+        },
+        {
+          "date": "2022-07-11",
+          "close": 2718.74
+        },
+        {
+          "date": "2022-07-12",
+          "close": 2693.33
+        },
+        {
+          "date": "2022-07-13",
+          "close": 2653.21
+        },
+        {
+          "date": "2022-07-14",
+          "close": 2625.2
+        },
+        {
+          "date": "2022-07-15",
+          "close": 2621.57
+        },
+        {
+          "date": "2022-07-18",
+          "close": 2681.88
+        },
+        {
+          "date": "2022-07-19",
+          "close": 2691.29
+        },
+        {
+          "date": "2022-07-20",
+          "close": 2770.56
+        },
+        {
+          "date": "2022-07-21",
+          "close": 2781.51
+        },
+        {
+          "date": "2022-07-22",
+          "close": 2775.99
+        },
+        {
+          "date": "2022-07-25",
+          "close": 2772.27
+        },
+        {
+          "date": "2022-07-26",
+          "close": 2727.76
+        },
+        {
+          "date": "2022-07-27",
+          "close": 2791.62
+        },
+        {
+          "date": "2022-07-28",
+          "close": 2854.34
+        },
+        {
+          "date": "2022-07-29",
+          "close": 2890.59
+        },
+        {
+          "date": "2022-08-01",
+          "close": 2887.87
+        },
+        {
+          "date": "2022-08-02",
+          "close": 2881.74
+        },
+        {
+          "date": "2022-08-03",
+          "close": 2923.5
+        },
+        {
+          "date": "2022-08-04",
+          "close": 2937.03
+        },
+        {
+          "date": "2022-08-05",
+          "close": 2945.87
+        },
+        {
+          "date": "2022-08-08",
+          "close": 2954.1
+        },
+        {
+          "date": "2022-08-10",
+          "close": 2936.41
+        },
+        {
+          "date": "2022-08-11",
+          "close": 2996.16
+        },
+        {
+          "date": "2022-08-12",
+          "close": 2977.82
+        },
+        {
+          "date": "2022-08-16",
+          "close": 2970.07
+        },
+        {
+          "date": "2022-08-17",
+          "close": 2977.43
+        },
+        {
+          "date": "2022-08-18",
+          "close": 2960.05
+        },
+        {
+          "date": "2022-08-19",
+          "close": 2963.99
+        },
+        {
+          "date": "2022-08-22",
+          "close": 2936.68
+        },
+        {
+          "date": "2022-08-23",
+          "close": 2875.44
+        },
+        {
+          "date": "2022-08-24",
+          "close": 2849.83
+        },
+        {
+          "date": "2022-08-25",
+          "close": 2817.31
+        },
+        {
+          "date": "2022-08-26",
+          "close": 2820.81
+        },
+        {
+          "date": "2022-08-29",
+          "close": 2742.33
+        },
+        {
+          "date": "2022-08-30",
+          "close": 2811.14
+        },
+        {
+          "date": "2022-09-01",
+          "close": 2741.59
+        },
+        {
+          "date": "2022-09-02",
+          "close": 2740.45
+        },
+        {
+          "date": "2022-09-05",
+          "close": 2743.08
+        },
+        {
+          "date": "2022-09-06",
+          "close": 2737.52
+        },
+        {
+          "date": "2022-09-07",
+          "close": 2757.26
+        },
+        {
+          "date": "2022-09-08",
+          "close": 2774.81
+        },
+        {
+          "date": "2022-09-09",
+          "close": 2816.83
+        },
+        {
+          "date": "2022-09-12",
+          "close": 2838.98
+        },
+        {
+          "date": "2022-09-13",
+          "close": 2827.07
+        },
+        {
+          "date": "2022-09-14",
+          "close": 2731.7
+        },
+        {
+          "date": "2022-09-15",
+          "close": 2717.64
+        },
+        {
+          "date": "2022-09-16",
+          "close": 2633.91
+        },
+        {
+          "date": "2022-09-19",
+          "close": 2651.51
+        },
+        {
+          "date": "2022-09-20",
+          "close": 2661.57
+        },
+        {
+          "date": "2022-09-21",
+          "close": 2627.34
+        },
+        {
+          "date": "2022-09-22",
+          "close": 2632.77
+        },
+        {
+          "date": "2022-09-23",
+          "close": 2610.58
+        },
+        {
+          "date": "2022-09-26",
+          "close": 2621.39
+        },
+        {
+          "date": "2022-09-27",
+          "close": 2641.57
+        },
+        {
+          "date": "2022-09-28",
+          "close": 2657.5
+        },
+        {
+          "date": "2022-09-29",
+          "close": 2623.93
+        },
+        {
+          "date": "2022-09-30",
+          "close": 2630.28
+        },
+        {
+          "date": "2022-10-03",
+          "close": 2613.12
+        },
+        {
+          "date": "2022-10-04",
+          "close": 2706.09
+        },
+        {
+          "date": "2022-10-06",
+          "close": 2715.54
+        },
+        {
+          "date": "2022-10-07",
+          "close": 2683.11
+        },
+        {
+          "date": "2022-10-10",
+          "close": 2730.08
+        },
+        {
+          "date": "2022-10-11",
+          "close": 2687.18
+        },
+        {
+          "date": "2022-10-12",
+          "close": 2714.49
+        },
+        {
+          "date": "2022-10-13",
+          "close": 2716.72
+        },
+        {
+          "date": "2022-10-14",
+          "close": 2713.09
+        },
+        {
+          "date": "2022-10-17",
+          "close": 2731.17
+        },
+        {
+          "date": "2022-10-18",
+          "close": 2760.09
+        },
+        {
+          "date": "2022-10-19",
+          "close": 2740.04
+        },
+        {
+          "date": "2022-10-20",
+          "close": 2771.15
+        },
+        {
+          "date": "2022-10-21",
+          "close": 2753.69
+        },
+        {
+          "date": "2022-10-24",
+          "close": 2775.01
+        },
+        {
+          "date": "2022-10-25",
+          "close": 2775.36
+        },
+        {
+          "date": "2022-10-27",
+          "close": 2771.24
+        },
+        {
+          "date": "2022-10-28",
+          "close": 2776.37
+        },
+        {
+          "date": "2022-10-31",
+          "close": 2802.62
+        },
+        {
+          "date": "2022-11-01",
+          "close": 2861.03
+        },
+        {
+          "date": "2022-11-02",
+          "close": 2845.23
+        },
+        {
+          "date": "2022-11-03",
+          "close": 2814.55
+        },
+        {
+          "date": "2022-11-04",
+          "close": 2823.9
+        },
+        {
+          "date": "2022-11-07",
+          "close": 2838.21
+        },
+        {
+          "date": "2022-11-09",
+          "close": 2822.72
+        },
+        {
+          "date": "2022-11-10",
+          "close": 2813.59
+        },
+        {
+          "date": "2022-11-11",
+          "close": 2910.4
+        },
+        {
+          "date": "2022-11-14",
+          "close": 2927.56
+        },
+        {
+          "date": "2022-11-15",
+          "close": 2925.01
+        },
+        {
+          "date": "2022-11-16",
+          "close": 2944.98
+        },
+        {
+          "date": "2022-11-17",
+          "close": 2939.41
+        },
+        {
+          "date": "2022-11-18",
+          "close": 2934.54
+        },
+        {
+          "date": "2022-11-21",
+          "close": 2881.92
+        },
+        {
+          "date": "2022-11-22",
+          "close": 2909.52
+        },
+        {
+          "date": "2022-11-23",
+          "close": 2903.68
+        },
+        {
+          "date": "2022-11-24",
+          "close": 2966.75
+        },
+        {
+          "date": "2022-11-25",
+          "close": 2975.08
+        },
+        {
+          "date": "2022-11-28",
+          "close": 2980.0
+        },
+        {
+          "date": "2022-11-29",
+          "close": 2981.84
+        },
+        {
+          "date": "2022-11-30",
+          "close": 2976.09
+        },
+        {
+          "date": "2022-12-01",
+          "close": 3050.57
+        },
+        {
+          "date": "2022-12-02",
+          "close": 3018.53
+        },
+        {
+          "date": "2022-12-05",
+          "close": 3006.9
+        },
+        {
+          "date": "2022-12-06",
+          "close": 2971.31
+        },
+        {
+          "date": "2022-12-07",
+          "close": 2967.14
+        },
+        {
+          "date": "2022-12-08",
+          "close": 2940.77
+        },
+        {
+          "date": "2022-12-09",
+          "close": 2890.04
+        },
+        {
+          "date": "2022-12-12",
+          "close": 2884.51
+        },
+        {
+          "date": "2022-12-13",
+          "close": 2924.57
+        },
+        {
+          "date": "2022-12-14",
+          "close": 2953.76
+        },
+        {
+          "date": "2022-12-15",
+          "close": 2900.88
+        },
+        {
+          "date": "2022-12-16",
+          "close": 2843.96
+        },
+        {
+          "date": "2022-12-19",
+          "close": 2810.43
+        },
+        {
+          "date": "2022-12-20",
+          "close": 2847.2
+        },
+        {
+          "date": "2022-12-21",
+          "close": 2868.79
+        },
+        {
+          "date": "2022-12-22",
+          "close": 2861.03
+        },
+        {
+          "date": "2022-12-23",
+          "close": 2833.51
+        },
+        {
+          "date": "2022-12-26",
+          "close": 2855.06
+        },
+        {
+          "date": "2022-12-27",
+          "close": 2860.85
+        },
+        {
+          "date": "2022-12-28",
+          "close": 2858.75
+        },
+        {
+          "date": "2022-12-29",
+          "close": 2868.97
+        },
+        {
+          "date": "2022-12-30",
+          "close": 2858.39
+        },
+        {
+          "date": "2023-01-02",
+          "close": 2862.56
+        },
+        {
+          "date": "2023-01-03",
+          "close": 2906.36
+        },
+        {
+          "date": "2023-01-04",
+          "close": 2909.26
+        },
+        {
+          "date": "2023-01-05",
+          "close": 2906.14
+        },
+        {
+          "date": "2023-01-06",
+          "close": 2818.77
+        },
+        {
+          "date": "2023-01-09",
+          "close": 2913.91
+        },
+        {
+          "date": "2023-01-10",
+          "close": 2884.46
+        },
+        {
+          "date": "2023-01-11",
+          "close": 2921.59
+        },
+        {
+          "date": "2023-01-12",
+          "close": 2926.55
+        },
+        {
+          "date": "2023-01-13",
+          "close": 2961.83
+        },
+        {
+          "date": "2023-01-16",
+          "close": 2992.8
+        },
+        {
+          "date": "2023-01-17",
+          "close": 3032.61
+        },
+        {
+          "date": "2023-01-18",
+          "close": 3043.02
+        },
+        {
+          "date": "2023-01-19",
+          "close": 3027.85
+        },
+        {
+          "date": "2023-01-20",
+          "close": 3018.88
+        },
+        {
+          "date": "2023-01-23",
+          "close": 3065.37
+        },
+        {
+          "date": "2023-01-24",
+          "close": 3084.58
+        },
+        {
+          "date": "2023-01-25",
+          "close": 3078.7
+        },
+        {
+          "date": "2023-01-27",
+          "close": 3061.92
+        },
+        {
+          "date": "2023-01-30",
+          "close": 3082.21
+        },
+        {
+          "date": "2023-01-31",
+          "close": 3014.93
+        },
+        {
+          "date": "2023-02-01",
+          "close": 3059.5
+        },
+        {
+          "date": "2023-02-02",
+          "close": 3106.22
+        },
+        {
+          "date": "2023-02-03",
+          "close": 3125.88
+        },
+        {
+          "date": "2023-02-06",
+          "close": 3105.81
+        },
+        {
+          "date": "2023-02-07",
+          "close": 3117.12
+        },
+        {
+          "date": "2023-02-08",
+          "close": 3159.81
+        },
+        {
+          "date": "2023-02-09",
+          "close": 3178.43
+        },
+        {
+          "date": "2023-02-10",
+          "close": 3175.47
+        },
+        {
+          "date": "2023-02-13",
+          "close": 3125.97
+        },
+        {
+          "date": "2023-02-14",
+          "close": 3141.85
+        },
+        {
+          "date": "2023-02-15",
+          "close": 3160.3
+        },
+        {
+          "date": "2023-02-16",
+          "close": 3193.87
+        },
+        {
+          "date": "2023-02-17",
+          "close": 3142.8
+        },
+        {
+          "date": "2023-02-20",
+          "close": 3130.36
+        },
+        {
+          "date": "2023-02-21",
+          "close": 3097.78
+        },
+        {
+          "date": "2023-02-22",
+          "close": 3053.39
+        },
+        {
+          "date": "2023-02-23",
+          "close": 3064.39
+        },
+        {
+          "date": "2023-02-24",
+          "close": 3052.4
+        },
+        {
+          "date": "2023-02-27",
+          "close": 2990.83
+        },
+        {
+          "date": "2023-02-28",
+          "close": 2973.77
+        },
+        {
+          "date": "2023-03-01",
+          "close": 3039.16
+        },
+        {
+          "date": "2023-03-02",
+          "close": 2981.49
+        },
+        {
+          "date": "2023-03-03",
+          "close": 3000.07
+        },
+        {
+          "date": "2023-03-06",
+          "close": 3026.73
+        },
+        {
+          "date": "2023-03-08",
+          "close": 3043.38
+        },
+        {
+          "date": "2023-03-09",
+          "close": 2995.31
+        },
+        {
+          "date": "2023-03-10",
+          "close": 2990.06
+        },
+        {
+          "date": "2023-03-13",
+          "close": 2946.03
+        },
+        {
+          "date": "2023-03-14",
+          "close": 2885.89
+        },
+        {
+          "date": "2023-03-15",
+          "close": 2871.48
+        },
+        {
+          "date": "2023-03-16",
+          "close": 2859.01
+        },
+        {
+          "date": "2023-03-17",
+          "close": 2853.89
+        },
+        {
+          "date": "2023-03-20",
+          "close": 2821.57
+        },
+        {
+          "date": "2023-03-21",
+          "close": 2788.18
+        },
+        {
+          "date": "2023-03-22",
+          "close": 2810.35
+        },
+        {
+          "date": "2023-03-23",
+          "close": 2804.83
+        },
+        {
+          "date": "2023-03-24",
+          "close": 2801.11
+        },
+        {
+          "date": "2023-03-27",
+          "close": 2802.72
+        },
+        {
+          "date": "2023-03-28",
+          "close": 2796.98
+        },
+        {
+          "date": "2023-03-29",
+          "close": 2817.62
+        },
+        {
+          "date": "2023-03-31",
+          "close": 2877.77
+        },
+        {
+          "date": "2023-04-03",
+          "close": 2872.47
+        },
+        {
+          "date": "2023-04-05",
+          "close": 2908.2
+        },
+        {
+          "date": "2023-04-06",
+          "close": 2891.05
+        },
+        {
+          "date": "2023-04-10",
+          "close": 2929.38
+        },
+        {
+          "date": "2023-04-11",
+          "close": 2884.86
+        },
+        {
+          "date": "2023-04-12",
+          "close": 2909.86
+        },
+        {
+          "date": "2023-04-13",
+          "close": 2862.46
+        },
+        {
+          "date": "2023-04-17",
+          "close": 2818.16
+        },
+        {
+          "date": "2023-04-18",
+          "close": 2810.31
+        },
+        {
+          "date": "2023-04-19",
+          "close": 2773.37
+        },
+        {
+          "date": "2023-04-20",
+          "close": 2787.01
+        },
+        {
+          "date": "2023-04-21",
+          "close": 2837.33
+        },
+        {
+          "date": "2023-04-24",
+          "close": 2849.85
+        },
+        {
+          "date": "2023-04-25",
+          "close": 2850.93
+        },
+        {
+          "date": "2023-04-26",
+          "close": 2870.81
+        },
+        {
+          "date": "2023-04-27",
+          "close": 2861.65
+        },
+        {
+          "date": "2023-04-28",
+          "close": 2889.75
+        },
+        {
+          "date": "2023-05-02",
+          "close": 2889.88
+        },
+        {
+          "date": "2023-05-03",
+          "close": 2854.43
+        },
+        {
+          "date": "2023-05-04",
+          "close": 2891.05
+        },
+        {
+          "date": "2023-05-05",
+          "close": 2900.03
+        },
+        {
+          "date": "2023-05-08",
+          "close": 2917.89
+        },
+        {
+          "date": "2023-05-09",
+          "close": 2947.2
+        },
+        {
+          "date": "2023-05-10",
+          "close": 2950.39
+        },
+        {
+          "date": "2023-05-11",
+          "close": 2946.21
+        },
+        {
+          "date": "2023-05-12",
+          "close": 2939.17
+        },
+        {
+          "date": "2023-05-15",
+          "close": 2921.89
+        },
+        {
+          "date": "2023-05-16",
+          "close": 2924.67
+        },
+        {
+          "date": "2023-05-17",
+          "close": 2880.28
+        },
+        {
+          "date": "2023-05-18",
+          "close": 2872.34
+        },
+        {
+          "date": "2023-05-19",
+          "close": 2892.98
+        },
+        {
+          "date": "2023-05-22",
+          "close": 2961.07
+        },
+        {
+          "date": "2023-05-23",
+          "close": 2959.59
+        },
+        {
+          "date": "2023-05-24",
+          "close": 2965.24
+        },
+        {
+          "date": "2023-05-25",
+          "close": 2956.4
+        },
+        {
+          "date": "2023-05-26",
+          "close": 2988.18
+        },
+        {
+          "date": "2023-05-29",
+          "close": 2980.5
+        },
+        {
+          "date": "2023-05-30",
+          "close": 2976.78
+        },
+        {
+          "date": "2023-05-31",
+          "close": 2952.81
+        },
+        {
+          "date": "2023-06-01",
+          "close": 2983.78
+        },
+        {
+          "date": "2023-06-02",
+          "close": 2967.26
+        },
+        {
+          "date": "2023-06-05",
+          "close": 2952.27
+        },
+        {
+          "date": "2023-06-06",
+          "close": 2901.46
+        },
+        {
+          "date": "2023-06-07",
+          "close": 2939.7
+        },
+        {
+          "date": "2023-06-08",
+          "close": 2905.19
+        },
+        {
+          "date": "2023-06-09",
+          "close": 2880.82
+        },
+        {
+          "date": "2023-06-12",
+          "close": 2914.57
+        },
+        {
+          "date": "2023-06-13",
+          "close": 2911.7
+        },
+        {
+          "date": "2023-06-14",
+          "close": 2918.3
+        },
+        {
+          "date": "2023-06-15",
+          "close": 2908.57
+        },
+        {
+          "date": "2023-06-16",
+          "close": 2871.13
+        },
+        {
+          "date": "2023-06-19",
+          "close": 2903.24
+        },
+        {
+          "date": "2023-06-20",
+          "close": 2918.88
+        },
+        {
+          "date": "2023-06-21",
+          "close": 2946.46
+        },
+        {
+          "date": "2023-06-22",
+          "close": 2928.65
+        },
+        {
+          "date": "2023-06-23",
+          "close": 2908.62
+        },
+        {
+          "date": "2023-06-26",
+          "close": 2884.47
+        },
+        {
+          "date": "2023-06-27",
+          "close": 2891.44
+        },
+        {
+          "date": "2023-06-28",
+          "close": 2907.8
+        },
+        {
+          "date": "2023-06-30",
+          "close": 2986.3
+        },
+        {
+          "date": "2023-07-03",
+          "close": 2959.22
+        },
+        {
+          "date": "2023-07-04",
+          "close": 2992.27
+        },
+        {
+          "date": "2023-07-05",
+          "close": 3002.31
+        },
+        {
+          "date": "2023-07-06",
+          "close": 3004.97
+        },
+        {
+          "date": "2023-07-07",
+          "close": 3010.72
+        },
+        {
+          "date": "2023-07-10",
+          "close": 2958.9
+        },
+        {
+          "date": "2023-07-11",
+          "close": 2959.31
+        },
+        {
+          "date": "2023-07-12",
+          "close": 2948.0
+        },
+        {
+          "date": "2023-07-13",
+          "close": 3020.94
+        },
+        {
+          "date": "2023-07-14",
+          "close": 3178.38
+        },
+        {
+          "date": "2023-07-17",
+          "close": 3157.62
+        },
+        {
+          "date": "2023-07-18",
+          "close": 3162.28
+        },
+        {
+          "date": "2023-07-19",
+          "close": 3138.05
+        },
+        {
+          "date": "2023-07-20",
+          "close": 3140.09
+        },
+        {
+          "date": "2023-07-21",
+          "close": 3053.95
+        },
+        {
+          "date": "2023-07-24",
+          "close": 3077.93
+        },
+        {
+          "date": "2023-07-25",
+          "close": 3081.92
+        },
+        {
+          "date": "2023-07-26",
+          "close": 3072.09
+        },
+        {
+          "date": "2023-07-27",
+          "close": 3079.88
+        },
+        {
+          "date": "2023-07-28",
+          "close": 3042.26
+        },
+        {
+          "date": "2023-07-31",
+          "close": 3102.14
+        },
+        {
+          "date": "2023-08-01",
+          "close": 3129.89
+        },
+        {
+          "date": "2023-08-02",
+          "close": 3119.55
+        },
+        {
+          "date": "2023-08-03",
+          "close": 3082.65
+        },
+        {
+          "date": "2023-08-04",
+          "close": 3122.18
+        },
+        {
+          "date": "2023-08-07",
+          "close": 3158.9
+        },
+        {
+          "date": "2023-08-08",
+          "close": 3146.7
+        },
+        {
+          "date": "2023-08-09",
+          "close": 3139.36
+        },
+        {
+          "date": "2023-08-10",
+          "close": 3120.86
+        },
+        {
+          "date": "2023-08-11",
+          "close": 3126.94
+        },
+        {
+          "date": "2023-08-14",
+          "close": 3127.89
+        },
+        {
+          "date": "2023-08-16",
+          "close": 3135.64
+        },
+        {
+          "date": "2023-08-17",
+          "close": 3115.11
+        },
+        {
+          "date": "2023-08-18",
+          "close": 3052.86
+        },
+        {
+          "date": "2023-08-21",
+          "close": 3084.19
+        },
+        {
+          "date": "2023-08-22",
+          "close": 3066.51
+        },
+        {
+          "date": "2023-08-23",
+          "close": 3081.11
+        },
+        {
+          "date": "2023-08-24",
+          "close": 3071.59
+        },
+        {
+          "date": "2023-08-25",
+          "close": 3065.74
+        },
+        {
+          "date": "2023-08-28",
+          "close": 3060.53
+        },
+        {
+          "date": "2023-08-29",
+          "close": 3061.07
+        },
+        {
+          "date": "2023-08-30",
+          "close": 3074.49
+        },
+        {
           "date": "2023-08-31",
-          "close": 3059.7
+          "close": 3043.52
         },
         {
           "date": "2023-09-01",
-          "close": 3080.12
+          "close": 3063.83
         },
         {
           "date": "2023-09-04",
-          "close": 3115.94
+          "close": 3099.47
         },
         {
           "date": "2023-09-05",
-          "close": 3125.83
+          "close": 3109.3
         },
         {
           "date": "2023-09-06",
-          "close": 3126.33
+          "close": 3109.8
         },
         {
           "date": "2023-09-07",
-          "close": 3149.44
+          "close": 3132.79
         },
         {
           "date": "2023-09-08",
-          "close": 3137.27
+          "close": 3120.68
         },
         {
           "date": "2023-09-11",
-          "close": 3172.59
+          "close": 3155.82
         },
         {
           "date": "2023-09-12",
-          "close": 3263.88
+          "close": 3246.62
         },
         {
           "date": "2023-09-13",
-          "close": 3252.08
+          "close": 3234.88
         },
         {
           "date": "2023-09-14",
-          "close": 3244.97
+          "close": 3227.81
         },
         {
           "date": "2023-09-15",
-          "close": 3279.83
+          "close": 3262.49
         },
         {
           "date": "2023-09-18",
-          "close": 3286.99
+          "close": 3269.6
         },
         {
           "date": "2023-09-20",
-          "close": 3286.89
+          "close": 3269.51
         },
         {
           "date": "2023-09-21",
-          "close": 3267.98
+          "close": 3250.7
         },
         {
           "date": "2023-09-22",
-          "close": 3284.71
+          "close": 3267.34
         },
         {
           "date": "2023-09-25",
-          "close": 3260.55
+          "close": 3243.31
         },
         {
           "date": "2023-09-26",
-          "close": 3268.35
+          "close": 3251.06
         },
         {
           "date": "2023-09-27",
-          "close": 3271.63
+          "close": 3254.33
         },
         {
           "date": "2023-09-28",
-          "close": 3223.73
+          "close": 3206.68
         },
         {
           "date": "2023-09-29",
-          "close": 3216.3
+          "close": 3199.29
         },
         {
           "date": "2023-10-03",
-          "close": 3202.85
+          "close": 3185.92
         },
         {
           "date": "2023-10-04",
-          "close": 3224.64
+          "close": 3207.59
         },
         {
           "date": "2023-10-05",
-          "close": 3271.67
+          "close": 3254.37
         },
         {
           "date": "2023-10-06",
-          "close": 3300.89
+          "close": 3283.43
         },
         {
           "date": "2023-10-09",
-          "close": 3316.34
+          "close": 3298.8
         },
         {
           "date": "2023-10-10",
-          "close": 3307.72
+          "close": 3290.23
         },
         {
           "date": "2023-10-11",
-          "close": 3290.4
+          "close": 3273.0
         },
         {
           "date": "2023-10-12",
-          "close": 3229.01
+          "close": 3211.94
         },
         {
           "date": "2023-10-13",
-          "close": 3254.81
+          "close": 3237.6
         },
         {
           "date": "2023-10-16",
-          "close": 3212.15
+          "close": 3195.17
         },
         {
           "date": "2023-10-17",
-          "close": 3196.66
+          "close": 3179.75
         },
         {
           "date": "2023-10-18",
-          "close": 3178.61
+          "close": 3161.8
         },
         {
           "date": "2023-10-19",
-          "close": 3157.96
+          "close": 3141.26
         },
         {
           "date": "2023-10-20",
-          "close": 3193.5
+          "close": 3176.62
         },
         {
           "date": "2023-10-23",
-          "close": 3116.38
+          "close": 3099.9
         },
         {
           "date": "2023-10-25",
-          "close": 3098.05
+          "close": 3081.67
         },
         {
           "date": "2023-10-26",
-          "close": 3049.3
+          "close": 3033.17
         },
         {
           "date": "2023-10-27",
-          "close": 3062.28
+          "close": 3046.08
         },
         {
           "date": "2023-10-30",
-          "close": 3087.5
+          "close": 3071.17
         },
         {
           "date": "2023-10-31",
-          "close": 3078.54
+          "close": 3062.26
         },
         {
           "date": "2023-11-01",
-          "close": 3043.72
+          "close": 3027.63
         },
         {
           "date": "2023-11-02",
-          "close": 3070.64
+          "close": 3054.4
         },
         {
           "date": "2023-11-03",
-          "close": 3062.23
+          "close": 3046.04
         },
         {
           "date": "2023-11-06",
-          "close": 3089.05
+          "close": 3072.72
         },
         {
           "date": "2023-11-07",
-          "close": 3080.1
+          "close": 3063.81
         },
         {
           "date": "2023-11-08",
-          "close": 3090.24
+          "close": 3073.9
         },
         {
           "date": "2023-11-09",
-          "close": 3059.08
+          "close": 3042.9
         },
         {
           "date": "2023-11-10",
-          "close": 3046.28
+          "close": 3030.17
         },
         {
           "date": "2023-11-13",
-          "close": 3044.55
+          "close": 3028.45
         },
         {
           "date": "2023-11-15",
-          "close": 3111.03
+          "close": 3094.58
         },
         {
           "date": "2023-11-16",
-          "close": 3196.52
+          "close": 3179.62
         },
         {
           "date": "2023-11-17",
-          "close": 3200.72
+          "close": 3183.8
         },
         {
           "date": "2023-11-20",
-          "close": 3216.4
+          "close": 3199.39
         },
         {
           "date": "2023-11-21",
-          "close": 3207.81
+          "close": 3190.84
         },
         {
           "date": "2023-11-22",
-          "close": 3226.04
+          "close": 3208.98
         },
         {
           "date": "2023-11-23",
-          "close": 3206.02
+          "close": 3189.07
         },
         {
           "date": "2023-11-24",
-          "close": 3159.28
+          "close": 3142.58
         },
         {
           "date": "2023-11-28",
-          "close": 3171.21
+          "close": 3154.44
         },
         {
           "date": "2023-11-29",
-          "close": 3211.05
+          "close": 3194.07
         },
         {
           "date": "2023-11-30",
-          "close": 3187.15
+          "close": 3170.3
         },
         {
           "date": "2023-12-01",
-          "close": 3209.13
+          "close": 3192.16
         },
         {
           "date": "2023-12-04",
-          "close": 3209.86
+          "close": 3192.89
         },
         {
           "date": "2023-12-05",
-          "close": 3227.36
+          "close": 3210.3
         },
         {
           "date": "2023-12-06",
-          "close": 3293.62
+          "close": 3276.2
         },
         {
           "date": "2023-12-07",
-          "close": 3303.49
+          "close": 3286.02
         },
         {
           "date": "2023-12-08",
-          "close": 3314.27
+          "close": 3296.74
         },
         {
           "date": "2023-12-11",
-          "close": 3329.07
+          "close": 3311.47
         },
         {
           "date": "2023-12-12",
-          "close": 3355.76
+          "close": 3338.01
         },
         {
           "date": "2023-12-13",
-          "close": 3283.98
+          "close": 3266.61
         },
         {
           "date": "2023-12-14",
-          "close": 3351.33
+          "close": 3333.61
         },
         {
           "date": "2023-12-15",
-          "close": 3528.39
+          "close": 3509.73
         },
         {
           "date": "2023-12-18",
-          "close": 3526.74
+          "close": 3508.09
         },
         {
           "date": "2023-12-19",
-          "close": 3487.45
+          "close": 3469.0
         },
         {
           "date": "2023-12-20",
-          "close": 3454.41
+          "close": 3436.14
         },
         {
           "date": "2023-12-21",
-          "close": 3461.22
+          "close": 3442.92
         },
         {
           "date": "2023-12-22",
-          "close": 3494.57
+          "close": 3476.09
         },
         {
           "date": "2023-12-26",
-          "close": 3468.57
+          "close": 3450.23
         },
         {
           "date": "2023-12-27",
-          "close": 3482.88
+          "close": 3464.46
         },
         {
           "date": "2023-12-28",
-          "close": 3472.55
+          "close": 3454.19
         },
         {
           "date": "2023-12-29",
-          "close": 3466.61
+          "close": 3448.28
         },
         {
           "date": "2024-01-01",
-          "close": 3482.78
+          "close": 3464.37
         },
         {
           "date": "2024-01-02",
-          "close": 3457.29
+          "close": 3439.01
         },
         {
           "date": "2024-01-03",
-          "close": 3373.72
+          "close": 3355.88
         },
         {
           "date": "2024-01-04",
-          "close": 3350.92
+          "close": 3333.2
         },
         {
           "date": "2024-01-05",
-          "close": 3415.89
+          "close": 3397.83
         },
         {
           "date": "2024-01-08",
-          "close": 3361.43
+          "close": 3343.65
         },
         {
           "date": "2024-01-09",
-          "close": 3372.03
+          "close": 3354.19
         },
         {
           "date": "2024-01-10",
-          "close": 3393.18
+          "close": 3375.24
         },
         {
           "date": "2024-01-11",
-          "close": 3413.74
+          "close": 3395.69
         },
         {
           "date": "2024-01-12",
-          "close": 3548.31
+          "close": 3529.54
         },
         {
           "date": "2024-01-15",
-          "close": 3567.5
+          "close": 3548.63
         },
         {
           "date": "2024-01-16",
-          "close": 3528.66
+          "close": 3510.0
         },
         {
           "date": "2024-01-17",
-          "close": 3549.95
+          "close": 3531.18
         },
         {
           "date": "2024-01-18",
-          "close": 3566.4
+          "close": 3547.54
         },
         {
           "date": "2024-01-19",
-          "close": 3628.47
+          "close": 3609.28
         },
         {
           "date": "2024-01-23",
-          "close": 3550.44
+          "close": 3531.66
         },
         {
           "date": "2024-01-24",
-          "close": 3535.3
+          "close": 3516.6
         },
         {
           "date": "2024-01-25",
-          "close": 3506.31
+          "close": 3487.77
         },
         {
           "date": "2024-01-29",
-          "close": 3497.75
+          "close": 3479.26
         },
         {
           "date": "2024-01-30",
-          "close": 3497.34
+          "close": 3478.85
         },
         {
           "date": "2024-01-31",
-          "close": 3511.51
+          "close": 3492.94
         },
         {
           "date": "2024-02-01",
-          "close": 3546.66
+          "close": 3527.91
         },
         {
           "date": "2024-02-02",
-          "close": 3649.87
+          "close": 3630.57
         },
         {
           "date": "2024-02-05",
-          "close": 3656.31
+          "close": 3636.97
         },
         {
           "date": "2024-02-06",
-          "close": 3806.03
+          "close": 3785.9
         },
         {
           "date": "2024-02-07",
-          "close": 3757.62
+          "close": 3737.75
         },
         {
           "date": "2024-02-08",
-          "close": 3804.28
+          "close": 3784.16
         },
         {
           "date": "2024-02-09",
-          "close": 3803.91
+          "close": 3783.8
         },
         {
           "date": "2024-02-12",
-          "close": 3791.95
+          "close": 3771.9
         },
         {
           "date": "2024-02-13",
-          "close": 3818.45
+          "close": 3798.26
         },
         {
           "date": "2024-02-14",
-          "close": 3772.99
+          "close": 3753.04
         },
         {
           "date": "2024-02-15",
-          "close": 3775.84
+          "close": 3755.88
         },
         {
           "date": "2024-02-16",
-          "close": 3798.94
+          "close": 3778.85
         },
         {
           "date": "2024-02-19",
-          "close": 3776.4
+          "close": 3756.43
         },
         {
           "date": "2024-02-20",
-          "close": 3709.08
+          "close": 3689.47
         },
         {
           "date": "2024-02-21",
-          "close": 3673.06
+          "close": 3653.63
         },
         {
           "date": "2024-02-22",
-          "close": 3761.03
+          "close": 3741.14
         },
         {
           "date": "2024-02-23",
-          "close": 3728.82
+          "close": 3709.1
         },
         {
           "date": "2024-02-26",
-          "close": 3681.84
+          "close": 3662.37
         },
         {
           "date": "2024-02-27",
-          "close": 3776.95
+          "close": 3756.98
         },
         {
           "date": "2024-02-28",
-          "close": 3790.34
+          "close": 3770.3
         },
         {
           "date": "2024-02-29",
-          "close": 3768.39
+          "close": 3748.46
         },
         {
           "date": "2024-03-01",
-          "close": 3767.7
+          "close": 3747.78
         },
         {
           "date": "2024-03-04",
-          "close": 3755.14
+          "close": 3735.28
         },
         {
           "date": "2024-03-05",
-          "close": 3692.01
+          "close": 3672.49
         },
         {
           "date": "2024-03-06",
-          "close": 3740.05
+          "close": 3720.27
         },
         {
           "date": "2024-03-07",
-          "close": 3780.81
+          "close": 3760.82
         },
         {
           "date": "2024-03-11",
-          "close": 3793.47
+          "close": 3773.41
         },
         {
           "date": "2024-03-12",
-          "close": 3857.79
+          "close": 3837.39
         },
         {
           "date": "2024-03-13",
-          "close": 3817.99
+          "close": 3797.8
         },
         {
           "date": "2024-03-14",
-          "close": 3871.92
+          "close": 3851.44
         },
         {
           "date": "2024-03-15",
-          "close": 3882.64
+          "close": 3862.1
         },
         {
           "date": "2024-03-18",
-          "close": 3821.21
+          "close": 3801.0
         },
         {
           "date": "2024-03-19",
-          "close": 3659.99
+          "close": 3640.64
         },
         {
           "date": "2024-03-20",
-          "close": 3654.1
+          "close": 3634.78
         },
         {
           "date": "2024-03-21",
-          "close": 3655.99
+          "close": 3636.65
         },
         {
           "date": "2024-03-22",
-          "close": 3598.89
+          "close": 3579.86
         },
         {
           "date": "2024-03-26",
-          "close": 3568.15
+          "close": 3549.28
         },
         {
           "date": "2024-03-27",
-          "close": 3534.47
+          "close": 3515.78
         },
         {
           "date": "2024-03-28",
-          "close": 3567.05
+          "close": 3548.18
         },
         {
           "date": "2024-04-01",
-          "close": 3604.27
+          "close": 3585.21
         },
         {
           "date": "2024-04-02",
-          "close": 3573.95
+          "close": 3555.05
         },
         {
           "date": "2024-04-03",
-          "close": 3632.38
+          "close": 3613.17
         },
         {
           "date": "2024-04-04",
-          "close": 3683.91
+          "close": 3664.43
         },
         {
           "date": "2024-04-05",
-          "close": 3661.78
+          "close": 3642.42
         },
         {
           "date": "2024-04-08",
-          "close": 3655.62
+          "close": 3636.29
         },
         {
           "date": "2024-04-09",
-          "close": 3631.69
+          "close": 3612.49
         },
         {
           "date": "2024-04-10",
-          "close": 3666.75
+          "close": 3647.36
         },
         {
           "date": "2024-04-12",
-          "close": 3682.17
+          "close": 3662.69
         },
         {
           "date": "2024-04-15",
-          "close": 3626.77
+          "close": 3607.59
         },
         {
           "date": "2024-04-16",
-          "close": 3563.83
+          "close": 3544.98
         },
         {
           "date": "2024-04-18",
-          "close": 3553.89
+          "close": 3535.09
         },
         {
           "date": "2024-04-19",
-          "close": 3520.94
+          "close": 3502.33
         },
         {
           "date": "2024-04-22",
-          "close": 3556.28
+          "close": 3537.48
         },
         {
           "date": "2024-04-23",
-          "close": 3565.57
+          "close": 3546.72
         },
         {
           "date": "2024-04-24",
-          "close": 3525.41
+          "close": 3506.76
         },
         {
           "date": "2024-04-25",
-          "close": 3544.87
+          "close": 3526.12
         },
         {
           "date": "2024-04-26",
-          "close": 3516.48
+          "close": 3497.89
         },
         {
           "date": "2024-04-29",
-          "close": 3561.43
+          "close": 3542.6
         },
         {
           "date": "2024-04-30",
-          "close": 3515.84
+          "close": 3497.25
         },
         {
           "date": "2024-05-02",
-          "close": 3555.08
+          "close": 3536.28
         },
         {
           "date": "2024-05-03",
-          "close": 3536.77
+          "close": 3518.07
         },
         {
           "date": "2024-05-06",
-          "close": 3608.23
+          "close": 3589.15
         },
         {
           "date": "2024-05-07",
-          "close": 3661.51
+          "close": 3642.15
         },
         {
           "date": "2024-05-08",
-          "close": 3659.67
+          "close": 3640.31
         },
         {
           "date": "2024-05-09",
-          "close": 3644.25
+          "close": 3624.98
         },
         {
           "date": "2024-05-10",
-          "close": 3583.24
+          "close": 3564.29
         },
         {
           "date": "2024-05-13",
-          "close": 3632.84
+          "close": 3613.63
         },
         {
           "date": "2024-05-14",
-          "close": 3589.96
+          "close": 3570.98
         },
         {
           "date": "2024-05-15",
-          "close": 3570.82
+          "close": 3551.94
         },
         {
           "date": "2024-05-16",
-          "close": 3615.82
+          "close": 3596.7
         },
         {
           "date": "2024-05-17",
-          "close": 3553.86
+          "close": 3535.06
         },
         {
           "date": "2024-05-21",
-          "close": 3540.97
+          "close": 3522.25
         },
         {
           "date": "2024-05-22",
-          "close": 3551.91
+          "close": 3533.13
         },
         {
           "date": "2024-05-23",
-          "close": 3608.87
+          "close": 3589.79
         },
         {
           "date": "2024-05-24",
-          "close": 3568.13
+          "close": 3549.26
         },
         {
           "date": "2024-05-27",
-          "close": 3565.86
+          "close": 3547.0
         },
         {
           "date": "2024-05-28",
-          "close": 3559.23
+          "close": 3540.41
         },
         {
           "date": "2024-05-29",
-          "close": 3525.63
+          "close": 3506.99
         },
         {
           "date": "2024-05-30",
-          "close": 3463.02
+          "close": 3444.71
         },
         {
           "date": "2024-05-31",
-          "close": 3402.63
+          "close": 3384.64
         },
         {
           "date": "2024-06-03",
-          "close": 3432.2
+          "close": 3414.05
         },
         {
           "date": "2024-06-04",
-          "close": 3443.46
+          "close": 3425.25
         },
         {
           "date": "2024-06-05",
-          "close": 3472.61
+          "close": 3454.25
         },
         {
           "date": "2024-06-06",
-          "close": 3550.43
+          "close": 3531.65
         },
         {
           "date": "2024-06-07",
-          "close": 3609.33
+          "close": 3590.25
         },
         {
           "date": "2024-06-10",
-          "close": 3576.66
+          "close": 3557.75
         },
         {
           "date": "2024-06-11",
-          "close": 3570.54
+          "close": 3551.66
         },
         {
           "date": "2024-06-12",
-          "close": 3551.59
+          "close": 3532.81
         },
         {
           "date": "2024-06-13",
-          "close": 3594.69
+          "close": 3575.68
         },
         {
           "date": "2024-06-14",
-          "close": 3551.96
+          "close": 3533.17
         },
         {
           "date": "2024-06-18",
-          "close": 3536.25
+          "close": 3517.55
         },
         {
           "date": "2024-06-19",
-          "close": 3523.83
+          "close": 3505.19
         },
         {
           "date": "2024-06-20",
-          "close": 3510.43
+          "close": 3491.87
         },
         {
           "date": "2024-06-21",
-          "close": 3532.21
+          "close": 3513.54
         },
         {
           "date": "2024-06-24",
-          "close": 3537.82
+          "close": 3519.11
         },
         {
           "date": "2024-06-25",
-          "close": 3557.89
+          "close": 3539.08
         },
         {
           "date": "2024-06-26",
-          "close": 3574.02
+          "close": 3555.12
         },
         {
           "date": "2024-06-27",
-          "close": 3646.59
+          "close": 3627.31
         },
         {
           "date": "2024-06-28",
-          "close": 3618.79
+          "close": 3599.65
         },
         {
           "date": "2024-07-01",
-          "close": 3687.42
+          "close": 3667.93
         },
         {
           "date": "2024-07-02",
-          "close": 3723.76
+          "close": 3704.07
         },
         {
           "date": "2024-07-03",
-          "close": 3675.42
+          "close": 3655.99
         },
         {
           "date": "2024-07-04",
-          "close": 3727.05
+          "close": 3707.34
         },
         {
           "date": "2024-07-05",
-          "close": 3718.57
+          "close": 3698.91
         },
         {
           "date": "2024-07-08",
-          "close": 3701.33
+          "close": 3681.76
         },
         {
           "date": "2024-07-09",
-          "close": 3694.19
+          "close": 3674.66
         },
         {
           "date": "2024-07-10",
-          "close": 3623.42
+          "close": 3604.26
         },
         {
           "date": "2024-07-11",
-          "close": 3636.91
+          "close": 3617.68
         },
         {
           "date": "2024-07-12",
-          "close": 3878.14
+          "close": 3857.63
         },
         {
           "date": "2024-07-15",
-          "close": 3864.46
+          "close": 3844.03
         },
         {
           "date": "2024-07-16",
-          "close": 3873.04
+          "close": 3852.56
         },
         {
           "date": "2024-07-18",
-          "close": 4000.12
+          "close": 3978.96
         },
         {
           "date": "2024-07-19",
-          "close": 3997.19
+          "close": 3976.05
         },
         {
           "date": "2024-07-22",
-          "close": 3983.21
+          "close": 3962.15
         },
         {
           "date": "2024-07-23",
-          "close": 3997.14
+          "close": 3976.01
         },
         {
           "date": "2024-07-24",
-          "close": 4000.77
+          "close": 3979.61
         },
         {
           "date": "2024-07-25",
-          "close": 4015.86
+          "close": 3994.63
         },
         {
           "date": "2024-07-26",
-          "close": 4076.58
+          "close": 4055.02
         },
         {
           "date": "2024-07-29",
-          "close": 4070.31
+          "close": 4048.78
         },
         {
           "date": "2024-07-30",
-          "close": 4055.67
+          "close": 4034.23
         },
         {
           "date": "2024-07-31",
-          "close": 4074.26
+          "close": 4052.71
         },
         {
           "date": "2024-08-01",
-          "close": 4085.17
+          "close": 4063.57
         },
         {
           "date": "2024-08-02",
-          "close": 3979.21
+          "close": 3958.17
         },
         {
           "date": "2024-08-05",
-          "close": 3860.29
+          "close": 3839.88
         },
         {
           "date": "2024-08-06",
-          "close": 3875.3
+          "close": 3854.81
         },
         {
           "date": "2024-08-07",
-          "close": 3902.47
+          "close": 3881.84
         },
         {
           "date": "2024-08-08",
-          "close": 3876.55
+          "close": 3856.05
         },
         {
           "date": "2024-08-09",
-          "close": 3928.77
+          "close": 3907.99
         },
         {
           "date": "2024-08-12",
-          "close": 3898.01
+          "close": 3877.4
         },
         {
           "date": "2024-08-13",
-          "close": 3899.22
+          "close": 3878.6
         },
         {
           "date": "2024-08-14",
-          "close": 3990.55
+          "close": 3969.45
         },
         {
           "date": "2024-08-16",
-          "close": 4102.78
+          "close": 4081.08
         },
         {
           "date": "2024-08-19",
-          "close": 4171.48
+          "close": 4149.42
         },
         {
           "date": "2024-08-20",
-          "close": 4202.42
+          "close": 4180.2
         },
         {
           "date": "2024-08-21",
-          "close": 4228.62
+          "close": 4206.26
         },
         {
           "date": "2024-08-22",
-          "close": 4182.63
+          "close": 4160.51
         },
         {
           "date": "2024-08-23",
-          "close": 4147.23
+          "close": 4125.3
         },
         {
           "date": "2024-08-26",
-          "close": 4183.05
+          "close": 4160.93
         },
         {
           "date": "2024-08-27",
-          "close": 4178.13
+          "close": 4156.03
         },
         {
           "date": "2024-08-28",
-          "close": 4186.39
+          "close": 4164.26
         },
         {
           "date": "2024-08-29",
-          "close": 4191.74
+          "close": 4169.57
         },
         {
           "date": "2024-08-30",
-          "close": 4230.71
+          "close": 4208.34
         },
         {
           "date": "2024-09-02",
-          "close": 4200.33
+          "close": 4178.12
         },
         {
           "date": "2024-09-03",
-          "close": 4192.25
+          "close": 4170.08
         },
         {
           "date": "2024-09-04",
-          "close": 4161.49
+          "close": 4139.49
         },
         {
           "date": "2024-09-05",
-          "close": 4158.43
+          "close": 4136.44
         },
         {
           "date": "2024-09-06",
-          "close": 4140.59
+          "close": 4118.7
         },
         {
           "date": "2024-09-09",
-          "close": 4133.9
+          "close": 4112.04
         },
         {
           "date": "2024-09-10",
-          "close": 4188.07
+          "close": 4165.92
         },
         {
           "date": "2024-09-11",
-          "close": 4161.59
+          "close": 4139.58
         },
         {
           "date": "2024-09-12",
-          "close": 4197.22
+          "close": 4175.02
         },
         {
           "date": "2024-09-13",
-          "close": 4201.77
+          "close": 4179.55
         },
         {
           "date": "2024-09-16",
-          "close": 4193.08
+          "close": 4170.91
         },
         {
           "date": "2024-09-17",
-          "close": 4186.02
+          "close": 4163.89
         },
         {
           "date": "2024-09-18",
-          "close": 4037.84
+          "close": 4016.48
         },
         {
           "date": "2024-09-19",
-          "close": 3991.38
+          "close": 3970.28
         },
         {
           "date": "2024-09-20",
-          "close": 3980.93
+          "close": 3959.88
         },
         {
           "date": "2024-09-23",
-          "close": 3965.7
+          "close": 3944.72
         },
         {
           "date": "2024-09-24",
-          "close": 3968.3
+          "close": 3947.31
         },
         {
           "date": "2024-09-25",
-          "close": 3971.5
+          "close": 3950.5
         },
         {
           "date": "2024-09-26",
-          "close": 3987.99
+          "close": 3966.9
         },
         {
           "date": "2024-09-27",
-          "close": 4003.04
+          "close": 3981.88
         },
         {
           "date": "2024-09-30",
-          "close": 3965.7
+          "close": 3944.72
         },
         {
           "date": "2024-10-01",
-          "close": 3983.72
+          "close": 3962.65
         },
         {
           "date": "2024-10-03",
-          "close": 3932.48
+          "close": 3911.69
         },
         {
           "date": "2024-10-04",
-          "close": 3950.6
+          "close": 3929.71
         },
         {
           "date": "2024-10-07",
-          "close": 3969.74
+          "close": 3948.75
         },
         {
           "date": "2024-10-08",
-          "close": 3951.53
+          "close": 3930.63
         },
         {
           "date": "2024-10-09",
-          "close": 3951.25
+          "close": 3930.35
         },
         {
           "date": "2024-10-10",
-          "close": 3927.51
+          "close": 3906.74
         },
         {
           "date": "2024-10-11",
-          "close": 3854.86
+          "close": 3834.47
         },
         {
           "date": "2024-10-14",
-          "close": 3843.2
+          "close": 3822.88
         },
         {
           "date": "2024-10-15",
-          "close": 3824.76
+          "close": 3804.53
         },
         {
           "date": "2024-10-16",
-          "close": 3804.46
+          "close": 3784.34
         },
         {
           "date": "2024-10-17",
-          "close": 3817.51
+          "close": 3797.32
         },
         {
           "date": "2024-10-18",
-          "close": 3839.91
+          "close": 3819.6
         },
         {
           "date": "2024-10-21",
-          "close": 3799.67
+          "close": 3779.58
         },
         {
           "date": "2024-10-22",
-          "close": 3739.74
+          "close": 3719.97
         },
         {
           "date": "2024-10-23",
-          "close": 3787.01
+          "close": 3766.98
         },
         {
           "date": "2024-10-24",
-          "close": 3769.92
+          "close": 3749.98
         },
         {
           "date": "2024-10-25",
-          "close": 3778.91
+          "close": 3758.92
         },
         {
           "date": "2024-10-28",
-          "close": 3809.92
+          "close": 3789.77
         },
         {
           "date": "2024-10-29",
-          "close": 3795.39
+          "close": 3775.32
         },
         {
           "date": "2024-10-30",
-          "close": 3804.15
+          "close": 3784.03
         },
         {
           "date": "2024-10-31",
-          "close": 3695.92
+          "close": 3676.38
         },
         {
           "date": "2024-11-01",
-          "close": 3710.59
+          "close": 3690.97
         },
         {
           "date": "2024-11-04",
-          "close": 3691.92
+          "close": 3672.4
         },
         {
           "date": "2024-11-05",
-          "close": 3698.63
+          "close": 3679.07
         },
         {
           "date": "2024-11-06",
-          "close": 3855.37
+          "close": 3834.98
         },
         {
           "date": "2024-11-07",
-          "close": 3865.85
+          "close": 3845.4
         },
         {
           "date": "2024-11-08",
-          "close": 3862.21
+          "close": 3841.79
         },
         {
           "date": "2024-11-11",
-          "close": 3910.36
+          "close": 3889.69
         },
         {
           "date": "2024-11-12",
-          "close": 3909.15
+          "close": 3888.48
         },
         {
           "date": "2024-11-13",
-          "close": 3865.33
+          "close": 3844.89
         },
         {
           "date": "2024-11-14",
-          "close": 3861.19
+          "close": 3840.77
         },
         {
           "date": "2024-11-18",
-          "close": 3743.47
+          "close": 3723.67
         },
         {
           "date": "2024-11-19",
-          "close": 3762.14
+          "close": 3742.25
         },
         {
           "date": "2024-11-21",
-          "close": 3793.16
+          "close": 3773.1
         },
         {
           "date": "2024-11-22",
-          "close": 3953.11
+          "close": 3932.21
         },
         {
           "date": "2024-11-25",
-          "close": 4018.77
+          "close": 3997.52
         },
         {
           "date": "2024-11-26",
-          "close": 4053.79
+          "close": 4032.35
         },
         {
           "date": "2024-11-27",
-          "close": 4035.02
+          "close": 4013.68
         },
         {
           "date": "2024-11-28",
-          "close": 3953.39
+          "close": 3932.49
         },
         {
           "date": "2024-11-29",
-          "close": 3977.56
+          "close": 3956.53
         },
         {
           "date": "2024-12-02",
-          "close": 3982.96
+          "close": 3961.9
         },
         {
           "date": "2024-12-03",
-          "close": 4007.27
+          "close": 3986.08
         },
         {
           "date": "2024-12-04",
-          "close": 4055.37
+          "close": 4033.93
         },
         {
           "date": "2024-12-05",
-          "close": 4157.49
+          "close": 4135.51
         },
         {
           "date": "2024-12-06",
-          "close": 4140.21
+          "close": 4118.32
         },
         {
           "date": "2024-12-09",
-          "close": 4146.41
+          "close": 4124.48
         },
         {
           "date": "2024-12-10",
-          "close": 4128.15
+          "close": 4106.33
         },
         {
           "date": "2024-12-11",
-          "close": 4123.4
+          "close": 4101.6
         },
         {
           "date": "2024-12-12",
-          "close": 4149.02
+          "close": 4127.08
         },
         {
           "date": "2024-12-13",
-          "close": 4166.67
+          "close": 4144.63
         },
         {
           "date": "2024-12-16",
-          "close": 4112.0
+          "close": 4090.25
         },
         {
           "date": "2024-12-17",
-          "close": 4031.25
+          "close": 4009.93
         },
         {
           "date": "2024-12-18",
-          "close": 4049.27
+          "close": 4027.86
         },
         {
           "date": "2024-12-19",
-          "close": 3978.54
+          "close": 3957.5
         },
         {
           "date": "2024-12-20",
-          "close": 3883.91
+          "close": 3863.38
         },
         {
           "date": "2024-12-23",
-          "close": 3872.74
+          "close": 3852.26
         },
         {
           "date": "2024-12-24",
-          "close": 3892.48
+          "close": 3871.9
         },
         {
           "date": "2024-12-26",
-          "close": 3882.8
+          "close": 3862.26
         },
         {
           "date": "2024-12-27",
-          "close": 3878.84
+          "close": 3858.33
         },
         {
           "date": "2024-12-30",
-          "close": 3873.2
+          "close": 3852.72
         },
         {
           "date": "2024-12-31",
-          "close": 3813.6
+          "close": 3793.43
         },
         {
           "date": "2025-01-01",
-          "close": 3830.04
+          "close": 3809.78
         },
         {
           "date": "2025-01-02",
-          "close": 3888.99
+          "close": 3868.42
         },
         {
           "date": "2025-01-03",
-          "close": 3818.35
+          "close": 3798.16
         },
         {
           "date": "2025-01-06",
-          "close": 3813.78
+          "close": 3793.62
         },
         {
           "date": "2025-01-07",
-          "close": 3751.66
+          "close": 3731.83
         },
         {
           "date": "2025-01-08",
-          "close": 3826.26
+          "close": 3806.03
         },
         {
           "date": "2025-01-09",
-          "close": 3761.49
+          "close": 3741.6
         },
         {
           "date": "2025-01-10",
-          "close": 3972.72
+          "close": 3951.71
         },
         {
           "date": "2025-01-13",
-          "close": 3996.42
+          "close": 3975.29
         },
         {
           "date": "2025-01-14",
-          "close": 3942.35
+          "close": 3921.51
         },
         {
           "date": "2025-01-15",
-          "close": 3957.77
+          "close": 3936.84
         },
         {
           "date": "2025-01-16",
-          "close": 3917.44
+          "close": 3896.73
         },
         {
           "date": "2025-01-17",
-          "close": 3911.75
+          "close": 3891.07
         },
         {
           "date": "2025-01-20",
-          "close": 3867.65
+          "close": 3847.2
         },
         {
           "date": "2025-01-21",
-          "close": 3827.86
+          "close": 3807.62
         },
         {
           "date": "2025-01-22",
-          "close": 3942.39
+          "close": 3921.54
         },
         {
           "date": "2025-01-23",
-          "close": 3931.81
+          "close": 3911.02
         },
         {
           "date": "2025-01-24",
-          "close": 3938.36
+          "close": 3917.53
         },
         {
           "date": "2025-01-27",
-          "close": 3855.65
+          "close": 3835.26
         },
         {
           "date": "2025-01-28",
-          "close": 3832.08
+          "close": 3811.82
         },
         {
           "date": "2025-01-29",
-          "close": 3888.51
+          "close": 3867.95
         },
         {
           "date": "2025-01-30",
-          "close": 3888.75
+          "close": 3868.19
         },
         {
           "date": "2025-01-31",
-          "close": 3900.46
+          "close": 3879.84
         },
         {
           "date": "2025-02-01",
-          "close": 3863.24
+          "close": 3842.81
         },
         {
           "date": "2025-02-03",
-          "close": 3858.97
+          "close": 3838.56
         },
         {
           "date": "2025-02-04",
-          "close": 3895.39
+          "close": 3874.79
         },
         {
           "date": "2025-02-05",
-          "close": 3880.26
+          "close": 3859.74
         },
         {
           "date": "2025-02-06",
-          "close": 3872.34
+          "close": 3851.87
         },
         {
           "date": "2025-02-07",
-          "close": 3821.74
+          "close": 3801.53
         },
         {
           "date": "2025-02-10",
-          "close": 3828.9
+          "close": 3808.66
         },
         {
           "date": "2025-02-11",
-          "close": 3759.28
+          "close": 3739.41
         },
         {
           "date": "2025-02-12",
-          "close": 3746.58
+          "close": 3726.76
         },
         {
           "date": "2025-02-13",
-          "close": 3708.64
+          "close": 3689.03
         },
         {
           "date": "2025-02-14",
-          "close": 3732.06
+          "close": 3712.33
         },
         {
           "date": "2025-02-17",
-          "close": 3703.28
+          "close": 3683.7
         },
         {
           "date": "2025-02-18",
-          "close": 3673.59
+          "close": 3654.17
         },
         {
           "date": "2025-02-19",
-          "close": 3589.08
+          "close": 3570.1
         },
         {
           "date": "2025-02-20",
-          "close": 3584.63
+          "close": 3565.67
         },
         {
           "date": "2025-02-21",
-          "close": 3590.89
+          "close": 3571.9
         },
         {
           "date": "2025-02-24",
-          "close": 3486.18
+          "close": 3467.74
         },
         {
           "date": "2025-02-25",
-          "close": 3442.5
+          "close": 3424.29
         },
         {
           "date": "2025-02-27",
-          "close": 3426.37
+          "close": 3408.26
         },
         {
           "date": "2025-02-28",
-          "close": 3303.74
+          "close": 3286.27
         },
         {
           "date": "2025-03-03",
-          "close": 3313.03
+          "close": 3295.51
         },
         {
           "date": "2025-03-04",
-          "close": 3350.02
+          "close": 3332.31
         },
         {
           "date": "2025-03-05",
-          "close": 3364.25
+          "close": 3346.46
         },
         {
           "date": "2025-03-06",
-          "close": 3415.99
+          "close": 3397.93
         },
         {
           "date": "2025-03-07",
-          "close": 3425.09
+          "close": 3406.98
         },
         {
           "date": "2025-03-10",
-          "close": 3404.65
+          "close": 3386.65
         },
         {
           "date": "2025-03-11",
-          "close": 3391.04
+          "close": 3373.11
         },
         {
           "date": "2025-03-12",
-          "close": 3325.5
+          "close": 3307.92
         },
         {
           "date": "2025-03-13",
-          "close": 3330.1
+          "close": 3312.5
         },
         {
           "date": "2025-03-17",
-          "close": 3317.44
+          "close": 3299.9
         },
         {
           "date": "2025-03-18",
-          "close": 3317.44
+          "close": 3299.9
         },
         {
           "date": "2025-03-19",
-          "close": 3316.87
+          "close": 3299.33
         },
         {
           "date": "2025-03-20",
-          "close": 3379.52
+          "close": 3361.65
         },
         {
           "date": "2025-03-21",
-          "close": 3393.7
+          "close": 3375.75
         },
         {
           "date": "2025-03-24",
-          "close": 3441.93
+          "close": 3423.73
         },
         {
           "date": "2025-03-25",
-          "close": 3469.24
+          "close": 3450.9
         },
         {
           "date": "2025-03-26",
-          "close": 3448.43
+          "close": 3430.19
         },
         {
           "date": "2025-03-27",
-          "close": 3463.03
+          "close": 3444.72
         },
         {
           "date": "2025-03-28",
-          "close": 3420.3
+          "close": 3402.22
         },
         {
           "date": "2025-04-01",
-          "close": 3367.81
+          "close": 3350.0
         },
         {
           "date": "2025-04-02",
-          "close": 3361.31
+          "close": 3343.53
         },
         {
           "date": "2025-04-03",
-          "close": 3227.77
+          "close": 3210.7
         },
         {
           "date": "2025-04-04",
-          "close": 3129.36
+          "close": 3112.81
         },
         {
           "date": "2025-04-07",
-          "close": 3105.32
+          "close": 3088.9
         },
         {
           "date": "2025-04-08",
-          "close": 3123.24
+          "close": 3106.73
         },
         {
           "date": "2025-04-09",
-          "close": 3079.28
+          "close": 3063.0
         },
         {
           "date": "2025-04-11",
-          "close": 3064.96
+          "close": 3048.75
         },
         {
           "date": "2025-04-15",
-          "close": 3080.8
+          "close": 3064.51
         },
         {
           "date": "2025-04-16",
-          "close": 3105.08
+          "close": 3088.66
         },
         {
           "date": "2025-04-17",
-          "close": 3128.89
+          "close": 3112.34
         },
         {
           "date": "2025-04-21",
-          "close": 3150.42
+          "close": 3133.76
         },
         {
           "date": "2025-04-22",
-          "close": 3143.59
+          "close": 3126.97
         },
         {
           "date": "2025-04-23",
-          "close": 3237.11
+          "close": 3219.99
         },
         {
           "date": "2025-04-24",
-          "close": 3226.3
+          "close": 3209.23
         },
         {
           "date": "2025-04-25",
-          "close": 3270.3
+          "close": 3253.01
         },
         {
           "date": "2025-04-28",
-          "close": 3266.04
+          "close": 3248.77
         },
         {
           "date": "2025-04-29",
-          "close": 3293.54
+          "close": 3276.13
         },
         {
           "date": "2025-04-30",
-          "close": 3275.71
+          "close": 3258.39
         },
         {
           "date": "2025-05-02",
-          "close": 3254.18
+          "close": 3236.97
         },
         {
           "date": "2025-05-05",
-          "close": 3276.28
+          "close": 3258.95
         },
         {
           "date": "2025-05-06",
-          "close": 3281.69
+          "close": 3264.33
         },
         {
           "date": "2025-05-07",
-          "close": 3267.55
+          "close": 3250.28
         },
         {
           "date": "2025-05-08",
-          "close": 3271.16
+          "close": 3253.86
         },
         {
           "date": "2025-05-09",
-          "close": 3263.0
+          "close": 3245.75
         },
         {
           "date": "2025-05-12",
-          "close": 3433.82
+          "close": 3415.66
         },
         {
           "date": "2025-05-13",
-          "close": 3333.85
+          "close": 3316.22
         },
         {
           "date": "2025-05-14",
-          "close": 3365.81
+          "close": 3348.02
         },
         {
           "date": "2025-05-15",
-          "close": 3395.41
+          "close": 3377.45
         },
         {
           "date": "2025-05-16",
-          "close": 3377.77
+          "close": 3359.9
         },
         {
           "date": "2025-05-19",
-          "close": 3337.46
+          "close": 3319.81
         },
         {
           "date": "2025-05-20",
-          "close": 3318.01
+          "close": 3300.47
         },
         {
           "date": "2025-05-21",
-          "close": 3344.09
+          "close": 3326.41
         },
         {
           "date": "2025-05-22",
-          "close": 3297.81
+          "close": 3280.37
         },
         {
           "date": "2025-05-23",
-          "close": 3333.47
+          "close": 3315.84
         },
         {
           "date": "2025-05-26",
-          "close": 3355.0
+          "close": 3337.26
         },
         {
           "date": "2025-05-27",
-          "close": 3318.39
+          "close": 3300.84
         },
         {
           "date": "2025-05-28",
-          "close": 3317.44
+          "close": 3299.9
         },
         {
           "date": "2025-05-29",
-          "close": 3317.82
+          "close": 3300.28
         },
         {
           "date": "2025-05-30",
-          "close": 3284.91
+          "close": 3267.54
         },
         {
           "date": "2025-06-02",
-          "close": 3272.01
+          "close": 3254.71
         },
         {
           "date": "2025-06-03",
-          "close": 3229.71
+          "close": 3212.63
         },
         {
           "date": "2025-06-04",
-          "close": 3235.16
+          "close": 3218.06
         },
         {
           "date": "2025-06-05",
-          "close": 3225.79
+          "close": 3208.73
         },
         {
           "date": "2025-06-06",
-          "close": 3238.32
+          "close": 3221.2
         },
         {
           "date": "2025-06-09",
-          "close": 3274.4
+          "close": 3257.08
         },
         {
           "date": "2025-06-10",
-          "close": 3313.63
+          "close": 3296.11
         },
         {
           "date": "2025-06-11",
-          "close": 3322.24
+          "close": 3304.67
         },
         {
           "date": "2025-06-12",
-          "close": 3286.17
+          "close": 3268.79
         },
         {
           "date": "2025-06-13",
-          "close": 3297.17
+          "close": 3279.74
         },
         {
           "date": "2025-06-16",
-          "close": 3345.59
+          "close": 3327.9
         },
         {
           "date": "2025-06-17",
-          "close": 3363.77
+          "close": 3345.98
         },
         {
           "date": "2025-06-18",
-          "close": 3302.63
+          "close": 3285.16
         },
         {
           "date": "2025-06-19",
-          "close": 3276.41
+          "close": 3259.08
         },
         {
           "date": "2025-06-20",
-          "close": 3287.6
+          "close": 3270.22
         },
         {
           "date": "2025-06-23",
-          "close": 3247.32
+          "close": 3230.15
         },
         {
           "date": "2025-06-24",
-          "close": 3244.25
+          "close": 3227.1
         },
         {
           "date": "2025-06-25",
-          "close": 3296.31
+          "close": 3278.88
         },
         {
           "date": "2025-06-26",
-          "close": 3293.44
+          "close": 3276.02
         },
         {
           "date": "2025-06-27",
-          "close": 3292.77
+          "close": 3275.36
         },
         {
           "date": "2025-06-30",
-          "close": 3312.77
+          "close": 3295.25
         },
         {
           "date": "2025-07-01",
-          "close": 3281.86
+          "close": 3264.51
         },
         {
           "date": "2025-07-02",
-          "close": 3275.74
+          "close": 3258.41
         },
         {
           "date": "2025-07-03",
-          "close": 3254.21
+          "close": 3237.0
         },
         {
           "date": "2025-07-04",
-          "close": 3272.39
+          "close": 3255.08
         },
         {
           "date": "2025-07-07",
-          "close": 3264.64
+          "close": 3247.37
         },
         {
           "date": "2025-07-08",
-          "close": 3259.37
+          "close": 3242.14
         },
         {
           "date": "2025-07-09",
-          "close": 3237.94
+          "close": 3220.82
         },
         {
           "date": "2025-07-10",
-          "close": 3236.22
+          "close": 3219.1
         },
         {
           "date": "2025-07-11",
-          "close": 3125.22
+          "close": 3108.69
         },
         {
           "date": "2025-07-14",
-          "close": 3083.78
+          "close": 3067.48
         },
         {
           "date": "2025-07-15",
-          "close": 3112.11
+          "close": 3095.65
         },
         {
           "date": "2025-07-16",
-          "close": 3104.23
+          "close": 3087.82
         },
         {
           "date": "2025-07-17",
-          "close": 3081.29
+          "close": 3064.99
         },
         {
           "date": "2025-07-18",
-          "close": 3062.76
+          "close": 3046.56
         },
         {
           "date": "2025-07-21",
-          "close": 3032.32
+          "close": 3016.28
         },
         {
           "date": "2025-07-22",
-          "close": 3033.66
+          "close": 3017.62
         },
         {
           "date": "2025-07-23",
-          "close": 3052.39
+          "close": 3036.25
         },
         {
           "date": "2025-07-24",
-          "close": 3022.53
+          "close": 3006.54
         },
         {
           "date": "2025-07-25",
-          "close": 3010.81
+          "close": 2994.89
         },
         {
           "date": "2025-07-28",
-          "close": 2956.56
+          "close": 2940.93
         },
         {
           "date": "2025-07-29",
-          "close": 2934.19
+          "close": 2918.68
         },
         {
           "date": "2025-07-30",
-          "close": 2931.89
+          "close": 2916.39
         },
         {
           "date": "2025-07-31",
-          "close": 2915.76
+          "close": 2900.34
         },
         {
           "date": "2025-08-01",
-          "close": 2883.31
+          "close": 2868.06
         },
         {
           "date": "2025-08-04",
-          "close": 2951.86
+          "close": 2936.25
         },
         {
           "date": "2025-08-05",
-          "close": 2941.78
+          "close": 2926.22
         },
         {
           "date": "2025-08-06",
-          "close": 2911.44
+          "close": 2896.04
         },
         {
           "date": "2025-08-07",
-          "close": 2925.55
+          "close": 2910.08
         },
         {
           "date": "2025-08-08",
-          "close": 2915.37
+          "close": 2899.96
         },
         {
           "date": "2025-08-11",
-          "close": 2919.6
+          "close": 2904.16
         },
         {
           "date": "2025-08-12",
-          "close": 2914.41
+          "close": 2899.0
         },
         {
           "date": "2025-08-13",
-          "close": 2915.18
+          "close": 2899.77
         },
         {
           "date": "2025-08-14",
-          "close": 2901.84
+          "close": 2886.49
         },
         {
           "date": "2025-08-18",
-          "close": 2891.18
+          "close": 2875.89
         },
         {
           "date": "2025-08-19",
-          "close": 2895.98
+          "close": 2880.67
         },
         {
           "date": "2025-08-20",
-          "close": 2975.1
+          "close": 2959.36
         },
         {
           "date": "2025-08-21",
-          "close": 2978.94
+          "close": 2963.18
         },
         {
           "date": "2025-08-22",
-          "close": 2932.27
+          "close": 2916.77
         },
         {
           "date": "2025-08-25",
-          "close": 3015.42
+          "close": 2999.48
         },
         {
           "date": "2025-08-26",
-          "close": 3031.36
+          "close": 3015.33
         },
         {
           "date": "2025-08-28",
-          "close": 2970.39
+          "close": 2954.68
         },
         {
           "date": "2025-08-29",
-          "close": 2961.75
+          "close": 2946.09
         },
         {
           "date": "2025-09-01",
-          "close": 2988.54
+          "close": 2972.73
         },
         {
           "date": "2025-09-02",
-          "close": 2987.48
+          "close": 2971.68
         },
         {
           "date": "2025-09-03",
-          "close": 2974.04
+          "close": 2958.31
         },
         {
           "date": "2025-09-04",
-          "close": 2972.31
+          "close": 2956.59
         },
         {
           "date": "2025-09-05",
-          "close": 2926.8
+          "close": 2911.32
         },
         {
           "date": "2025-09-08",
-          "close": 2898.67
+          "close": 2883.34
         },
         {
           "date": "2025-09-09",
-          "close": 2927.86
+          "close": 2912.37
         },
         {
           "date": "2025-09-10",
-          "close": 2986.04
+          "close": 2970.25
         },
         {
           "date": "2025-09-11",
-          "close": 2999.68
+          "close": 2983.81
         },
         {
           "date": "2025-09-12",
-          "close": 3008.51
+          "close": 2992.6
         },
         {
           "date": "2025-09-15",
-          "close": 2987.87
+          "close": 2972.07
         },
         {
           "date": "2025-09-16",
-          "close": 3020.32
+          "close": 3004.35
         },
         {
           "date": "2025-09-17",
-          "close": 3046.34
+          "close": 3030.23
         },
         {
           "date": "2025-09-18",
-          "close": 3050.08
+          "close": 3033.95
         },
         {
           "date": "2025-09-19",
-          "close": 3042.88
+          "close": 3026.79
         },
         {
           "date": "2025-09-22",
-          "close": 2951.28
+          "close": 2935.68
         },
         {
           "date": "2025-09-23",
-          "close": 2940.34
+          "close": 2924.79
         },
         {
           "date": "2025-09-24",
-          "close": 2914.41
+          "close": 2899.0
         },
         {
           "date": "2025-09-25",
-          "close": 2839.52
+          "close": 2824.51
         },
         {
           "date": "2025-09-26",
-          "close": 2783.55
+          "close": 2768.83
         },
         {
           "date": "2025-09-29",
-          "close": 2780.67
+          "close": 2765.96
         },
         {
           "date": "2025-09-30",
-          "close": 2773.27
+          "close": 2758.61
         },
         {
           "date": "2025-10-01",
-          "close": 2798.05
+          "close": 2783.25
         },
         {
           "date": "2025-10-03",
-          "close": 2786.24
+          "close": 2771.5
         },
         {
           "date": "2025-10-06",
-          "close": 2869.29
+          "close": 2854.11
         },
         {
           "date": "2025-10-07",
-          "close": 2855.17
+          "close": 2840.08
         },
         {
           "date": "2025-10-08",
-          "close": 2906.54
+          "close": 2891.17
         },
         {
           "date": "2025-10-09",
-          "close": 2939.67
+          "close": 2924.12
         },
         {
           "date": "2025-10-10",
-          "close": 2907.6
+          "close": 2892.22
         },
         {
           "date": "2025-10-13",
-          "close": 2887.34
+          "close": 2872.07
         },
         {
           "date": "2025-10-14",
-          "close": 2842.31
+          "close": 2827.28
         },
         {
           "date": "2025-10-15",
-          "close": 2862.06
+          "close": 2846.93
         },
         {
           "date": "2025-10-16",
-          "close": 2862.93
+          "close": 2847.79
         },
         {
           "date": "2025-10-17",
-          "close": 2854.74
+          "close": 2839.64
         },
         {
           "date": "2025-10-20",
-          "close": 2905.82
+          "close": 2890.45
         },
         {
           "date": "2025-10-21",
-          "close": 2897.63
+          "close": 2882.3
         },
         {
           "date": "2025-10-23",
-          "close": 2961.71
+          "close": 2946.05
         },
         {
           "date": "2025-10-24",
-          "close": 2952.08
+          "close": 2936.47
         },
         {
           "date": "2025-10-27",
-          "close": 2972.99
+          "close": 2957.27
         },
         {
           "date": "2025-10-28",
-          "close": 2946.97
+          "close": 2931.38
         },
         {
           "date": "2025-10-29",
-          "close": 2946.68
+          "close": 2931.1
         },
         {
           "date": "2025-10-30",
-          "close": 2925.19
+          "close": 2909.72
         },
         {
           "date": "2025-10-31",
-          "close": 2947.06
+          "close": 2931.48
         },
         {
           "date": "2025-11-03",
-          "close": 2907.36
+          "close": 2891.99
         },
         {
           "date": "2025-11-04",
-          "close": 2881.72
+          "close": 2866.49
         },
         {
           "date": "2025-11-06",
-          "close": 2901.67
+          "close": 2886.33
         },
         {
           "date": "2025-11-07",
-          "close": 2883.27
+          "close": 2868.02
         },
         {
           "date": "2025-11-10",
-          "close": 2915.45
+          "close": 2900.04
         },
         {
           "date": "2025-11-11",
-          "close": 2936.46
+          "close": 2920.94
         },
         {
           "date": "2025-11-12",
-          "close": 3018.19
+          "close": 3002.23
         },
         {
           "date": "2025-11-13",
-          "close": 2993.03
+          "close": 2977.21
         },
         {
           "date": "2025-11-14",
-          "close": 2993.32
+          "close": 2977.49
         },
         {
           "date": "2025-11-17",
-          "close": 2989.66
+          "close": 2973.85
         },
         {
           "date": "2025-11-18",
-          "close": 2975.11
+          "close": 2959.38
         },
         {
           "date": "2025-11-19",
-          "close": 3033.51
+          "close": 3017.47
         },
         {
           "date": "2025-11-20",
-          "close": 3030.72
+          "close": 3014.69
         },
         {
           "date": "2025-11-21",
-          "close": 3036.31
+          "close": 3020.25
         },
         {
           "date": "2025-11-24",
-          "close": 3027.25
+          "close": 3011.24
         },
         {
           "date": "2025-11-25",
-          "close": 3006.04
+          "close": 2990.15
         },
         {
           "date": "2025-11-26",
-          "close": 3048.16
+          "close": 3032.04
         },
         {
           "date": "2025-11-27",
-          "close": 3022.81
+          "close": 3006.83
         },
         {
           "date": "2025-11-28",
-          "close": 3023.68
+          "close": 3007.69
         },
         {
           "date": "2025-12-01",
-          "close": 3019.73
+          "close": 3003.76
         },
         {
           "date": "2025-12-02",
-          "close": 3021.95
+          "close": 3005.97
         },
         {
           "date": "2025-12-03",
-          "close": 3064.64
+          "close": 3048.43
         },
         {
           "date": "2025-12-04",
-          "close": 3112.05
+          "close": 3095.6
         },
         {
           "date": "2025-12-05",
-          "close": 3120.73
+          "close": 3104.22
         },
         {
           "date": "2025-12-08",
-          "close": 3119.09
+          "close": 3102.6
         },
         {
           "date": "2025-12-09",
-          "close": 3091.91
+          "close": 3075.56
         },
         {
           "date": "2025-12-10",
-          "close": 3073.5
+          "close": 3057.25
         },
         {
           "date": "2025-12-11",
-          "close": 3076.11
+          "close": 3059.84
         },
         {
           "date": "2025-12-12",
-          "close": 3103.67
+          "close": 3087.26
         },
         {
           "date": "2025-12-15",
-          "close": 3113.02
+          "close": 3096.56
         },
         {
           "date": "2025-12-16",
-          "close": 3088.83
+          "close": 3072.49
         },
         {
           "date": "2025-12-17",
-          "close": 3101.07
+          "close": 3084.67
         },
         {
           "date": "2025-12-18",
-          "close": 3161.78
+          "close": 3145.06
         },
         {
           "date": "2025-12-19",
-          "close": 3162.94
+          "close": 3146.21
         },
         {
           "date": "2025-12-22",
-          "close": 3204.28
+          "close": 3187.34
         },
         {
           "date": "2025-12-23",
-          "close": 3189.92
+          "close": 3173.05
         },
         {
           "date": "2025-12-24",
-          "close": 3198.6
+          "close": 3181.68
         },
         {
           "date": "2025-12-26",
-          "close": 3161.01
+          "close": 3144.3
         },
         {
           "date": "2025-12-29",
-          "close": 3133.54
+          "close": 3116.97
         },
         {
           "date": "2025-12-30",
-          "close": 3129.02
+          "close": 3112.47
         },
         {
           "date": "2025-12-31",
-          "close": 3089.89
+          "close": 3073.55
         },
         {
           "date": "2026-01-01",
-          "close": 3110.32
+          "close": 3093.87
         },
         {
           "date": "2026-01-02",
-          "close": 3132.77
+          "close": 3116.21
         },
         {
           "date": "2026-01-05",
-          "close": 3099.43
+          "close": 3083.04
         },
         {
           "date": "2026-01-06",
-          "close": 3137.69
+          "close": 3121.1
         },
         {
           "date": "2026-01-07",
-          "close": 3176.04
+          "close": 3159.25
         },
         {
           "date": "2026-01-08",
-          "close": 3087.67
+          "close": 3071.34
         },
         {
           "date": "2026-01-09",
-          "close": 3091.43
+          "close": 3075.08
         },
         {
           "date": "2026-01-12",
-          "close": 3122.08
+          "close": 3105.57
         },
         {
           "date": "2026-01-13",
-          "close": 3149.45
+          "close": 3132.79
         },
         {
           "date": "2026-01-14",
-          "close": 3076.68
+          "close": 3060.42
         },
         {
           "date": "2026-01-15",
-          "close": 3076.68
+          "close": 3060.42
         },
         {
           "date": "2026-01-16",
-          "close": 3146.55
+          "close": 3129.91
         },
         {
           "date": "2026-01-19",
-          "close": 3104.26
+          "close": 3087.84
         },
         {
           "date": "2026-01-20",
-          "close": 3044.11
+          "close": 3028.01
         },
         {
           "date": "2026-01-21",
-          "close": 3064.03
+          "close": 3047.82
         },
         {
           "date": "2026-01-22",
-          "close": 3091.31
+          "close": 3074.96
         },
         {
           "date": "2026-01-23",
-          "close": 3103.18
+          "close": 3086.77
         },
         {
           "date": "2026-01-27",
-          "close": 3098.76
+          "close": 3082.38
         },
         {
           "date": "2026-01-28",
-          "close": 3140.07
+          "close": 3123.47
         },
         {
           "date": "2026-01-29",
-          "close": 3085.42
+          "close": 3069.1
         },
         {
           "date": "2026-01-30",
-          "close": 3065.3
+          "close": 3049.09
         },
         {
           "date": "2026-02-02",
-          "close": 3110.15
+          "close": 3093.7
         },
         {
           "date": "2026-02-03",
-          "close": 3164.8
+          "close": 3148.07
         },
         {
           "date": "2026-02-04",
-          "close": 2942.84
+          "close": 2927.28
         },
         {
           "date": "2026-02-05",
-          "close": 2935.39
+          "close": 2919.86
         },
         {
           "date": "2026-02-06",
-          "close": 2886.42
+          "close": 2871.16
         },
         {
           "date": "2026-02-09",
-          "close": 2892.9
+          "close": 2877.6
         },
         {
           "date": "2026-02-10",
-          "close": 2928.62
+          "close": 2913.13
         },
         {
           "date": "2026-02-11",
-          "close": 2855.22
+          "close": 2840.12
         },
         {
           "date": "2026-02-12",
-          "close": 2698.51
+          "close": 2684.24
         },
         {
           "date": "2026-02-13",
-          "close": 2641.7
+          "close": 2627.73
         },
         {
           "date": "2026-02-16",
-          "close": 2655.83
+          "close": 2641.79
         },
         {
           "date": "2026-02-17",
-          "close": 2666.43
+          "close": 2652.33
         },
         {
           "date": "2026-02-18",
-          "close": 2644.35
+          "close": 2630.37
         },
         {
           "date": "2026-02-19",
-          "close": 2627.67
+          "close": 2613.77
         },
         {
           "date": "2026-02-20",
-          "close": 2635.81
+          "close": 2621.87
         },
         {
           "date": "2026-02-23",
-          "close": 2626.1
+          "close": 2612.21
         },
         {
           "date": "2026-02-24",
-          "close": 2525.42
+          "close": 2512.07
         },
         {
           "date": "2026-02-25",
-          "close": 2579.98
+          "close": 2566.34
         },
         {
           "date": "2026-02-26",
-          "close": 2598.04
+          "close": 2584.3
         },
         {
           "date": "2026-02-27",
-          "close": 2587.93
+          "close": 2574.24
         },
         {
           "date": "2026-03-02",
-          "close": 2564.48
+          "close": 2550.92
         },
         {
           "date": "2026-03-04",
-          "close": 2539.26
+          "close": 2525.83
         },
         {
           "date": "2026-03-05",
-          "close": 2530.43
+          "close": 2517.05
         },
         {
           "date": "2026-03-06",
-          "close": 2509.63
+          "close": 2496.35
         },
         {
           "date": "2026-03-09",
-          "close": 2479.99
+          "close": 2466.88
         },
         {
           "date": "2026-03-10",
-          "close": 2465.96
+          "close": 2452.92
         },
         {
           "date": "2026-03-11",
-          "close": 2418.66
+          "close": 2405.87
         },
         {
           "date": "2026-03-12",
-          "close": 2396.59
+          "close": 2383.91
         },
         {
           "date": "2026-03-13",
-          "close": 2365.28
+          "close": 2352.78
         },
         {
           "date": "2026-03-16",
-          "close": 2364.01
+          "close": 2351.51
         },
         {
           "date": "2026-03-17",
-          "close": 2346.84
+          "close": 2334.43
         },
         {
           "date": "2026-03-18",
-          "close": 2395.02
+          "close": 2382.35
         },
         {
           "date": "2026-03-19",
-          "close": 2311.81
+          "close": 2299.58
         },
         {
           "date": "2026-03-20",
-          "close": 2345.76
+          "close": 2333.35
         },
         {
           "date": "2026-03-23",
-          "close": 2339.09
+          "close": 2326.72
         },
         {
           "date": "2026-03-24",
-          "close": 2353.8
+          "close": 2341.36
         },
         {
           "date": "2026-03-25",
-          "close": 2332.81
+          "close": 2320.47
         },
         {
           "date": "2026-03-27",
-          "close": 2344.97
+          "close": 2332.57
         },
         {
           "date": "2026-03-30",
-          "close": 2314.65
+          "close": 2302.41
         },
         {
           "date": "2026-04-01",
-          "close": 2363.03
+          "close": 2350.53
         },
         {
           "date": "2026-04-02",
-          "close": 2404.73
+          "close": 2392.01
         },
         {
           "date": "2026-04-06",
-          "close": 2427.5
+          "close": 2414.66
         },
         {
           "date": "2026-04-07",
-          "close": 2492.16
+          "close": 2478.98
         },
         {
           "date": "2026-04-08",
-          "close": 2511.2
+          "close": 2497.92
         },
         {
           "date": "2026-04-09",
-          "close": 2540.44
+          "close": 2527.0
         },
         {
           "date": "2026-04-10",
-          "close": 2476.95
+          "close": 2463.85
         },
         {
           "date": "2026-04-13",
-          "close": 2426.22
+          "close": 2413.39
         },
         {
           "date": "2026-04-15",
-          "close": 2506.98
+          "close": 2493.72
         },
         {
           "date": "2026-04-16",
-          "close": 2528.56
+          "close": 2515.19
         },
         {
           "date": "2026-04-17",
-          "close": 2533.08
+          "close": 2519.68
         },
         {
           "date": "2026-04-20",
-          "close": 2531.21
+          "close": 2517.83
         },
         {
           "date": "2026-04-21",
-          "close": 2561.53
+          "close": 2547.99
         },
         {
           "date": "2026-04-22",
-          "close": 2490.88
+          "close": 2477.71
         },
         {
           "date": "2026-04-23",
-          "close": 2474.5
+          "close": 2461.41
         },
         {
           "date": "2026-04-24",
-          "close": 2351.94
+          "close": 2339.5
         },
         {
           "date": "2026-04-27",
-          "close": 2401.69
+          "close": 2388.99
         },
         {
           "date": "2026-04-28",
-          "close": 2398.84
+          "close": 2386.16
         },
         {
           "date": "2026-04-29",
-          "close": 2428.28
+          "close": 2415.44
         },
         {
           "date": "2026-04-30",
-          "close": 2427.5
+          "close": 2414.66
         },
         {
           "date": "2026-05-04",
-          "close": 2385.69
+          "close": 2373.08
         },
         {
           "date": "2026-05-05",
-          "close": 2381.77
+          "close": 2369.17
         },
         {
           "date": "2026-05-06",
-          "close": 2389.72
+          "close": 2377.08
         },
         {
           "date": "2026-05-07",
-          "close": 2356.35
+          "close": 2343.89
         },
         {
           "date": "2026-05-08",
-          "close": 2349.49
+          "close": 2337.06
         },
         {
           "date": "2026-05-11",
-          "close": 2348.01
+          "close": 2335.6
         },
         {
           "date": "2026-05-12",
-          "close": 2257.15
+          "close": 2245.22
         },
         {
           "date": "2026-05-13",
-          "close": 2230.17
+          "close": 2218.37
         },
         {
           "date": "2026-05-14",
-          "close": 2203.87
+          "close": 2192.22
         },
         {
           "date": "2026-05-15",
-          "close": 2221.53
+          "close": 2209.78
         },
         {
           "date": "2026-05-18",
-          "close": 2240.37
+          "close": 2228.53
         },
         {
           "date": "2026-05-19",
-          "close": 2283.45
+          "close": 2271.37
         },
         {
           "date": "2026-05-20",
-          "close": 2283.74
+          "close": 2271.67
         },
         {
           "date": "2026-05-21",
-          "close": 2283.55
+          "close": 2271.47
         },
         {
           "date": "2026-05-22",
-          "close": 2273.83
+          "close": 2261.81
         },
         {
           "date": "2026-05-25",
-          "close": 2295.61
+          "close": 2283.47
         },
         {
           "date": "2026-05-26",
-          "close": 2263.79
+          "close": 2251.82
         },
         {
           "date": "2026-05-27",
-          "close": 2271.74
+          "close": 2259.73
         },
         {
           "date": "2026-05-29",
-          "close": 2246.58
+          "close": 2234.7
         },
         {
           "date": "2026-06-01",
-          "close": 2284.87
+          "close": 2272.79
         },
         {
           "date": "2026-06-02",
-          "close": 2433.56
+          "close": 2420.69
         },
         {
           "date": "2026-06-03",
-          "close": 2229.48
+          "close": 2217.69
         },
         {
           "date": "2026-06-04",
-          "close": 2228.78
+          "close": 2216.99
         },
         {
           "date": "2026-06-05",
-          "close": 2186.91
+          "close": 2175.34
         },
         {
           "date": "2026-06-08",
-          "close": 2139.67
+          "close": 2128.35
         },
         {
           "date": "2026-06-09",
-          "close": 2139.27
+          "close": 2127.96
         },
         {
           "date": "2026-06-10",
-          "close": 2142.15
+          "close": 2130.83
         },
         {
           "date": "2026-06-11",
-          "close": 2123.95
+          "close": 2112.72
         },
         {
           "date": "2026-06-12",
-          "close": 2149.61
+          "close": 2138.25
         },
         {
           "date": "2026-06-15",
-          "close": 2150.21
+          "close": 2138.84
         },
         {
           "date": "2026-06-16",
-          "close": 2187.01
+          "close": 2175.44
         },
         {
           "date": "2026-06-17",
-          "close": 2210.88
+          "close": 2199.19
         },
         {
           "date": "2026-06-18",
-          "close": 2191.29
+          "close": 2179.7
         },
         {
           "date": "2026-06-19",
-          "close": 2113.41
+          "close": 2102.24
         },
         {
           "date": "2026-06-22",
-          "close": 2116.2
+          "close": 2105.01
         },
         {
           "date": "2026-06-23",
-          "close": 2048.37
+          "close": 2037.54
         },
         {
           "date": "2026-06-24",
-          "close": 2097.5
+          "close": 2086.41
         },
         {
           "date": "2026-06-25",
-          "close": 2083.28
+          "close": 2072.26
         },
         {
           "date": "2026-06-29",
-          "close": 2086.46
+          "close": 2075.43
         },
         {
           "date": "2026-06-30",
-          "close": 2020.42
+          "close": 2009.74
         },
         {
           "date": "2026-07-01",
-          "close": 1971.79
+          "close": 1961.36
         },
         {
           "date": "2026-07-02",
-          "close": 2056.82
+          "close": 2045.95
         },
         {
           "date": "2026-07-03",
-          "close": 2082.08
+          "close": 2071.07
         },
         {
           "date": "2026-07-06",
-          "close": 2046.38
+          "close": 2035.56
         },
         {
           "date": "2026-07-07",
-          "close": 2084.67
+          "close": 2073.65
         },
         {
           "date": "2026-07-08",
-          "close": 2046.28
+          "close": 2035.46
         },
         {
           "date": "2026-07-09",
-          "close": 2038.32
+          "close": 2027.55
         },
         {
           "date": "2026-07-10",
-          "close": 2057.72
+          "close": 2046.84
         },
         {
           "date": "2026-07-13",
-          "close": 2169.6
+          "close": 2158.13
         },
         {
           "date": "2026-07-14",
-          "close": 2188.6
+          "close": 2177.03
         },
         {
           "date": "2026-07-15",
-          "close": 2189.2
+          "close": 2177.62
         },
         {
           "date": "2026-07-16",
-          "close": 2201.0
+          "close": 2189.36
         },
         {
           "date": "2026-07-17",
-          "close": 2269.0
+          "close": 2257.0
         },
         {
           "date": "2026-07-20",
-          "close": 2251.1
+          "close": 2239.2
         },
         {
           "date": "2026-07-21",
-          "close": 2221.1
+          "close": 2209.35
         },
         {
           "date": "2026-07-22",
-          "close": 2208.3
+          "close": 2196.62
         },
         {
           "date": "2026-07-23",
-          "close": 2242.9
+          "close": 2231.04
         },
         {
           "date": "2026-07-24",
-          "close": 2254.3
+          "close": 2242.38
         },
         {
           "date": "2026-07-27",
-          "close": 2295.6
+          "close": 2283.46
         },
         {
           "date": "2026-07-28",
-          "close": 2398.0
+          "close": 2385.32
         },
         {
           "date": "2026-07-29",
-          "close": 2446.6
+          "close": 2433.66
         },
         {
           "date": "2026-07-30",
-          "close": 2431.8
+          "close": 2418.94
         },
         {
           "date": "2026-07-31",
-          "close": 2365.6
+          "close": 2353.09
         },
         {
           "date": "2026-08-03",
-          "close": 2473.7
+          "close": 2460.62
         },
         {
           "date": "2026-08-04",
-          "close": 2460.0
+          "close": 2446.99
         },
         {
           "date": "2026-08-05",
-          "close": 2413.0
+          "close": 2400.24
         },
         {
           "date": "2026-08-06",
-          "close": 2373.0
+          "close": 2360.45
         },
         {
           "date": "2026-08-07",
-          "close": 2452.7
+          "close": 2439.73
         },
         {
           "date": "2026-08-10",
-          "close": 2425.7
+          "close": 2412.87
         },
         {
           "date": "2026-08-11",
-          "close": 2445.7
+          "close": 2432.77
         },
         {
           "date": "2026-08-12",
-          "close": 2349.7
+          "close": 2337.27
         },
         {
           "date": "2026-08-13",
-          "close": 2375.0
+          "close": 2362.44
         },
         {
           "date": "2026-08-14",
-          "close": 2361.0
+          "close": 2348.52
         },
         {
           "date": "2026-08-17",
-          "close": 2313.2
+          "close": 2300.97
         },
         {
           "date": "2026-08-18",
-          "close": 2280.0
+          "close": 2267.94
         },
         {
           "date": "2026-08-19",
-          "close": 2289.0
+          "close": 2276.9
         },
         {
           "date": "2026-08-20",
-          "close": 2298.0
+          "close": 2285.85
         },
         {
           "date": "2026-08-21",
-          "close": 2302.0
+          "close": 2289.83
         },
         {
           "date": "2026-08-24",
-          "close": 2284.1
+          "close": 2272.02
         },
         {
           "date": "2026-08-25",
-          "close": 2296.2
+          "close": 2284.06
         },
         {
           "date": "2026-08-26",
-          "close": 2270.0
+          "close": 2258.0
         },
         {
           "date": "2026-08-27",
-          "close": 2248.4
+          "close": 2236.51
         },
         {
           "date": "2026-08-28",
-          "close": 2342.0
+          "close": 2329.62
         },
         {
           "date": "2026-08-31",
-          "close": 2399.3
+          "close": 2386.61
         },
         {
           "date": "2026-09-01",
-          "close": 2369.0
+          "close": 2356.47
         },
         {
           "date": "2026-09-02",
-          "close": 2348.0
+          "close": 2335.58
         },
         {
           "date": "2026-09-03",
-          "close": 2320.1
+          "close": 2307.83
         },
         {
           "date": "2026-09-04",
-          "close": 2304.0
+          "close": 2291.82
         },
         {
           "date": "2026-09-07",
-          "close": 2270.0
+          "close": 2258.0
         },
         {
           "date": "2026-09-08",
-          "close": 2255.5
+          "close": 2243.57
         },
         {
           "date": "2026-09-09",
-          "close": 2208.0
+          "close": 2196.32
         },
         {
           "date": "2026-09-10",
-          "close": 2204.1
+          "close": 2192.44
         },
         {
           "date": "2026-09-11",
-          "close": 2200.8
+          "close": 2189.16
         },
         {
           "date": "2026-09-15",
-          "close": 2251.0
+          "close": 2239.1
         },
         {
           "date": "2026-09-16",
-          "close": 2188.8
+          "close": 2177.23
         },
         {
           "date": "2026-09-17",
-          "close": 2190.0
+          "close": 2178.42
         },
         {
           "date": "2026-09-18",
-          "close": 2105.0
+          "close": 2093.87
         },
         {
           "date": "2026-09-21",
-          "close": 2128.7
+          "close": 2117.44
         },
         {
           "date": "2026-09-22",
-          "close": 2105.0
+          "close": 2093.87
         },
         {
           "date": "2026-09-23",
-          "close": 2089.6
+          "close": 2078.55
         },
         {
           "date": "2026-09-24",
-          "close": 2087.0
+          "close": 2075.96
         },
         {
           "date": "2026-09-25",
-          "close": 2082.0
+          "close": 2070.99
         },
         {
           "date": "2026-09-28",
-          "close": 2070.7
+          "close": 2059.75
         },
         {
           "date": "2026-09-29",
-          "close": 2032.4
+          "close": 2021.65
         },
         {
           "date": "2026-09-30",
-          "close": 2050.6
+          "close": 2039.76
         },
         {
           "date": "2026-10-01",
-          "close": 2075.0
+          "close": 2064.03
         },
         {
           "date": "2026-10-05",
-          "close": 2114.4
+          "close": 2103.22
         },
         {
           "date": "2026-10-06",
-          "close": 2100.0
+          "close": 2088.9
         },
         {
           "date": "2026-10-07",
-          "close": 2080.3
+          "close": 2069.3
         },
         {
           "date": "2026-10-08",
-          "close": 2076.0
+          "close": 2065.02
         },
         {
           "date": "2026-10-09",
-          "close": 2156.0
+          "close": 2144.6
+        },
+        {
+          "date": "2026-10-12",
+          "close": 2113.76
         },
         {
           "date": "2026-10-13",
-          "close": 2262.0
+          "close": 2257.3
+        },
+        {
+          "date": "2026-10-14",
+          "close": 2302.0
         }
       ],
       "pattern_dates": []
@@ -9941,22 +9954,24 @@
     {
       "ticker": "INFY.NS",
       "sentiment": "neutral",
-      "confidence": 0.89,
+      "confidence": 0.99,
       "top_signals": [
-        "Chart Pattern: double bottom"
+        "Price is above upper Bollinger Bands",
+        "News Sentiment is bullish (conf: 0.89)"
       ],
       "news": [
         {
           "title": "Accumulate Infosys; target of Rs 1531: KR Choksey",
           "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for INFY."
+        },
+        {
+          "title": "TCS, HCL Tech, Infosys shares surge up to 11% in 2 days; Nifty IT soars 2,000 points. More steam left for rally?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-hcl-tech-infosys-shares-surge-up-to-11-in-2-days-nifty-it-soars-2000-points-more-steam-left-for-rally/articleshow/134933219.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for INFY."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 1488.67
-        },
         {
           "date": "2021-10-14",
           "close": 1494.37
@@ -10027,7 +10042,7 @@
         },
         {
           "date": "2021-11-10",
-          "close": 1529.06
+          "close": 1529.05
         },
         {
           "date": "2021-11-11",
@@ -10255,7 +10270,7 @@
         },
         {
           "date": "2022-02-01",
-          "close": 1557.09
+          "close": 1557.08
         },
         {
           "date": "2022-02-02",
@@ -10475,7 +10490,7 @@
         },
         {
           "date": "2022-04-25",
-          "close": 1371.73
+          "close": 1371.72
         },
         {
           "date": "2022-04-26",
@@ -11255,7 +11270,7 @@
         },
         {
           "date": "2023-02-02",
-          "close": 1421.73
+          "close": 1421.74
         },
         {
           "date": "2023-02-03",
@@ -13063,7 +13078,7 @@
         },
         {
           "date": "2024-12-06",
-          "close": 1827.59
+          "close": 1827.6
         },
         {
           "date": "2024-12-09",
@@ -14890,44 +14905,45 @@
           "close": 1023.4
         },
         {
+          "date": "2026-10-12",
+          "close": 1020.0
+        },
+        {
           "date": "2026-10-13",
-          "close": 1061.15
+          "close": 1062.1
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1086.05
         }
       ],
-      "pattern_dates": [
-        "2026-09-29",
-        "2026-10-07"
-      ]
+      "pattern_dates": []
     },
     {
       "ticker": "HDFCBANK.NS",
-      "sentiment": "neutral",
-      "confidence": 0.85,
+      "sentiment": "bearish",
+      "confidence": 0.23,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.85)"
+        "News Sentiment is bearish (conf: 0.86)"
       ],
       "news": [
         {
-          "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+          "title": "Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-shares-drop-3-after-nmc-healthcare-founder-br-shetty-files-15-bn-lawsuit-lender-issues-clarification/articleshow/134933740.cms",
+          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for HDFCBANK."
         },
         {
-          "title": "Bandhan Bank shares jump 7% as Abu Dhabi\u2019s IHC explores stake in promoter Bandhan Financial Services",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bandhan-bank-shares-jump-7-as-abu-dhabis-ihc-explores-stake-in-promoter-bandhan-financial-services/articleshow/134908601.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for HDFCBANK."
+          "title": "Which bank stock should you buy ahead of Q2 results - HDFC Bank, ICICI Bank, Yes Bank or Axis Bank?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/which-bank-stock-should-you-buy-ahead-of-q2-results-hdfc-bank-icici-bank-yes-bank-or-axis-bank/articleshow/134931929.cms",
+          "inference": "Mixed financial results are likely to keep HDFCBANK consolidating within a range as investors assess the full numbers."
         },
         {
-          "title": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+          "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in HDFCBANK."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 767.07
-        },
         {
           "date": "2021-10-14",
           "close": 789.53
@@ -14990,7 +15006,7 @@
         },
         {
           "date": "2021-11-08",
-          "close": 748.75
+          "close": 748.76
         },
         {
           "date": "2021-11-09",
@@ -16166,7 +16182,7 @@
         },
         {
           "date": "2023-01-11",
-          "close": 753.04
+          "close": 753.03
         },
         {
           "date": "2023-01-12",
@@ -16638,7 +16654,7 @@
         },
         {
           "date": "2023-07-06",
-          "close": 801.93
+          "close": 801.94
         },
         {
           "date": "2023-07-07",
@@ -16778,7 +16794,7 @@
         },
         {
           "date": "2023-08-25",
-          "close": 747.59
+          "close": 747.6
         },
         {
           "date": "2023-08-28",
@@ -17482,7 +17498,7 @@
         },
         {
           "date": "2024-05-17",
-          "close": 710.53
+          "close": 710.54
         },
         {
           "date": "2024-05-21",
@@ -19861,8 +19877,16 @@
           "close": 707.25
         },
         {
+          "date": "2026-10-12",
+          "close": 704.9
+        },
+        {
           "date": "2026-10-13",
-          "close": 714.95
+          "close": 714.0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 709.2
         }
       ],
       "pattern_dates": []
@@ -19870,32 +19894,28 @@
     {
       "ticker": "ICICIBANK.NS",
       "sentiment": "neutral",
-      "confidence": 0.86,
+      "confidence": 1.0,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.83)"
+        "No significant technical or sentiment signals."
       ],
       "news": [
         {
-          "title": "Sell Indus Tower; target of Rs 260: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/sell-indus-tower-targetrs-260-icici-securities_17531381.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+          "title": "Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-shares-drop-3-after-nmc-healthcare-founder-br-shetty-files-15-bn-lawsuit-lender-issues-clarification/articleshow/134933740.cms",
+          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for ICICIBANK."
         },
         {
-          "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+          "title": "Which bank stock should you buy ahead of Q2 results - HDFC Bank, ICICI Bank, Yes Bank or Axis Bank?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/which-bank-stock-should-you-buy-ahead-of-q2-results-hdfc-bank-icici-bank-yes-bank-or-axis-bank/articleshow/134931929.cms",
+          "inference": "Mixed financial results are likely to keep ICICIBANK consolidating within a range as investors assess the full numbers."
         },
         {
-          "title": "Buy Patel Engineering; target of Rs 80: ICICI Direct",
-          "url": "https://www.moneycontrol.com/news/recommendations/buy-patel-engineering-targetrs-80-icici-direct_17531401.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+          "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in ICICIBANK."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 682.91
-        },
         {
           "date": "2021-10-14",
           "close": 699.6
@@ -19930,7 +19950,7 @@
         },
         {
           "date": "2021-10-27",
-          "close": 803.2
+          "close": 803.19
         },
         {
           "date": "2021-10-28",
@@ -21002,7 +21022,7 @@
         },
         {
           "date": "2022-11-25",
-          "close": 900.24
+          "close": 900.23
         },
         {
           "date": "2022-11-28",
@@ -21046,7 +21066,7 @@
         },
         {
           "date": "2022-12-12",
-          "close": 900.24
+          "close": 900.23
         },
         {
           "date": "2022-12-13",
@@ -22234,7 +22254,7 @@
         },
         {
           "date": "2024-02-23",
-          "close": 1035.46
+          "close": 1035.45
         },
         {
           "date": "2024-02-26",
@@ -23050,7 +23070,7 @@
         },
         {
           "date": "2024-12-24",
-          "close": 1276.56
+          "close": 1276.55
         },
         {
           "date": "2024-12-26",
@@ -23390,7 +23410,7 @@
         },
         {
           "date": "2025-04-30",
-          "close": 1404.24
+          "close": 1404.23
         },
         {
           "date": "2025-05-02",
@@ -24829,8 +24849,16 @@
           "close": 1355.0
         },
         {
+          "date": "2026-10-12",
+          "close": 1340.0
+        },
+        {
           "date": "2026-10-13",
-          "close": 1361.6
+          "close": 1360.2
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1340.2
         }
       ],
       "pattern_dates": []
@@ -24844,10 +24872,6 @@
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 665.9
-        },
         {
           "date": "2021-10-14",
           "close": 661.94
@@ -27366,7 +27390,7 @@
         },
         {
           "date": "2024-05-06",
-          "close": 1249.98
+          "close": 1249.97
         },
         {
           "date": "2024-05-07",
@@ -28382,7 +28406,7 @@
         },
         {
           "date": "2025-05-15",
-          "close": 1828.71
+          "close": 1828.7
         },
         {
           "date": "2025-05-16",
@@ -29781,44 +29805,48 @@
           "close": 1805.1
         },
         {
+          "date": "2026-10-12",
+          "close": 1778.7
+        },
+        {
           "date": "2026-10-13",
-          "close": 1797.2
+          "close": 1806.5
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1804.3
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "SBIN.NS",
-      "sentiment": "neutral",
-      "confidence": 0.86,
+      "sentiment": "bearish",
+      "confidence": 0.23,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.83)"
+        "News Sentiment is bearish (conf: 0.86)"
       ],
       "news": [
         {
-          "title": "Bandhan Bank shares jump 7% as Abu Dhabi\u2019s IHC explores stake in promoter Bandhan Financial Services",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bandhan-bank-shares-jump-7-as-abu-dhabis-ihc-explores-stake-in-promoter-bandhan-financial-services/articleshow/134908601.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for SBIN."
+          "title": "Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-shares-drop-3-after-nmc-healthcare-founder-br-shetty-files-15-bn-lawsuit-lender-issues-clarification/articleshow/134933740.cms",
+          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for SBIN."
         },
         {
-          "title": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for SBIN."
+          "title": "Which bank stock should you buy ahead of Q2 results - HDFC Bank, ICICI Bank, Yes Bank or Axis Bank?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/which-bank-stock-should-you-buy-ahead-of-q2-results-hdfc-bank-icici-bank-yes-bank-or-axis-bank/articleshow/134931929.cms",
+          "inference": "Mixed financial results are likely to keep SBIN consolidating within a range as investors assess the full numbers."
         },
         {
-          "title": "Bandhan Bank share price jumps 8% today after 4% fall in a month | What's fuelling surge in banking stock",
-          "url": "https://www.livemint.com/market/stock-market-news/bandhan-bank-share-price-jumps-8-today-after-4-fall-in-a-month-whats-fuelling-surge-in-banking-stock-11791871124387.html",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for SBIN."
+          "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in SBIN."
         }
       ],
       "history": [
         {
-          "date": "2021-10-13",
-          "close": 440.63
-        },
-        {
           "date": "2021-10-14",
-          "close": 448.78
+          "close": 448.77
         },
         {
           "date": "2021-10-18",
@@ -30242,7 +30270,7 @@
         },
         {
           "date": "2022-03-21",
-          "close": 448.78
+          "close": 448.77
         },
         {
           "date": "2022-03-22",
@@ -31390,7 +31418,7 @@
         },
         {
           "date": "2023-05-18",
-          "close": 533.44
+          "close": 533.45
         },
         {
           "date": "2023-05-19",
@@ -31710,7 +31738,7 @@
         },
         {
           "date": "2023-09-11",
-          "close": 560.39
+          "close": 560.38
         },
         {
           "date": "2023-09-12",
@@ -34749,8 +34777,16 @@
           "close": 959.1
         },
         {
+          "date": "2026-10-12",
+          "close": 941.0
+        },
+        {
           "date": "2026-10-13",
-          "close": 953.35
+          "close": 957.0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 948.05
         }
       ],
       "pattern_dates": []
@@ -34764,10 +34800,6 @@
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 196.22
-        },
         {
           "date": "2021-10-14",
           "close": 202.0
@@ -39701,8 +39733,16 @@
           "close": 266.0
         },
         {
+          "date": "2026-10-12",
+          "close": 257.9
+        },
+        {
           "date": "2026-10-13",
-          "close": 261.05
+          "close": 261.0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 261.2
         }
       ],
       "pattern_dates": []
@@ -39716,10 +39756,6 @@
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-13",
-          "close": 2426.89
-        },
         {
           "date": "2021-10-14",
           "close": 2429.46
@@ -39910,7 +39946,7 @@
         },
         {
           "date": "2021-12-23",
-          "close": 2122.51
+          "close": 2122.5
         },
         {
           "date": "2021-12-24",
@@ -40234,7 +40270,7 @@
         },
         {
           "date": "2022-04-22",
-          "close": 1962.26
+          "close": 1962.25
         },
         {
           "date": "2022-04-25",
@@ -40282,7 +40318,7 @@
         },
         {
           "date": "2022-05-11",
-          "close": 1995.98
+          "close": 1995.97
         },
         {
           "date": "2022-05-12",
@@ -40582,7 +40618,7 @@
         },
         {
           "date": "2022-08-26",
-          "close": 2393.38
+          "close": 2393.37
         },
         {
           "date": "2022-08-29",
@@ -40630,7 +40666,7 @@
         },
         {
           "date": "2022-09-14",
-          "close": 2393.24
+          "close": 2393.23
         },
         {
           "date": "2022-09-15",
@@ -40886,7 +40922,7 @@
         },
         {
           "date": "2022-12-16",
-          "close": 2502.89
+          "close": 2502.9
         },
         {
           "date": "2022-12-19",
@@ -41286,7 +41322,7 @@
         },
         {
           "date": "2023-05-16",
-          "close": 2507.2
+          "close": 2507.21
         },
         {
           "date": "2023-05-17",
@@ -41366,7 +41402,7 @@
         },
         {
           "date": "2023-06-13",
-          "close": 2507.2
+          "close": 2507.21
         },
         {
           "date": "2023-06-14",
@@ -41570,7 +41606,7 @@
         },
         {
           "date": "2023-08-25",
-          "close": 2421.55
+          "close": 2421.56
         },
         {
           "date": "2023-08-28",
@@ -42082,7 +42118,7 @@
         },
         {
           "date": "2024-03-04",
-          "close": 2304.63
+          "close": 2304.62
         },
         {
           "date": "2024-03-05",
@@ -42114,7 +42150,7 @@
         },
         {
           "date": "2024-03-15",
-          "close": 2214.9
+          "close": 2214.89
         },
         {
           "date": "2024-03-18",
@@ -42330,7 +42366,7 @@
         },
         {
           "date": "2024-06-07",
-          "close": 2452.88
+          "close": 2452.87
         },
         {
           "date": "2024-06-10",
@@ -42350,7 +42386,7 @@
         },
         {
           "date": "2024-06-14",
-          "close": 2382.56
+          "close": 2382.57
         },
         {
           "date": "2024-06-18",
@@ -42482,7 +42518,7 @@
         },
         {
           "date": "2024-08-02",
-          "close": 2587.03
+          "close": 2587.02
         },
         {
           "date": "2024-08-05",
@@ -42962,7 +42998,7 @@
         },
         {
           "date": "2025-01-24",
-          "close": 2301.76
+          "close": 2301.77
         },
         {
           "date": "2025-01-27",
@@ -43342,7 +43378,7 @@
         },
         {
           "date": "2025-06-16",
-          "close": 2262.2
+          "close": 2262.21
         },
         {
           "date": "2025-06-17",
@@ -44653,8 +44689,16 @@
           "close": 1856.7
         },
         {
+          "date": "2026-10-12",
+          "close": 1820.7
+        },
+        {
           "date": "2026-10-13",
-          "close": 1876.6
+          "close": 1875.5
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1894.9
         }
       ],
       "pattern_dates": []
