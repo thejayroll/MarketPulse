@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-14T15:22:45",
+  "timestamp": "2026-10-15T15:14:42",
   "market_wide_sentiment": {
-    "label": "bullish",
-    "confidence": 0.85
+    "label": "neutral",
+    "confidence": 1.0
   },
   "watchlist": [
     {
@@ -14,26 +14,22 @@
       ],
       "news": [
         {
-          "title": "Jio Platforms files RHP for IPO: Issue to open on October 21; fresh issue of up to 27 crore equity shares",
-          "url": "https://www.livemint.com/market/stock-market-news/jio-platforms-files-rhp-for-ipo-issue-to-open-on-october-21-fresh-issue-of-up-to-27-crore-equity-shares-11791983551493.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
+          "title": "Jio Financial Services Q2 Results: PAT drops 51% YoY to Rs 340 crore; NII soars 165%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/jio-financial-services-q2-results-pat-drops-51-yoy-to-rs-340-crore-nii-up-132/articleshow/134970520.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on RELIANCE's stock valuation."
         },
         {
-          "title": "Reduce Aditya Birla Fashion and Retail; target of Rs 230: Emkay Global Financial",
-          "url": "https://www.moneycontrol.com/news/recommendations/reduce-aditya-birla-fashionretail-targetrs-230-emkay-global-financial_17531571.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
+          "title": "Jio IPO fever grips telecom stocks: Airtel, Vodafone Idea &amp; others rise up to 4%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-fever-grips-telecom-stocks-airtel-vodafone-idea-others-rise-up-to-4/articleshow/134960952.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for RELIANCE."
         },
         {
-          "title": "Jio Platforms to not change IPO objects despite smaller issue size",
-          "url": "https://www.livemint.com/market/ipo/jio-platforms-ipo-dates-details-11791965033362.html",
+          "title": "Reliance-backed Jio Platforms IPO RHP: 10 key risks investors can't afford to miss out before subscribing",
+          "url": "https://www.livemint.com/market/ipo/reliancebacked-jio-platforms-ipo-rhp-10-key-risks-investors-cant-afford-to-miss-out-before-subscribing-11792055995379.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 1223.06
-        },
         {
           "date": "2021-10-18",
           "close": 1226.32
@@ -768,11 +764,11 @@
         },
         {
           "date": "2022-07-12",
-          "close": 1096.27
+          "close": 1096.26
         },
         {
           "date": "2022-07-13",
-          "close": 1076.83
+          "close": 1076.84
         },
         {
           "date": "2022-07-14",
@@ -1100,7 +1096,7 @@
         },
         {
           "date": "2022-11-14",
-          "close": 1190.08
+          "close": 1190.09
         },
         {
           "date": "2022-11-15",
@@ -1928,7 +1924,7 @@
         },
         {
           "date": "2023-09-12",
-          "close": 1204.9
+          "close": 1204.89
         },
         {
           "date": "2023-09-13",
@@ -2044,7 +2040,7 @@
         },
         {
           "date": "2023-10-26",
-          "close": 1099.99
+          "close": 1099.98
         },
         {
           "date": "2023-10-27",
@@ -2488,7 +2484,7 @@
         },
         {
           "date": "2024-04-10",
-          "close": 1461.95
+          "close": 1461.94
         },
         {
           "date": "2024-04-12",
@@ -3716,7 +3712,7 @@
         },
         {
           "date": "2025-07-08",
-          "close": 1524.44
+          "close": 1524.43
         },
         {
           "date": "2025-07-09",
@@ -4973,24 +4969,30 @@
         {
           "date": "2026-10-14",
           "close": 1174.6
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1215.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "TCS.NS",
-      "sentiment": "bearish",
-      "confidence": 0.25,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
         "Price is above upper Bollinger Bands",
-        "High trading volume anomaly detected (>2x avg)"
+        "News Sentiment is bullish (conf: 0.85)"
       ],
-      "news": [],
-      "history": [
+      "news": [
         {
-          "date": "2021-10-14",
-          "close": 3126.66
-        },
+          "title": "Rs 82,500 crore rally in 3 days: Why TCS, HCL Tech, other IT stocks jumped up to 12% in 3 days and will the boom last?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/rs-82500-crore-rally-in-3-days-why-tcs-hcl-tech-other-it-stocks-jumped-up-to-12-in-3-days-and-will-the-boom-last/articleshow/134959977.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for TCS."
+        }
+      ],
+      "history": [
         {
           "date": "2021-10-18",
           "close": 3157.57
@@ -5069,7 +5071,7 @@
         },
         {
           "date": "2021-11-15",
-          "close": 3076.31
+          "close": 3076.32
         },
         {
           "date": "2021-11-16",
@@ -5201,7 +5203,7 @@
         },
         {
           "date": "2021-12-31",
-          "close": 3236.52
+          "close": 3236.53
         },
         {
           "date": "2022-01-03",
@@ -5465,7 +5467,7 @@
         },
         {
           "date": "2022-04-07",
-          "close": 3195.2
+          "close": 3195.21
         },
         {
           "date": "2022-04-08",
@@ -5649,7 +5651,7 @@
         },
         {
           "date": "2022-06-15",
-          "close": 2799.5
+          "close": 2799.51
         },
         {
           "date": "2022-06-16",
@@ -5897,7 +5899,7 @@
         },
         {
           "date": "2022-09-14",
-          "close": 2731.7
+          "close": 2731.69
         },
         {
           "date": "2022-09-15",
@@ -6193,7 +6195,7 @@
         },
         {
           "date": "2022-12-30",
-          "close": 2858.39
+          "close": 2858.4
         },
         {
           "date": "2023-01-02",
@@ -6485,7 +6487,7 @@
         },
         {
           "date": "2023-04-20",
-          "close": 2787.01
+          "close": 2787.02
         },
         {
           "date": "2023-04-21",
@@ -6657,7 +6659,7 @@
         },
         {
           "date": "2023-06-21",
-          "close": 2946.46
+          "close": 2946.47
         },
         {
           "date": "2023-06-22",
@@ -7117,7 +7119,7 @@
         },
         {
           "date": "2023-12-08",
-          "close": 3296.74
+          "close": 3296.75
         },
         {
           "date": "2023-12-11",
@@ -7201,7 +7203,7 @@
         },
         {
           "date": "2024-01-09",
-          "close": 3354.19
+          "close": 3354.2
         },
         {
           "date": "2024-01-10",
@@ -7213,7 +7215,7 @@
         },
         {
           "date": "2024-01-12",
-          "close": 3529.54
+          "close": 3529.55
         },
         {
           "date": "2024-01-15",
@@ -7337,7 +7339,7 @@
         },
         {
           "date": "2024-02-28",
-          "close": 3770.3
+          "close": 3770.29
         },
         {
           "date": "2024-02-29",
@@ -7461,7 +7463,7 @@
         },
         {
           "date": "2024-04-18",
-          "close": 3535.1
+          "close": 3535.09
         },
         {
           "date": "2024-04-19",
@@ -7713,7 +7715,7 @@
         },
         {
           "date": "2024-07-22",
-          "close": 3962.15
+          "close": 3962.14
         },
         {
           "date": "2024-07-23",
@@ -7925,7 +7927,7 @@
         },
         {
           "date": "2024-10-07",
-          "close": 3948.74
+          "close": 3948.75
         },
         {
           "date": "2024-10-08",
@@ -7933,7 +7935,7 @@
         },
         {
           "date": "2024-10-09",
-          "close": 3930.36
+          "close": 3930.35
         },
         {
           "date": "2024-10-10",
@@ -8193,7 +8195,7 @@
         },
         {
           "date": "2025-01-13",
-          "close": 3975.28
+          "close": 3975.29
         },
         {
           "date": "2025-01-14",
@@ -8209,7 +8211,7 @@
         },
         {
           "date": "2025-01-17",
-          "close": 3891.06
+          "close": 3891.07
         },
         {
           "date": "2025-01-20",
@@ -8269,7 +8271,7 @@
         },
         {
           "date": "2025-02-06",
-          "close": 3851.86
+          "close": 3851.87
         },
         {
           "date": "2025-02-07",
@@ -8413,7 +8415,7 @@
         },
         {
           "date": "2025-04-02",
-          "close": 3343.54
+          "close": 3343.53
         },
         {
           "date": "2025-04-03",
@@ -8657,7 +8659,7 @@
         },
         {
           "date": "2025-07-02",
-          "close": 3258.42
+          "close": 3258.41
         },
         {
           "date": "2025-07-03",
@@ -8709,7 +8711,7 @@
         },
         {
           "date": "2025-07-21",
-          "close": 3016.28
+          "close": 3016.29
         },
         {
           "date": "2025-07-22",
@@ -8969,7 +8971,7 @@
         },
         {
           "date": "2025-10-24",
-          "close": 2936.47
+          "close": 2936.46
         },
         {
           "date": "2025-10-27",
@@ -9513,7 +9515,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 2209.78
+          "close": 2209.79
         },
         {
           "date": "2026-05-18",
@@ -9930,35 +9932,29 @@
         {
           "date": "2026-10-14",
           "close": 2304.9
+        },
+        {
+          "date": "2026-10-15",
+          "close": 2350.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "INFY.NS",
-      "sentiment": "neutral",
-      "confidence": 0.96,
+      "sentiment": "bearish",
+      "confidence": 0.24,
       "top_signals": [
-        "Price is above upper Bollinger Bands",
-        "News Sentiment is bullish (conf: 0.72)"
+        "Price is above upper Bollinger Bands"
       ],
       "news": [
         {
           "title": "Accumulate Infosys; target of Rs 1531: KR Choksey",
           "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for INFY."
-        },
-        {
-          "title": "Market wrap:  Nestle India, Infosys, Shriram Finance, HDFC Life top gainers and losers on Nifty and Sensex on Wednesday",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-nestle-india-infosys-shriram-finance-hdfc-life-top-gainers-and-losers-on-nifty-and-sensex-on-wednesday/articleshow/134942022.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for INFY."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 1494.37
-        },
         {
           "date": "2021-10-18",
           "close": 1560.91
@@ -10849,7 +10845,7 @@
         },
         {
           "date": "2022-09-08",
-          "close": 1310.59
+          "close": 1310.6
         },
         {
           "date": "2022-09-09",
@@ -11897,7 +11893,7 @@
         },
         {
           "date": "2023-09-28",
-          "close": 1309.57
+          "close": 1309.56
         },
         {
           "date": "2023-09-29",
@@ -13061,7 +13057,7 @@
         },
         {
           "date": "2024-12-06",
-          "close": 1827.6
+          "close": 1827.59
         },
         {
           "date": "2024-12-09",
@@ -14898,39 +14894,39 @@
         {
           "date": "2026-10-14",
           "close": 1088.0
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1110.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "HDFCBANK.NS",
-      "sentiment": "neutral",
-      "confidence": 0.85,
+      "sentiment": "bearish",
+      "confidence": 0.24,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.83)"
+        "News Sentiment is bearish (conf: 0.89)"
       ],
       "news": [
         {
-          "title": "Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-shares-drop-3-after-nmc-healthcare-founder-br-shetty-files-15-bn-lawsuit-lender-issues-clarification/articleshow/134933740.cms",
-          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for HDFCBANK."
+          "title": "Sharp and immediate fall! Yes Bank share price crash 10% after SC ruling on  \u20b98,415 crore AT-1 bond write-off",
+          "url": "https://www.livemint.com/market/stock-market-news/sharp-and-immediate-fall-yes-bank-share-price-crash-10-after-sc-ruling-on-rs-8-415-crore-at-1-bond-writeoff-11792055327036.html",
+          "inference": "Negative developments or rising overheads are likely to damp investor enthusiasm, leading to downward pressure on HDFCBANK."
         },
         {
-          "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
-          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in HDFCBANK."
+          "title": "IDBI Bank shares fall 7% as investors book profit after Fairfax deal gets cabinet nod",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/idbi-bank-shares-fall-7-as-investors-book-profit-after-fairfax-deal-gets-cabinet-nod/articleshow/134959588.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on HDFCBANK's stock valuation."
         },
         {
-          "title": "Canara Bank Q2 profit rises 8% YoY to Rs 5,175 crore",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-profit-rises-8-yoy-to-rs-5175-crore/articleshow/134945099.cms",
-          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in HDFCBANK."
+          "title": "Bank of America shares flat after earnings-driven sell-off, slide over 20% from recent peak",
+          "url": "https://www.livemint.com/market/stock-market-news/bank-of-america-shares-flat-after-earnings-driven-sell-off-slide-over-20-from-recent-peak-11792064609643.html",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on HDFCBANK's stock valuation."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 789.53
-        },
         {
           "date": "2021-10-18",
           "close": 781.53
@@ -19870,39 +19866,40 @@
         {
           "date": "2026-10-14",
           "close": 710.7
+        },
+        {
+          "date": "2026-10-15",
+          "close": 726.85
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "ICICIBANK.NS",
-      "sentiment": "neutral",
-      "confidence": 1.0,
+      "sentiment": "bearish",
+      "confidence": 0.47,
       "top_signals": [
-        "No significant technical or sentiment signals."
+        "Price is above upper Bollinger Bands",
+        "News Sentiment is bearish (conf: 0.86)"
       ],
       "news": [
         {
-          "title": "Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-shares-drop-3-after-nmc-healthcare-founder-br-shetty-files-15-bn-lawsuit-lender-issues-clarification/articleshow/134933740.cms",
-          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for ICICIBANK."
+          "title": "Sharp and immediate fall! Yes Bank share price crash 10% after SC ruling on  \u20b98,415 crore AT-1 bond write-off",
+          "url": "https://www.livemint.com/market/stock-market-news/sharp-and-immediate-fall-yes-bank-share-price-crash-10-after-sc-ruling-on-rs-8-415-crore-at-1-bond-writeoff-11792055327036.html",
+          "inference": "Negative developments or rising overheads are likely to damp investor enthusiasm, leading to downward pressure on ICICIBANK."
         },
         {
-          "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
-          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in ICICIBANK."
+          "title": "IDBI Bank shares fall 7% as investors book profit after Fairfax deal gets cabinet nod",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/idbi-bank-shares-fall-7-as-investors-book-profit-after-fairfax-deal-gets-cabinet-nod/articleshow/134959588.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on ICICIBANK's stock valuation."
         },
         {
-          "title": "Canara Bank Q2 profit rises 8% YoY to Rs 5,175 crore",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-profit-rises-8-yoy-to-rs-5175-crore/articleshow/134945099.cms",
-          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in ICICIBANK."
+          "title": "Bank of America shares flat after earnings-driven sell-off, slide over 20% from recent peak",
+          "url": "https://www.livemint.com/market/stock-market-news/bank-of-america-shares-flat-after-earnings-driven-sell-off-slide-over-20-from-recent-peak-11792064609643.html",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on ICICIBANK's stock valuation."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 699.6
-        },
         {
           "date": "2021-10-18",
           "close": 717.06
@@ -19933,7 +19930,7 @@
         },
         {
           "date": "2021-10-27",
-          "close": 803.2
+          "close": 803.19
         },
         {
           "date": "2021-10-28",
@@ -20957,7 +20954,7 @@
         },
         {
           "date": "2022-11-09",
-          "close": 881.08
+          "close": 881.07
         },
         {
           "date": "2022-11-10",
@@ -21005,7 +21002,7 @@
         },
         {
           "date": "2022-11-25",
-          "close": 900.24
+          "close": 900.23
         },
         {
           "date": "2022-11-28",
@@ -21049,7 +21046,7 @@
         },
         {
           "date": "2022-12-12",
-          "close": 900.24
+          "close": 900.23
         },
         {
           "date": "2022-12-13",
@@ -24842,6 +24839,10 @@
         {
           "date": "2026-10-14",
           "close": 1338.6
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1389.4
         }
       ],
       "pattern_dates": []
@@ -24855,10 +24856,6 @@
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 661.94
-        },
         {
           "date": "2021-10-18",
           "close": 656.92
@@ -25365,7 +25362,7 @@
         },
         {
           "date": "2022-04-21",
-          "close": 710.16
+          "close": 710.15
         },
         {
           "date": "2022-04-22",
@@ -27409,7 +27406,7 @@
         },
         {
           "date": "2024-05-17",
-          "close": 1309.44
+          "close": 1309.43
         },
         {
           "date": "2024-05-21",
@@ -28389,7 +28386,7 @@
         },
         {
           "date": "2025-05-15",
-          "close": 1828.71
+          "close": 1828.7
         },
         {
           "date": "2025-05-16",
@@ -29798,39 +29795,39 @@
         {
           "date": "2026-10-14",
           "close": 1794.6
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1854.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "SBIN.NS",
-      "sentiment": "bullish",
-      "confidence": 0.23,
+      "sentiment": "bearish",
+      "confidence": 0.24,
       "top_signals": [
-        "News Sentiment is bullish (conf: 0.86)"
+        "News Sentiment is bearish (conf: 0.89)"
       ],
       "news": [
         {
-          "title": "Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-shares-drop-3-after-nmc-healthcare-founder-br-shetty-files-15-bn-lawsuit-lender-issues-clarification/articleshow/134933740.cms",
-          "inference": "Regulatory concerns or legal uncertainties are likely to create near-term resistance and downside risk for SBIN."
+          "title": "Sharp and immediate fall! Yes Bank share price crash 10% after SC ruling on  \u20b98,415 crore AT-1 bond write-off",
+          "url": "https://www.livemint.com/market/stock-market-news/sharp-and-immediate-fall-yes-bank-share-price-crash-10-after-sc-ruling-on-rs-8-415-crore-at-1-bond-writeoff-11792055327036.html",
+          "inference": "Negative developments or rising overheads are likely to damp investor enthusiasm, leading to downward pressure on SBIN."
         },
         {
-          "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
-          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in SBIN."
+          "title": "IDBI Bank shares fall 7% as investors book profit after Fairfax deal gets cabinet nod",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/idbi-bank-shares-fall-7-as-investors-book-profit-after-fairfax-deal-gets-cabinet-nod/articleshow/134959588.cms",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on SBIN's stock valuation."
         },
         {
-          "title": "Canara Bank Q2 profit rises 8% YoY to Rs 5,175 crore",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-profit-rises-8-yoy-to-rs-5175-crore/articleshow/134945099.cms",
-          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in SBIN."
+          "title": "Bank of America shares flat after earnings-driven sell-off, slide over 20% from recent peak",
+          "url": "https://www.livemint.com/market/stock-market-news/bank-of-america-shares-flat-after-earnings-driven-sell-off-slide-over-20-from-recent-peak-11792064609643.html",
+          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on SBIN's stock valuation."
         }
       ],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 448.77
-        },
         {
           "date": "2021-10-18",
           "close": 455.5
@@ -31401,7 +31398,7 @@
         },
         {
           "date": "2023-05-18",
-          "close": 533.45
+          "close": 533.44
         },
         {
           "date": "2023-05-19",
@@ -31721,7 +31718,7 @@
         },
         {
           "date": "2023-09-11",
-          "close": 560.39
+          "close": 560.38
         },
         {
           "date": "2023-09-12",
@@ -32309,7 +32306,7 @@
         },
         {
           "date": "2024-04-22",
-          "close": 725.55
+          "close": 725.56
         },
         {
           "date": "2024-04-23",
@@ -34770,6 +34767,10 @@
         {
           "date": "2026-10-14",
           "close": 954.9
+        },
+        {
+          "date": "2026-10-15",
+          "close": 960.0
         }
       ],
       "pattern_dates": []
@@ -34783,10 +34784,6 @@
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 202.0
-        },
         {
           "date": "2021-10-18",
           "close": 206.73
@@ -39726,6 +39723,10 @@
         {
           "date": "2026-10-14",
           "close": 261.5
+        },
+        {
+          "date": "2026-10-15",
+          "close": 263.9
         }
       ],
       "pattern_dates": []
@@ -39735,14 +39736,10 @@
       "sentiment": "neutral",
       "confidence": 1.0,
       "top_signals": [
-        "High trading volume anomaly detected (>2x avg)"
+        "No significant technical or sentiment signals."
       ],
       "news": [],
       "history": [
-        {
-          "date": "2021-10-14",
-          "close": 2429.46
-        },
         {
           "date": "2021-10-18",
           "close": 2433.54
@@ -39813,7 +39810,7 @@
         },
         {
           "date": "2021-11-11",
-          "close": 2192.2
+          "close": 2192.21
         },
         {
           "date": "2021-11-12",
@@ -40301,7 +40298,7 @@
         },
         {
           "date": "2022-05-11",
-          "close": 1995.98
+          "close": 1995.97
         },
         {
           "date": "2022-05-12",
@@ -41305,7 +41302,7 @@
         },
         {
           "date": "2023-05-16",
-          "close": 2507.21
+          "close": 2507.2
         },
         {
           "date": "2023-05-17",
@@ -41385,7 +41382,7 @@
         },
         {
           "date": "2023-06-13",
-          "close": 2507.21
+          "close": 2507.2
         },
         {
           "date": "2023-06-14",
@@ -41393,7 +41390,7 @@
         },
         {
           "date": "2023-06-15",
-          "close": 2520.14
+          "close": 2520.13
         },
         {
           "date": "2023-06-16",
@@ -41589,7 +41586,7 @@
         },
         {
           "date": "2023-08-25",
-          "close": 2421.56
+          "close": 2421.55
         },
         {
           "date": "2023-08-28",
@@ -42049,7 +42046,7 @@
         },
         {
           "date": "2024-02-14",
-          "close": 2272.23
+          "close": 2272.22
         },
         {
           "date": "2024-02-15",
@@ -42133,7 +42130,7 @@
         },
         {
           "date": "2024-03-15",
-          "close": 2214.9
+          "close": 2214.89
         },
         {
           "date": "2024-03-18",
@@ -42501,7 +42498,7 @@
         },
         {
           "date": "2024-08-02",
-          "close": 2587.02
+          "close": 2587.03
         },
         {
           "date": "2024-08-05",
@@ -43213,7 +43210,7 @@
         },
         {
           "date": "2025-04-23",
-          "close": 2355.91
+          "close": 2355.9
         },
         {
           "date": "2025-04-24",
@@ -43361,7 +43358,7 @@
         },
         {
           "date": "2025-06-16",
-          "close": 2262.2
+          "close": 2262.21
         },
         {
           "date": "2025-06-17",
@@ -44682,6 +44679,10 @@
         {
           "date": "2026-10-14",
           "close": 1895.5
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1897.1
         }
       ],
       "pattern_dates": []
@@ -44689,48 +44690,48 @@
   ],
   "top_gainers": [
     {
-      "ticker": "INFY.NS",
-      "change": "+2.44%"
-    },
-    {
-      "ticker": "TCS.NS",
-      "change": "+2.11%"
-    },
-    {
-      "ticker": "HINDUNILVR.NS",
-      "change": "+1.07%"
+      "ticker": "ICICIBANK.NS",
+      "change": "+3.80%"
     },
     {
       "ticker": "RELIANCE.NS",
-      "change": "+0.68%"
+      "change": "+3.44%"
     },
     {
-      "ticker": "ITC.NS",
-      "change": "+0.19%"
+      "ticker": "BHARTIARTL.NS",
+      "change": "+3.31%"
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "change": "+2.27%"
+    },
+    {
+      "ticker": "INFY.NS",
+      "change": "+2.02%"
     }
   ],
   "top_losers": [
     {
-      "ticker": "ICICIBANK.NS",
-      "change": "-1.59%"
-    },
-    {
-      "ticker": "BHARTIARTL.NS",
-      "change": "-0.66%"
-    },
-    {
-      "ticker": "HDFCBANK.NS",
-      "change": "-0.46%"
+      "ticker": "HINDUNILVR.NS",
+      "change": "+0.08%"
     },
     {
       "ticker": "SBIN.NS",
-      "change": "-0.22%"
+      "change": "+0.53%"
     },
     {
       "ticker": "ITC.NS",
-      "change": "+0.19%"
+      "change": "+0.92%"
+    },
+    {
+      "ticker": "TCS.NS",
+      "change": "+1.96%"
+    },
+    {
+      "ticker": "INFY.NS",
+      "change": "+2.02%"
     }
   ],
-  "accuracy_note": "Yesterday's morning call accuracy was 22.2% based on 54 tracked signals.",
-  "market_close_summary": "The Indian equity market slipped downward today, with the benchmark Nifty 50 closing at 22,622.70 (-0.44%). Stock movements within our watchlist were led by **INFY** which climbed **+2.44%**, while **ICICIBANK** witnessed profit booking, shedding **-1.59%**. \n\n### \ud83d\udcf0 Corporate News & Deals Flow:\n- \ud83d\udfe2 **Supportive flows:** Bank of Baroda shares drop 3% after NMC Healthcare founder BR Shetty files $15 bn lawsuit; lender issues clarification\n- \ud83d\udfe2 **Sector sentiment:** Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%\n\n### \ud83d\udcca Technical Breakouts & Chart Movements:\n- Watchlist indicators stayed within averages, indicating consolidation and standard deviation support."
+  "accuracy_note": "Yesterday's morning call accuracy was 26.7% based on 60 tracked signals.",
+  "market_close_summary": "The Indian equity market surged upward today, with the benchmark Nifty 50 closing at 22,997.35 (+1.66%). Stock movements within our watchlist were led by **ICICIBANK** which climbed **+3.80%**, while **HINDUNILVR** witnessed profit booking, shedding **+0.08%**. \n\n### \ud83d\udcf0 Corporate News & Deals Flow:\n- \ud83d\udd34 **Macro pressures:** Accumulate Infosys; target of Rs 1531: KR Choksey\n- \ud83d\udd34 **Earnings/Corporate actions:** Sharp and immediate fall! Yes Bank share price crash 10% after SC ruling on  \u20b98,415 crore AT-1 bond write-off\n\n### \ud83d\udcca Technical Breakouts & Chart Movements:\n- Watchlist indicators stayed within averages, indicating consolidation and standard deviation support."
 }
