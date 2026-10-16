@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-15T07:50:06",
+  "timestamp": "2026-10-16T07:38:51",
   "market_wide_sentiment": {
-    "label": "neutral",
-    "confidence": 1.0
+    "label": "bullish",
+    "confidence": 0.84
   },
   "watchlist": [
     {
@@ -14,19 +14,19 @@
       ],
       "news": [
         {
-          "title": "Reliance Jio IPO: Apply or not? Should you subscribe to issue after launch or wait for listing? What GMP signals?",
-          "url": "https://www.livemint.com/market/ipo/reliance-jio-ipo-apply-or-not-should-you-subscribe-to-issue-after-launch-or-wait-for-listing-what-gmp-signals-11792029844505.html",
+          "title": "Jio IPO impact bubble over? Reliance shares down 2.5% after rising 5% in 3 days; should you buy Mukesh Ambani stock?",
+          "url": "https://www.livemint.com/market/stock-market-news/reliance-industries-share-price-falls-2-5-despite-jio-ipo-buzz-what-should-mukesh-ambani-stock-investors-do-11792125705564.html",
+          "inference": "Negative developments or rising overheads are likely to damp investor enthusiasm, leading to downward pressure on RELIANCE."
+        },
+        {
+          "title": "Jio Financial Services Share Price Live Updates: Jio Financial Services Trading Update",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-stock-price-livestock-price-today-live-updates-16-oct-2026/liveblog/134981663.cms",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
         },
         {
-          "title": "From Rs 1,000 in 1977 to Rs 52 lakh today: The Reliance wealth story behind Jio\u2019s Rs 10.3 lakh crore mega IPO",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/from-rs-1000-in-1977-to-rs-52-lakh-today-the-reliance-wealth-story-behind-jios-rs-10-3-lakh-crore-mega-ipo/articleshow/134959204.cms",
+          "title": "Top stocks to watch today: Reliance Industries, Urban Company, Wipro shares in focus on Friday, 16 Oct | Full list",
+          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-reliance-industries-urban-company-wipro-shares-in-focus-on-friday-16-oct-full-list-11792113871349.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for RELIANCE."
-        },
-        {
-          "title": "Mangalore Refinery and Petrochemicals share price plunges 7% despite strong Q2 results | What should investors do?",
-          "url": "https://www.livemint.com/market/stock-market-news/mangalore-refinery-and-petrochemicals-share-price-plunges-7-despite-strong-q2-results-what-should-investors-do-11792043947000.html",
-          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on RELIANCE's stock valuation."
         }
       ],
       "history": [
@@ -768,7 +768,7 @@
         },
         {
           "date": "2022-07-13",
-          "close": 1076.83
+          "close": 1076.84
         },
         {
           "date": "2022-07-14",
@@ -3712,7 +3712,7 @@
         },
         {
           "date": "2025-07-08",
-          "close": 1524.44
+          "close": 1524.43
         },
         {
           "date": "2025-07-09",
@@ -4972,7 +4972,11 @@
         },
         {
           "date": "2026-10-15",
-          "close": 1210.7
+          "close": 1215.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1208.9
         }
       ],
       "pattern_dates": []
@@ -4980,21 +4984,17 @@
     {
       "ticker": "TCS.NS",
       "sentiment": "neutral",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "top_signals": [
+        "RSI is bearish (73.3)",
         "Price is above upper Bollinger Bands",
-        "News Sentiment is bullish (conf: 0.75)"
+        "News Sentiment is bullish (conf: 0.92)"
       ],
       "news": [
         {
-          "title": "Rs 82,500 crore rally in 3 days: Why TCS, HCL Tech, other IT stocks jumped up to 12% in 3 days and will the boom last?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/rs-82500-crore-rally-in-3-days-why-tcs-hcl-tech-other-it-stocks-jumped-up-to-12-in-3-days-and-will-the-boom-last/articleshow/134959977.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for TCS."
-        },
-        {
-          "title": "TCS, Infosys, HCLTech, Wipro, TechM: IT stocks gain up to 3.5% today; Nifty IT jumps 9% in 3 days; what's driving rally?",
-          "url": "https://www.livemint.com/market/stock-market-news/tcs-infosys-hcltech-wipro-techm-it-stocks-gain-up-to-3-5-today-nifty-it-jumps-9-in-3-days-whats-driving-rally-11792041546787.html",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for TCS."
+          "title": "TCS vs HCL Tech vs Tech Mahindra vs Wipro: Which IT stock won Q2 results 2026? AI revenue, deal wins compared",
+          "url": "https://www.livemint.com/market/stock-market-news/tcs-vs-hcl-tech-vs-tech-mahindra-vs-wipro-which-it-stock-won-q2-results-2026-ai-revenue-deal-wins-compared-11792130967795.html",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in TCS."
         }
       ],
       "history": [
@@ -5060,7 +5060,7 @@
         },
         {
           "date": "2021-11-09",
-          "close": 3035.11
+          "close": 3035.1
         },
         {
           "date": "2021-11-10",
@@ -5208,7 +5208,7 @@
         },
         {
           "date": "2021-12-31",
-          "close": 3236.52
+          "close": 3236.53
         },
         {
           "date": "2022-01-03",
@@ -5320,7 +5320,7 @@
         },
         {
           "date": "2022-02-10",
-          "close": 3269.96
+          "close": 3269.97
         },
         {
           "date": "2022-02-11",
@@ -5460,7 +5460,7 @@
         },
         {
           "date": "2022-04-04",
-          "close": 3269.96
+          "close": 3269.97
         },
         {
           "date": "2022-04-05",
@@ -5472,7 +5472,7 @@
         },
         {
           "date": "2022-04-07",
-          "close": 3195.2
+          "close": 3195.21
         },
         {
           "date": "2022-04-08",
@@ -5600,7 +5600,7 @@
         },
         {
           "date": "2022-05-26",
-          "close": 2817.53
+          "close": 2817.54
         },
         {
           "date": "2022-05-27",
@@ -5904,7 +5904,7 @@
         },
         {
           "date": "2022-09-14",
-          "close": 2731.69
+          "close": 2731.7
         },
         {
           "date": "2022-09-15",
@@ -6008,7 +6008,7 @@
         },
         {
           "date": "2022-10-21",
-          "close": 2753.69
+          "close": 2753.68
         },
         {
           "date": "2022-10-24",
@@ -6080,7 +6080,7 @@
         },
         {
           "date": "2022-11-18",
-          "close": 2934.53
+          "close": 2934.54
         },
         {
           "date": "2022-11-21",
@@ -6264,7 +6264,7 @@
         },
         {
           "date": "2023-01-23",
-          "close": 3065.37
+          "close": 3065.38
         },
         {
           "date": "2023-01-24",
@@ -6644,7 +6644,7 @@
         },
         {
           "date": "2023-06-14",
-          "close": 2918.3
+          "close": 2918.29
         },
         {
           "date": "2023-06-15",
@@ -6684,7 +6684,7 @@
         },
         {
           "date": "2023-06-28",
-          "close": 2907.8
+          "close": 2907.81
         },
         {
           "date": "2023-06-30",
@@ -6796,7 +6796,7 @@
         },
         {
           "date": "2023-08-08",
-          "close": 3146.71
+          "close": 3146.7
         },
         {
           "date": "2023-08-09",
@@ -6848,7 +6848,7 @@
         },
         {
           "date": "2023-08-28",
-          "close": 3060.52
+          "close": 3060.53
         },
         {
           "date": "2023-08-29",
@@ -6860,7 +6860,7 @@
         },
         {
           "date": "2023-08-31",
-          "close": 3043.52
+          "close": 3043.53
         },
         {
           "date": "2023-09-01",
@@ -7208,7 +7208,7 @@
         },
         {
           "date": "2024-01-09",
-          "close": 3354.2
+          "close": 3354.19
         },
         {
           "date": "2024-01-10",
@@ -7220,7 +7220,7 @@
         },
         {
           "date": "2024-01-12",
-          "close": 3529.54
+          "close": 3529.55
         },
         {
           "date": "2024-01-15",
@@ -7456,7 +7456,7 @@
         },
         {
           "date": "2024-04-12",
-          "close": 3662.69
+          "close": 3662.7
         },
         {
           "date": "2024-04-15",
@@ -7468,7 +7468,7 @@
         },
         {
           "date": "2024-04-18",
-          "close": 3535.09
+          "close": 3535.1
         },
         {
           "date": "2024-04-19",
@@ -7484,7 +7484,7 @@
         },
         {
           "date": "2024-04-24",
-          "close": 3506.77
+          "close": 3506.76
         },
         {
           "date": "2024-04-25",
@@ -7504,7 +7504,7 @@
         },
         {
           "date": "2024-05-02",
-          "close": 3536.29
+          "close": 3536.28
         },
         {
           "date": "2024-05-03",
@@ -7520,7 +7520,7 @@
         },
         {
           "date": "2024-05-08",
-          "close": 3640.31
+          "close": 3640.32
         },
         {
           "date": "2024-05-09",
@@ -7648,7 +7648,7 @@
         },
         {
           "date": "2024-06-25",
-          "close": 3539.08
+          "close": 3539.07
         },
         {
           "date": "2024-06-26",
@@ -7680,7 +7680,7 @@
         },
         {
           "date": "2024-07-05",
-          "close": 3698.91
+          "close": 3698.9
         },
         {
           "date": "2024-07-08",
@@ -7720,7 +7720,7 @@
         },
         {
           "date": "2024-07-22",
-          "close": 3962.14
+          "close": 3962.15
         },
         {
           "date": "2024-07-23",
@@ -8200,7 +8200,7 @@
         },
         {
           "date": "2025-01-13",
-          "close": 3975.29
+          "close": 3975.28
         },
         {
           "date": "2025-01-14",
@@ -8352,7 +8352,7 @@
         },
         {
           "date": "2025-03-06",
-          "close": 3397.92
+          "close": 3397.93
         },
         {
           "date": "2025-03-07",
@@ -9000,7 +9000,7 @@
         },
         {
           "date": "2025-11-03",
-          "close": 2891.98
+          "close": 2891.99
         },
         {
           "date": "2025-11-04",
@@ -9304,7 +9304,7 @@
         },
         {
           "date": "2026-02-20",
-          "close": 2621.87
+          "close": 2621.88
         },
         {
           "date": "2026-02-23",
@@ -9940,7 +9940,11 @@
         },
         {
           "date": "2026-10-15",
-          "close": 2359.5
+          "close": 2350.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 2449.5
         }
       ],
       "pattern_dates": []
@@ -9948,26 +9952,15 @@
     {
       "ticker": "INFY.NS",
       "sentiment": "neutral",
-      "confidence": 1.0,
+      "confidence": 0.85,
       "top_signals": [
-        "Price is above upper Bollinger Bands",
-        "News Sentiment is bullish (conf: 0.85)"
+        "Price is above upper Bollinger Bands"
       ],
       "news": [
-        {
-          "title": "Infosys Share Price Live Updates: Infosys shows positive movement today",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-stock-price-today-live-15-oct-2026/liveblog/134956711.cms",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for INFY."
-        },
         {
           "title": "Accumulate Infosys; target of Rs 1531: KR Choksey",
           "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
           "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for INFY."
-        },
-        {
-          "title": "TCS, Infosys, HCLTech, Wipro, TechM: IT stocks gain up to 3.5% today; Nifty IT jumps 9% in 3 days; what's driving rally?",
-          "url": "https://www.livemint.com/market/stock-market-news/tcs-infosys-hcltech-wipro-techm-it-stocks-gain-up-to-3-5-today-nifty-it-jumps-9-in-3-days-whats-driving-rally-11792041546787.html",
-          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for INFY."
         }
       ],
       "history": [
@@ -10485,7 +10478,7 @@
         },
         {
           "date": "2022-04-25",
-          "close": 1371.73
+          "close": 1371.72
         },
         {
           "date": "2022-04-26",
@@ -10805,7 +10798,7 @@
         },
         {
           "date": "2022-08-18",
-          "close": 1405.66
+          "close": 1405.65
         },
         {
           "date": "2022-08-19",
@@ -10861,7 +10854,7 @@
         },
         {
           "date": "2022-09-08",
-          "close": 1310.6
+          "close": 1310.59
         },
         {
           "date": "2022-09-09",
@@ -11261,11 +11254,11 @@
         },
         {
           "date": "2023-02-01",
-          "close": 1392.43
+          "close": 1392.42
         },
         {
           "date": "2023-02-02",
-          "close": 1421.73
+          "close": 1421.74
         },
         {
           "date": "2023-02-03",
@@ -11313,7 +11306,7 @@
         },
         {
           "date": "2023-02-20",
-          "close": 1429.54
+          "close": 1429.55
         },
         {
           "date": "2023-02-21",
@@ -12705,7 +12698,7 @@
         },
         {
           "date": "2024-07-25",
-          "close": 1715.32
+          "close": 1715.33
         },
         {
           "date": "2024-07-26",
@@ -13073,7 +13066,7 @@
         },
         {
           "date": "2024-12-06",
-          "close": 1827.59
+          "close": 1827.6
         },
         {
           "date": "2024-12-09",
@@ -14913,33 +14906,38 @@
         },
         {
           "date": "2026-10-15",
-          "close": 1111.25
+          "close": 1110.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1151.0
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "HDFCBANK.NS",
-      "sentiment": "bearish",
-      "confidence": 0.23,
+      "sentiment": "bullish",
+      "confidence": 0.51,
       "top_signals": [
-        "News Sentiment is bearish (conf: 0.86)"
+        "SMA golden cross",
+        "News Sentiment is bullish (conf: 0.85)"
       ],
       "news": [
         {
-          "title": "IDBI Bank shares fall 7% as investors book profit after Fairfax deal gets cabinet nod",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/idbi-bank-shares-fall-7-as-investors-book-profit-after-fairfax-deal-gets-cabinet-nod/articleshow/134959588.cms",
-          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on HDFCBANK's stock valuation."
+          "title": "HDFC Bank Q2 results preview: PAT, NII may rise up to 9% YoY; deposit growth in focus",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-bank-q2-results-preview-pat-nii-may-rise-up-to-9-yoy-deposit-growth-in-focus/articleshow/134982802.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in HDFCBANK."
         },
         {
-          "title": "IDBI Bank share price crashes 6% but LIC is up 1% | Prem Watsa-led  \u20b952,877 crore Fairfax deal decoded for investors",
-          "url": "https://www.livemint.com/market/stock-market-news/idbi-bank-share-price-crashes-6-but-lic-is-up-1-prem-watsa-led-52-877-crore-fairfax-deal-decoded-for-investors-11792038475195.html",
-          "inference": "New corporate agreements or expansion moves could enhance HDFCBANK's market positioning and drive short-term upside."
+          "title": "Indian Bank reports a Rs 1,388 crore gain from sale of NSE shares",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-reports-a-rs-1388-crore-gain-from-sale-of-nse-shares/articleshow/134985719.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for HDFCBANK."
         },
         {
-          "title": "Buy HDFC Life Insurance Company; target of Rs 739: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-life-insurance-company-targetrs-739-icici-securities_17531391.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for HDFCBANK."
+          "title": "Karur Vysya Bank shares rally 6% after Q2 profit jumps 37% YoY",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/karur-vysya-bank-shares-rally-6-after-q2-profit-jumps-37-yoy/articleshow/134982900.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in HDFCBANK."
         }
       ],
       "history": [
@@ -17393,7 +17391,7 @@
         },
         {
           "date": "2024-04-09",
-          "close": 741.39
+          "close": 741.4
         },
         {
           "date": "2024-04-10",
@@ -17493,7 +17491,7 @@
         },
         {
           "date": "2024-05-17",
-          "close": 710.53
+          "close": 710.54
         },
         {
           "date": "2024-05-21",
@@ -19885,33 +19883,38 @@
         },
         {
           "date": "2026-10-15",
-          "close": 725.35
+          "close": 726.85
+        },
+        {
+          "date": "2026-10-16",
+          "close": 727.75
         }
       ],
       "pattern_dates": []
     },
     {
       "ticker": "ICICIBANK.NS",
-      "sentiment": "bearish",
-      "confidence": 0.24,
+      "sentiment": "neutral",
+      "confidence": 1.0,
       "top_signals": [
-        "Price is above upper Bollinger Bands"
+        "Price is above upper Bollinger Bands",
+        "News Sentiment is bullish (conf: 0.84)"
       ],
       "news": [
         {
-          "title": "IDBI Bank shares fall 7% as investors book profit after Fairfax deal gets cabinet nod",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/idbi-bank-shares-fall-7-as-investors-book-profit-after-fairfax-deal-gets-cabinet-nod/articleshow/134959588.cms",
-          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on ICICIBANK's stock valuation."
+          "title": "HDFC Bank Q2 results preview: PAT, NII may rise up to 9% YoY; deposit growth in focus",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-bank-q2-results-preview-pat-nii-may-rise-up-to-9-yoy-deposit-growth-in-focus/articleshow/134982802.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in ICICIBANK."
         },
         {
-          "title": "IDBI Bank share price crashes 6% but LIC is up 1% | Prem Watsa-led  \u20b952,877 crore Fairfax deal decoded for investors",
-          "url": "https://www.livemint.com/market/stock-market-news/idbi-bank-share-price-crashes-6-but-lic-is-up-1-prem-watsa-led-52-877-crore-fairfax-deal-decoded-for-investors-11792038475195.html",
-          "inference": "New corporate agreements or expansion moves could enhance ICICIBANK's market positioning and drive short-term upside."
+          "title": "Indian Bank reports a Rs 1,388 crore gain from sale of NSE shares",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-reports-a-rs-1388-crore-gain-from-sale-of-nse-shares/articleshow/134985719.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for ICICIBANK."
         },
         {
-          "title": "Sell Indus Tower; target of Rs 260: ICICI Securities",
-          "url": "https://www.moneycontrol.com/news/recommendations/sell-indus-tower-targetrs-260-icici-securities_17531381.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for ICICIBANK."
+          "title": "Karur Vysya Bank shares rally 6% after Q2 profit jumps 37% YoY",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/karur-vysya-bank-shares-rally-6-after-q2-profit-jumps-37-yoy/articleshow/134982900.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in ICICIBANK."
         }
       ],
       "history": [
@@ -19945,7 +19948,7 @@
         },
         {
           "date": "2021-10-27",
-          "close": 803.19
+          "close": 803.2
         },
         {
           "date": "2021-10-28",
@@ -21765,7 +21768,7 @@
         },
         {
           "date": "2023-08-28",
-          "close": 946.92
+          "close": 946.91
         },
         {
           "date": "2023-08-29",
@@ -21801,7 +21804,7 @@
         },
         {
           "date": "2023-09-08",
-          "close": 946.92
+          "close": 946.91
         },
         {
           "date": "2023-09-11",
@@ -22381,7 +22384,7 @@
         },
         {
           "date": "2024-04-16",
-          "close": 1041.06
+          "close": 1041.07
         },
         {
           "date": "2024-04-18",
@@ -22541,7 +22544,7 @@
         },
         {
           "date": "2024-06-14",
-          "close": 1078.72
+          "close": 1078.73
         },
         {
           "date": "2024-06-18",
@@ -23065,7 +23068,7 @@
         },
         {
           "date": "2024-12-24",
-          "close": 1276.56
+          "close": 1276.55
         },
         {
           "date": "2024-12-26",
@@ -23405,7 +23408,7 @@
         },
         {
           "date": "2025-04-30",
-          "close": 1404.24
+          "close": 1404.23
         },
         {
           "date": "2025-05-02",
@@ -24857,7 +24860,11 @@
         },
         {
           "date": "2026-10-15",
-          "close": 1380.2
+          "close": 1389.4
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1394.0
         }
       ],
       "pattern_dates": []
@@ -24865,9 +24872,10 @@
     {
       "ticker": "BHARTIARTL.NS",
       "sentiment": "neutral",
-      "confidence": 1.0,
+      "confidence": 0.98,
       "top_signals": [
-        "No significant technical or sentiment signals."
+        "Price is above upper Bollinger Bands",
+        "Chart Pattern: double bottom"
       ],
       "news": [],
       "history": [
@@ -25377,7 +25385,7 @@
         },
         {
           "date": "2022-04-21",
-          "close": 710.15
+          "close": 710.16
         },
         {
           "date": "2022-04-22",
@@ -27421,7 +27429,7 @@
         },
         {
           "date": "2024-05-17",
-          "close": 1309.43
+          "close": 1309.44
         },
         {
           "date": "2024-05-21",
@@ -29813,33 +29821,40 @@
         },
         {
           "date": "2026-10-15",
-          "close": 1864.3
+          "close": 1854.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1904.2
         }
       ],
-      "pattern_dates": []
+      "pattern_dates": [
+        "2026-10-01",
+        "2026-10-13"
+      ]
     },
     {
       "ticker": "SBIN.NS",
-      "sentiment": "bearish",
+      "sentiment": "bullish",
       "confidence": 0.23,
       "top_signals": [
-        "News Sentiment is bearish (conf: 0.85)"
+        "News Sentiment is bullish (conf: 0.84)"
       ],
       "news": [
         {
-          "title": "IDBI Bank shares fall 7% as investors book profit after Fairfax deal gets cabinet nod",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/idbi-bank-shares-fall-7-as-investors-book-profit-after-fairfax-deal-gets-cabinet-nod/articleshow/134959588.cms",
-          "inference": "Weak earnings details or profit margins may trigger defensive selling and drag on SBIN's stock valuation."
+          "title": "HDFC Bank Q2 results preview: PAT, NII may rise up to 9% YoY; deposit growth in focus",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hdfc-bank-q2-results-preview-pat-nii-may-rise-up-to-9-yoy-deposit-growth-in-focus/articleshow/134982802.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in SBIN."
         },
         {
-          "title": "IDBI Bank share price crashes 6% but LIC is up 1% | Prem Watsa-led  \u20b952,877 crore Fairfax deal decoded for investors",
-          "url": "https://www.livemint.com/market/stock-market-news/idbi-bank-share-price-crashes-6-but-lic-is-up-1-prem-watsa-led-52-877-crore-fairfax-deal-decoded-for-investors-11792038475195.html",
-          "inference": "New corporate agreements or expansion moves could enhance SBIN's market positioning and drive short-term upside."
+          "title": "Indian Bank reports a Rs 1,388 crore gain from sale of NSE shares",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-reports-a-rs-1388-crore-gain-from-sale-of-nse-shares/articleshow/134985719.cms",
+          "inference": "Positive sentiment surrounding this development is expected to reinforce near-term upward price pressure for SBIN."
         },
         {
-          "title": "IDBI Bank stake sale: How  \u20b952,877 crore Fairfax deal will impact LIC, IDBI share price today?",
-          "url": "https://www.livemint.com/market/stock-market-news/idbi-bank-stake-sale-how-52-877-crore-fairfax-deal-will-impact-lic-idbi-share-price-today-11792032963718.html",
-          "inference": "Balanced market commentary indicates stable fundamentals, pointing to standard rangebound trading for SBIN."
+          "title": "Karur Vysya Bank shares rally 6% after Q2 profit jumps 37% YoY",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/karur-vysya-bank-shares-rally-6-after-q2-profit-jumps-37-yoy/articleshow/134982900.cms",
+          "inference": "Stronger financial performance or positive earnings news is likely to support buying momentum and investor trust in SBIN."
         }
       ],
       "history": [
@@ -34785,7 +34800,11 @@
         },
         {
           "date": "2026-10-15",
-          "close": 959.2
+          "close": 960.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 959.8
         }
       ],
       "pattern_dates": []
@@ -39741,7 +39760,11 @@
         },
         {
           "date": "2026-10-15",
-          "close": 265.15
+          "close": 263.9
+        },
+        {
+          "date": "2026-10-16",
+          "close": 262.95
         }
       ],
       "pattern_dates": []
@@ -39765,7 +39788,7 @@
         },
         {
           "date": "2021-10-20",
-          "close": 2272.76
+          "close": 2272.75
         },
         {
           "date": "2021-10-21",
@@ -39825,7 +39848,7 @@
         },
         {
           "date": "2021-11-11",
-          "close": 2192.2
+          "close": 2192.21
         },
         {
           "date": "2021-11-12",
@@ -40053,7 +40076,7 @@
         },
         {
           "date": "2022-02-02",
-          "close": 2147.65
+          "close": 2147.64
         },
         {
           "date": "2022-02-03",
@@ -40313,7 +40336,7 @@
         },
         {
           "date": "2022-05-11",
-          "close": 1995.98
+          "close": 1995.97
         },
         {
           "date": "2022-05-12",
@@ -40613,7 +40636,7 @@
         },
         {
           "date": "2022-08-26",
-          "close": 2393.38
+          "close": 2393.37
         },
         {
           "date": "2022-08-29",
@@ -40917,7 +40940,7 @@
         },
         {
           "date": "2022-12-16",
-          "close": 2502.89
+          "close": 2502.9
         },
         {
           "date": "2022-12-19",
@@ -41533,7 +41556,7 @@
         },
         {
           "date": "2023-08-01",
-          "close": 2409.79
+          "close": 2409.8
         },
         {
           "date": "2023-08-02",
@@ -41601,7 +41624,7 @@
         },
         {
           "date": "2023-08-25",
-          "close": 2421.56
+          "close": 2421.55
         },
         {
           "date": "2023-08-28",
@@ -42113,7 +42136,7 @@
         },
         {
           "date": "2024-03-04",
-          "close": 2304.62
+          "close": 2304.63
         },
         {
           "date": "2024-03-05",
@@ -42205,7 +42228,7 @@
         },
         {
           "date": "2024-04-09",
-          "close": 2154.43
+          "close": 2154.42
         },
         {
           "date": "2024-04-10",
@@ -42361,7 +42384,7 @@
         },
         {
           "date": "2024-06-07",
-          "close": 2452.88
+          "close": 2452.87
         },
         {
           "date": "2024-06-10",
@@ -43225,7 +43248,7 @@
         },
         {
           "date": "2025-04-23",
-          "close": 2355.91
+          "close": 2355.9
         },
         {
           "date": "2025-04-24",
@@ -43373,7 +43396,7 @@
         },
         {
           "date": "2025-06-16",
-          "close": 2262.2
+          "close": 2262.21
         },
         {
           "date": "2025-06-17",
@@ -44697,14 +44720,24 @@
         },
         {
           "date": "2026-10-15",
-          "close": 1909.3
+          "close": 1897.1
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1881.0
         }
       ],
       "pattern_dates": []
     }
   ],
   "recommendations": {
-    "buy": [],
+    "buy": [
+      {
+        "ticker": "HDFCBANK",
+        "reason": "SMA trend direction alignment, Indirect sector-level news flows.",
+        "confidence": "51%"
+      }
+    ],
     "sell": []
   }
 }
